@@ -1,0 +1,670 @@
+{
+ "film_tv": {
+  "academic_branch": "影视制作与项目",
+  "academic_branch_en": "Film Production & Projects",
+  "industry_id": "film_tv",
+  "legacy_subdirections": [
+   "编剧 / 剧本策划开发",
+   "内容开发（平台侧）",
+   "制片助理",
+   "导演助理",
+   "影视宣发策划",
+   "影视发行与版权运营",
+   "电影衍生品与活动开发",
+   "后期制片 / Post Producer"
+  ],
+  "new_subdirections": [
+   "编剧 / 剧本策划开发"
+  ],
+  "industry_subfields": [
+   "Disney｜迪士尼",
+   "Warner Bros. Discovery｜华纳兄弟探索",
+   "Universal Pictures｜环球影业",
+   "Paramount Pictures｜派拉蒙影业",
+   "Netflix｜网飞",
+   "A24",
+   "中国电影股份有限公司",
+   "上影集团"
+  ],
+  "program_tags_hint": [
+   "编剧与叙事",
+   "导演与制作",
+   "制片与统筹",
+   "摄影与灯光",
+   "剪辑与后期",
+   "纪录片与非虚构",
+   "视效与合成"
+  ],
+  "tools_hint": [
+   "ChatGPT／Claude：故事研究与结构校验",
+   "Midjourney／即梦：视觉参考与分镜",
+   "Runway／可灵：动态预演",
+   "AI选题与脚本",
+   "即梦／可灵／Runway生成",
+   "剪映／Premiere智能剪辑"
+  ],
+  "job_clusters": [
+   {
+    "name": "编剧 / 剧本策划开发",
+    "en": "Screenwriter / Script Development",
+    "note": "原创、改编、角色设定、人物弧线、故事结构、题材判断。"
+   },
+   {
+    "name": "内容开发（平台侧）",
+    "en": "Content Development (Platform Side)",
+    "note": "筛项目、看剧本、判断 IP 改编价值、做开发案、给绿灯建议。"
+   },
+   {
+    "name": "制片助理 -> 制片人",
+    "en": "Producer",
+    "note": "预算、排期、合同、团队协同、拍摄执行、后期和交付。"
+   },
+   {
+    "name": "导演助理 -> 导演",
+    "en": "Director",
+    "note": "场面调度、演员沟通、分镜、节奏、整体视听风格。"
+   },
+   {
+    "name": "影视宣发策划",
+    "en": "Film Marketing & Distribution Planner",
+    "note": "项目定位、海报与预告片、媒体传播、首映礼、路演、短视频宣发、衍生品与品牌合作。"
+   },
+   {
+    "name": "影视发行与版权运营",
+    "en": "Film Distribution & Rights Operations",
+    "note": "发行策略、院线与平台合作、版权窗口、合同执行、市场数据和项目结算。"
+   },
+   {
+    "name": "电影衍生品与活动开发",
+    "en": "Film Merchandise & Event Development",
+    "note": "IP元素提炼、商品开发、品牌联名、首映路演、活动制作和授权协作。"
+   },
+   {
+    "name": "后期制片 / Post Producer",
+    "en": "Post Producer",
+    "note": "后期预算、排期、素材管理、剪辑、声音、调色、视效和母版交付。"
+   },
+   {
+    "name": "剪辑师 / Film Editor",
+    "en": "Film Editor",
+    "note": "素材整理、粗剪、精剪、叙事结构、表演选择、节奏、声音临时设计、版本管理和最终交付协作。"
+   }
+  ]
+ },
+ "digital_platform": {
+  "academic_branch": "媒体与内容平台",
+  "academic_branch_en": "Media & Content Platforms",
+  "industry_id": "digital_platform",
+  "legacy_subdirections": [
+   "短视频编导 / Short-form Video Director",
+   "短剧编剧 / 制片",
+   "平台内容运营 / Content Operations",
+   "直播策划与导播 / Live Content Producer",
+   "创作者运营 / Creator Operations",
+   "达人 / MCN运营",
+   "内容商业化运营 / Content Monetization"
+  ],
+  "new_subdirections": [],
+  "industry_subfields": [
+   "快手",
+   "抖音",
+   "哔哩哔哩",
+   "小红书",
+   "百度",
+   "阿里巴巴",
+   "无忧传媒",
+   "蜂群传媒"
+  ],
+  "program_tags_hint": [
+   "平台与内容运营",
+   "剪辑与后期",
+   "动画",
+   "AI 与智能创作",
+   "游戏与互动娱乐"
+  ],
+  "tools_hint": [
+   "AI选题与脚本",
+   "即梦／可灵／Runway生成",
+   "剪映／Premiere智能剪辑",
+   "平台数据分析",
+   "ChatGPT／Claude：故事研究与结构校验",
+   "Midjourney／即梦：视觉参考与分镜"
+  ],
+  "job_clusters": [
+   {
+    "name": "短视频编导 / Short-form Video Director",
+    "en": "Short-form Video Director",
+    "note": "账号内容、选题、脚本、拍摄、剪辑节奏、平台适配。"
+   },
+   {
+    "name": "短剧编剧 / 制片",
+    "en": "Short Drama Writer / Producer",
+    "note": "快节奏叙事、强钩子、低成本高转化、项目批量化。"
+   },
+   {
+    "name": "平台内容运营 / Content Operations",
+    "en": "Content Operations",
+    "note": "内容栏目、账号调性、活动策划、社区互动。"
+   },
+   {
+    "name": "直播策划与导播 / Live Content Producer",
+    "en": "Live Content Producer",
+    "note": "直播脚本、导播流程、机位调度、现场控制。"
+   },
+   {
+    "name": "创作者运营 / Creator Operations",
+    "en": "Creator Operations",
+    "note": "创作者招募、分层运营、社群维护、活动策划、成长体系、数据分析和跨团队协作。"
+   },
+   {
+    "name": "达人 / MCN运营",
+    "en": "Influencer / MCN Operations",
+    "note": "达人定位、内容规划、账号复盘、粉丝运营、商务协作、直播项目和商业化。"
+   },
+   {
+    "name": "内容商业化运营 / Content Monetization",
+    "en": "Content Monetization Operations",
+    "note": "商业方案、品牌需求、内容匹配、投放执行、数据复盘、收入和客户协同。"
+   }
+  ]
+ },
+ "advertising_brand": {
+  "academic_branch": "品牌与创意传播",
+  "academic_branch_en": "Brand & Creative Communication",
+  "industry_id": "advertising_brand",
+  "legacy_subdirections": [
+   "广告导演 / Commercial Director",
+   "品牌策略师 / Brand Strategist",
+   "广告创意（文案 / 美术）→ 创意总监",
+   "客户执行 / Account Executive",
+   "社交内容与整合营销策划",
+   "商业广告制片 / Commercial Producer",
+   "品牌活动与体验策划",
+   "AI广告创意 / Generative Creative"
+  ],
+  "new_subdirections": [
+   "AI广告创意 / Generative Creative"
+  ],
+  "industry_subfields": [
+   "Ogilvy｜奥美",
+   "BlueFocus｜蓝色光标",
+   "VML",
+   "McCann｜麦肯",
+   "BBDO",
+   "TBWA",
+   "Dentsu｜电通",
+   "Publicis Groupe｜阳狮集团"
+  ],
+  "program_tags_hint": [
+   "广告与品牌",
+   "视觉传达",
+   "摄影与写真",
+   "AI 与智能创作",
+   "管理与策划"
+  ],
+  "tools_hint": [
+   "Runway／可灵／Veo：动态影像生成",
+   "Midjourney／即梦：概念设计",
+   "Premiere／DaVinci：AI辅助后期",
+   "Unreal Engine：虚拟制作基础",
+   "ChatGPT／Claude：洞察与Brief",
+   "Midjourney／即梦：视觉提案"
+  ],
+  "job_clusters": [
+   {
+    "name": "广告导演 / Commercial Director",
+    "en": "Commercial Director",
+    "note": "品牌片、TVC、整合传播短片、商业影像提案与执行。"
+   },
+   {
+    "name": "品牌策略师 / Brand Strategist",
+    "en": "Brand Strategist",
+    "note": "把品牌问题翻译成故事、内容和传播结构。"
+   },
+   {
+    "name": "广告创意（文案 / 美术）→ 创意总监",
+    "en": "Creative Director (Copy / Art)",
+    "note": "创意概念、脚本主轴、视觉调性和 campaign 执行。"
+   },
+   {
+    "name": "客户执行 / Account Executive",
+    "en": "Account Executive",
+    "note": "客户需求、项目排期、Brief传达、会议纪要、预算流程、跨团队协调和交付管理。"
+   },
+   {
+    "name": "社交内容与整合营销策划",
+    "en": "Social Content & IMC Planner",
+    "note": "社交媒体策略、Campaign策划、内容主题、KOL、平台运营、媒介协同和项目复盘。"
+   },
+   {
+    "name": "商业广告制片 / Commercial Producer",
+    "en": "Commercial Producer",
+    "note": "成本评估、制作报价、导演与供应商选择、排期、拍摄执行、客户沟通和交付。"
+   },
+   {
+    "name": "品牌活动与体验策划",
+    "en": "Brand Event & Experience Planner",
+    "note": "活动概念、空间体验、流程、供应商、预算、现场执行、数字互动和效果复盘。"
+   },
+   {
+    "name": "AI广告创意 / Generative Creative",
+    "en": "AI Advertising Creative / Generative Creative",
+    "note": "创意构思、提示与参考控制、图像视频生成、品牌一致性、多版本适配、剪辑和客户提案。"
+   }
+  ]
+ },
+ "entertainment": {
+  "academic_branch": "艺术与演艺",
+  "academic_branch_en": "Arts & Performing Arts",
+  "industry_id": "entertainment",
+  "legacy_subdirections": [
+   "艺人经纪 / Talent Manager",
+   "艺人宣传 / Artist Publicist",
+   "演出制作人 / Live Producer",
+   "演唱会创意总监 / Concert Creative Director",
+   "虚拟偶像内容运营",
+   "娱乐IP世界观设计师",
+   "MV导演 / Music Video Director",
+   "数字资产与虚拟形象经纪"
+  ],
+  "new_subdirections": [
+   "虚拟偶像内容运营",
+   "数字资产与虚拟形象经纪"
+  ],
+  "industry_subfields": [
+   "华纳音乐",
+   "环球音乐",
+   "Live Nation",
+   "大麦",
+   "开心麻花",
+   "孟京辉戏剧工作室",
+   "StageOne",
+   "MUSINESS"
+  ],
+  "program_tags_hint": [
+   "艺术与演艺",
+   "管理与策划",
+   "声音与音乐",
+   "摄影与写真"
+  ],
+  "tools_hint": [
+   "Notion／飞书：项目管理",
+   "AI拆解剧本与Shot List",
+   "AI预算、排期与风险清单辅助",
+   "AI选题与脚本",
+   "即梦／可灵／Runway生成",
+   "剪映／Premiere智能剪辑"
+  ],
+  "job_clusters": [
+   {
+    "name": "艺人经纪 / Talent Manager",
+    "en": "Talent Manager",
+    "note": "艺人职业路线、项目安排、资源整合、商务与团队管理。"
+   },
+   {
+    "name": "艺人宣传 / Artist Publicist",
+    "en": "Artist Publicist",
+    "note": "采访、红毯、曝光节奏、媒体沟通、舆情和人物包装。"
+   },
+   {
+    "name": "演出制作人 / Live Producer",
+    "en": "Live Producer",
+    "note": "现场流程、舞台内容、预算、演职人员与外部供应商协同。"
+   },
+   {
+    "name": "演唱会创意总监 / Concert Creative Director",
+    "en": "Concert Creative Director",
+    "note": "开场结构、章节叙事、视觉系统、屏幕影像和现场情绪。"
+   },
+   {
+    "name": "虚拟偶像内容运营",
+    "en": "Virtual Idol Content Operations",
+    "note": "人物设定、剧情更新、直播脚本、社媒叙事和粉丝运营。"
+   },
+   {
+    "name": "娱乐IP世界观设计师",
+    "en": "Entertainment IP Worldbuilding Designer",
+    "note": "世界规则、角色关系、衍生设定、长线叙事结构。"
+   },
+   {
+    "name": "MV导演 / Music Video Director",
+    "en": "Music Video Director",
+    "note": "音乐叙事、艺人形象表达、节奏和氛围控制。"
+   },
+   {
+    "name": "数字资产与虚拟形象经纪",
+    "en": "Digital Asset & Virtual Talent Agent",
+    "note": "艺人数字肖像、声音、虚拟分身和 AI 授权管理。"
+   }
+  ]
+ },
+ "media_program": {
+  "academic_branch": "新闻与节目制作",
+  "academic_branch_en": "Journalism & Programme Production",
+  "industry_id": "media_program",
+  "legacy_subdirections": [
+   "节目策划 / 节目编剧",
+   "综艺执行导演",
+   "视频记者 / 调查记者",
+   "纪录片导演 / 制片",
+   "播客制作人",
+   "数据新闻与可视化",
+   "AI事实核查与内容核验",
+   "智能剪辑与融媒体制作"
+  ],
+  "new_subdirections": [
+   "AI事实核查与内容核验",
+   "智能剪辑与融媒体制作"
+  ],
+  "industry_subfields": [
+   "中央广播电视总台",
+   "新华社",
+   "人民网",
+   "央视频",
+   "央视网",
+   "上海广播电视台",
+   "东方卫视",
+   "浙江卫视"
+  ],
+  "program_tags_hint": [
+   "新闻与传播",
+   "纪录片与非虚构",
+   "剪辑与后期",
+   "平台与内容运营",
+   "声音与音乐",
+   "影视与媒体研究"
+  ],
+  "tools_hint": [
+   "ChatGPT／Claude：故事研究与结构校验",
+   "Midjourney／即梦：视觉参考与分镜",
+   "Runway／可灵：动态预演",
+   "Runway／可灵／Veo：动态影像生成",
+   "Midjourney／即梦：概念设计",
+   "Premiere／DaVinci：AI辅助后期"
+  ],
+  "job_clusters": [
+   {
+    "name": "节目策划 / 节目编剧",
+    "en": "Programme Planner / Writer",
+    "note": "综艺、访谈、纪实栏目和节目流程设计。"
+   },
+   {
+    "name": "综艺执行导演",
+    "en": "Variety Show Directing Producer",
+    "note": "现场流程、脚本落地、机位协调和导演组统筹。"
+   },
+   {
+    "name": "视频记者 / 调查记者",
+    "en": "Video Journalist / Investigative Reporter",
+    "note": "找线索、做采访、核实信息、完成纪实叙事。"
+   },
+   {
+    "name": "纪录片导演 / 制片",
+    "en": "Documentary Director / Producer",
+    "note": "采访、结构、真实叙事、非虚构影像和节展路径。"
+   },
+   {
+    "name": "播客制作人",
+    "en": "Podcast Producer",
+    "note": "音频选题、采访结构、声音叙事、后期编辑。"
+   },
+   {
+    "name": "数据新闻与可视化",
+    "en": "Data Journalism & Visualisation",
+    "note": "把复杂信息做成可理解的纪实视频或视觉解释内容。"
+   },
+   {
+    "name": "AI事实核查与内容核验",
+    "en": "AI Fact-checking & Content Verification",
+    "note": "生成内容核验、影像真实性判断、平台事实标准建立。"
+   },
+   {
+    "name": "智能剪辑与融媒体制作",
+    "en": "Smart Editing & Converged Media Production",
+    "note": "把 AI 后期工具和叙事判断结合，提升后期重组效率。"
+   }
+  ]
+ },
+ "corporate_pr": {
+  "academic_branch": "企业传播与公共关系",
+  "academic_branch_en": "Corporate Communication & PR",
+  "industry_id": "corporate_pr",
+  "legacy_subdirections": [
+   "品牌公关 / 企业传播经理",
+   "媒体关系专员",
+   "危机公关顾问",
+   "国际传播专员",
+   "战略传播总监 / CCO",
+   "舆情监测与分析",
+   "生成式公关内容创作"
+  ],
+  "new_subdirections": [
+   "舆情监测与分析",
+   "生成式公关内容创作"
+  ],
+  "industry_subfields": [
+   "Edelman｜爱德曼",
+   "Ogilvy PR｜奥美公关",
+   "蓝色光标",
+   "Burson",
+   "阿里巴巴",
+   "百度",
+   "小鹏汽车",
+   "保时捷"
+  ],
+  "program_tags_hint": [
+   "公共关系与企业传播",
+   "新闻与传播",
+   "广告与品牌",
+   "管理与策划"
+  ],
+  "tools_hint": [
+   "ChatGPT／Claude：洞察与Brief",
+   "Midjourney／即梦：视觉提案",
+   "Runway／可灵：动态样片",
+   "AI数据复盘",
+   "AI研究与采访提纲",
+   "AI转写、翻译与素材检索"
+  ],
+  "job_clusters": [
+   {
+    "name": "品牌公关 / 企业传播经理",
+    "en": "Brand PR / Corporate Communication Manager",
+    "note": "品牌故事、媒体节奏、发布会、内容协同和形象维护。"
+   },
+   {
+    "name": "媒体关系专员",
+    "en": "Media Relations Specialist",
+    "note": "媒体对接、口径维护、采访安排和内容分发。"
+   },
+   {
+    "name": "危机公关顾问",
+    "en": "Crisis Communication Consultant",
+    "note": "舆情研判、危机回应叙事、声誉修复和应急内容。"
+   },
+   {
+    "name": "国际传播专员",
+    "en": "International Communication Specialist",
+    "note": "跨文化短片、英文内容、国际议题包装和海外媒体沟通。"
+   },
+   {
+    "name": "战略传播总监 / CCO",
+    "en": "Strategic Communication Director / CCO",
+    "note": "长期叙事框架、组织话语权、传播战略和舆情总控。"
+   },
+   {
+    "name": "舆情监测与分析",
+    "en": "Public Opinion Monitoring & Analysis",
+    "note": "监测生成内容、识别情绪波动、做风险预警和内容溯源。"
+   },
+   {
+    "name": "生成式公关内容创作",
+    "en": "Generative PR Content Creation",
+    "note": "AIGC 品牌短片、创始人口播、危机回应物料和多版本内容。"
+   }
+  ]
+ },
+ "rights_ip": {
+  "academic_branch": "出版、版权与IP开发",
+  "academic_branch_en": "Publishing, Rights & IP",
+  "industry_id": "rights_ip",
+  "legacy_subdirections": [
+   "IP运营与商业化负责人",
+   "影视化选题与IP开发",
+   "版权经理 / Rights Manager",
+   "IP改编策划",
+   "故事开发顾问"
+  ],
+  "new_subdirections": [],
+  "industry_subfields": [
+   "阅文集团",
+   "腾讯动漫",
+   "哔哩哔哩漫画",
+   "中国动漫集团",
+   "中影年年",
+   "灌木文化",
+   "华策影视内容开发、新丽传媒项目开发、正午阳光项目策划",
+   "羚邦集团、艾影（上海）商贸、阿里鱼"
+  ],
+  "program_tags_hint": [
+   "版权与 IP",
+   "出版与编辑",
+   "管理与策划",
+   "影视与媒体研究"
+  ],
+  "tools_hint": [
+   "ChatGPT／Claude：故事研究与结构校验",
+   "Midjourney／即梦：视觉参考与分镜",
+   "Runway／可灵：动态预演",
+   "AI选题与脚本",
+   "即梦／可灵／Runway生成",
+   "剪映／Premiere智能剪辑"
+  ],
+  "job_clusters": [
+   {
+    "name": "IP运营与商业化负责人",
+    "en": "IP Operations & Commercialisation Lead",
+    "note": "内容长线运营、衍生开发、跨平台节奏和商业联动。"
+   },
+   {
+    "name": "影视化选题与IP开发",
+    "en": "Screen-ready IP Development",
+    "note": "筛故事、看网文、做改编前判断、搭建影视化方向。"
+   },
+   {
+    "name": "版权经理 / Rights Manager",
+    "en": "Rights Manager",
+    "note": "版权谈判、授权链路、合约逻辑、影视化协同。"
+   },
+   {
+    "name": "IP改编策划",
+    "en": "IP Adaptation Planner",
+    "note": "决定小说、漫画、真实事件如何被改编成不同影视形式。"
+   },
+   {
+    "name": "故事开发顾问",
+    "en": "Story Development Consultant",
+    "note": "剧本诊断、结构优化、人物弧线和项目开发建议。"
+   }
+  ]
+ },
+ "ai_filmtech": {
+  "academic_branch": "AI影视科技",
+  "academic_branch_en": "AI Film & Media Technology",
+  "industry_id": "ai_filmtech",
+  "legacy_subdirections": [
+   "AI辅助开发分析师",
+   "虚拟制作协调师 / VP Coordinator",
+   "AI影视导演 / AIGC Director",
+   "数字人编导",
+   "AI实时视觉导演",
+   "AI数字人主播运营",
+   "动态创意优化师 / DCO",
+   "AI IP价值评估师"
+  ],
+  "new_subdirections": [
+   "AI辅助开发分析师",
+   "虚拟制作协调师 / VP Coordinator",
+   "AI影视导演 / AIGC Director",
+   "数字人编导",
+   "AI实时视觉导演",
+   "AI数字人主播运营",
+   "动态创意优化师 / DCO",
+   "AI IP价值评估师",
+   "AI内容版权与合规顾问"
+  ],
+  "industry_subfields": [
+   "与光同尘",
+   "Runway",
+   "Adobe",
+   "Epic Games",
+   "Industrial Light & Magic",
+   "Pixar",
+   "中影年年",
+   "中国动漫集团"
+  ],
+  "program_tags_hint": [
+   "AI 与智能创作",
+   "虚拟制作与沉浸媒体",
+   "视效与合成",
+   "动画",
+   "游戏与互动娱乐",
+   "影视技术与工程"
+  ],
+  "tools_hint": [
+   "Runway／可灵／Veo：动态影像生成",
+   "Midjourney／即梦：概念设计",
+   "Premiere／DaVinci：AI辅助后期",
+   "Unreal Engine：虚拟制作基础",
+   "AI选题与脚本",
+   "即梦／可灵／Runway生成"
+  ],
+  "job_clusters": [
+   {
+    "name": "AI辅助开发分析师",
+    "en": "AI-assisted Development Analyst",
+    "note": "用 AI 做角色测试、情节拆解、海量文本扫描、改编潜力判断。"
+   },
+   {
+    "name": "虚拟制作协调师 / VP Coordinator",
+    "en": "Virtual Production Coordinator",
+    "note": "LED volume、实时引擎、虚拟美术、现场拍摄与制片协调。"
+   },
+   {
+    "name": "AI影视导演 / AIGC Director",
+    "en": "AIGC Director",
+    "note": "把生成式工具接入脚本、分镜、角色、画面和后期流程。"
+   },
+   {
+    "name": "数字人编导",
+    "en": "Digital Human Content Director",
+    "note": "数字角色设定、表演逻辑、口播节奏、镜头语言和长期内容维护。"
+   },
+   {
+    "name": "AI实时视觉导演",
+    "en": "AI Real-time Visual Director",
+    "note": "演出实时视觉、生成式内容、舞台屏幕与现场联动。"
+   },
+   {
+    "name": "AI数字人主播运营",
+    "en": "AI Virtual Anchor Operations",
+    "note": "数字人脚本、直播风格、运营节奏和转化。"
+   },
+   {
+    "name": "动态创意优化师 / DCO",
+    "en": "Dynamic Creative Optimisation Specialist",
+    "note": "广告版本测试、素材动态替换、数据回收和创意迭代。"
+   },
+   {
+    "name": "AI IP价值评估师",
+    "en": "AI IP Valuation Analyst",
+    "note": "用 AI 扫描海量故事，判断改编潜力、题材热度和角色价值。"
+   },
+   {
+    "name": "AI内容版权与合规顾问",
+    "en": "AI Content Rights & Compliance Consultant",
+    "note": "处理生成内容授权、素材来源、改编边界和版权风险。"
+   }
+  ]
+ }
+}

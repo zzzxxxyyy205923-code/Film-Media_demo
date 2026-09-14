@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SFK 影视传媒科系 · Film, Media &amp; Communication</title>
+<meta name="description" content="SFK 影视传媒科系 — 八大产业方向 × 61 个核心岗位 × 146 所海外院校，覆盖影视制作、内容平台、品牌创意、演艺娱乐、新闻节目、企业公关、出版版权与 AI 影视科技。">
+<link rel="icon" type="image/png" href="assets/img/brand/sfk-dept-film-media.png">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+<!-- 影视传媒适配增量层：8 大产业方向色 + 新增模块组件 -->
+<link rel="stylesheet" href="assets/css/film.css">
+</head>
+<body>
+
+<!-- ═══ NAVBAR ═══ -->
+<nav class="navbar">
+  <span class="navbar__logo">
+    <!-- 官方 VI：影视传媒科系图标（SFK24 新版科系图标系列）。
+         深色底统一用反白稿；浅色底请改用 assets/img/brand/sfk-dept-film-media.png（专色 C0 M43 Y6 K9）。
+         尺寸与间距统一由 CSS 令牌控制：--logo-size（当前 18px）；间距 = 图标 × --logo-clear-space(25%，官方安全留白)。 -->
+    <img class="navbar__logo-mark" src="assets/img/brand/sfk-dept-film-media--reverse.png"
+         width="18" height="18" alt="" aria-hidden="true" decoding="async">
+    <span class="navbar__logo-text"><span class="u-en">SFK</span>影视传媒</span>
+  </span>
+  <div class="navbar__links">
+    <button class="navbar__btn is-active" onclick="Router.go('home')">科系介绍</button>
+    <button class="navbar__btn" onclick="Router.go('home',{scrollTo:'#offers'})">offer展示</button>
+    <button class="navbar__btn" onclick="Router.go('home',{scrollTo:'#instructors'})">导师团队</button>
+    <button class="navbar__btn" onclick="Router.go('home',{scrollTo:'#resources'})">资源网络</button>
+    <span class="navbar__div" aria-hidden="true"></span>
+    <button class="navbar__btn navbar__btn--page" onclick="Router.go('portfolio')">案例展示</button>
+    <button class="navbar__btn navbar__btn--page" onclick="Router.go('timeline')">成长时间轴</button>
+    <button class="navbar__btn navbar__btn--page" onclick="Router.go('course-products')">课程产品</button>
+  </div>
+  <div class="navbar__search-wrap">
+    <span class="navbar__search-icon">⌕</span>
+    <input id="search-input" class="navbar__search" type="text" placeholder="搜索企业、岗位、院校、专业…">
+    <div id="search-results" class="search-results"></div>
+  </div>
+  <button class="navbar__cta" onclick="Router.go('planning')">
+    规划我的未来 <span class="u-en" style="font-size:11px;opacity:.7;">/ Plan Your Future</span>
+  </button>
+  <button class="navbar__menu-toggle" id="nav-menu-toggle" aria-expanded="false" aria-controls="nav-menu-overlay" aria-label="展开全部导航">
+    <span></span><span></span>
+  </button>
+</nav>
+
+<!-- ═══ EXPANDABLE NAV MENU ═══ -->
+<div id="nav-menu-overlay" class="nav-menu-overlay" aria-hidden="true">
+  <div class="nav-menu-overlay__inner">
+    <div class="nav-menu-overlay__group">
+      <a class="nav-menu-overlay__link" onclick="NavMenu.go('home')">科系介绍</a>
+      <a class="nav-menu-overlay__link" onclick="NavMenu.go('home',{scrollTo:'#offers'})">offer展示</a>
+      <a class="nav-menu-overlay__link" onclick="NavMenu.go('home',{scrollTo:'#instructors'})">导师团队</a>
+      <a class="nav-menu-overlay__link" onclick="NavMenu.go('home',{scrollTo:'#resources'})">资源网络</a>
+    </div>
+    <span class="nav-menu-overlay__div" aria-hidden="true"></span>
+    <div class="nav-menu-overlay__group">
+      <a class="nav-menu-overlay__link nav-menu-overlay__link--page" onclick="NavMenu.go('portfolio')">案例展示</a>
+      <a class="nav-menu-overlay__link nav-menu-overlay__link--page" onclick="NavMenu.go('timeline')">成长时间轴</a>
+      <a class="nav-menu-overlay__link nav-menu-overlay__link--page" onclick="NavMenu.go('course-products')">课程产品</a>
+    </div>
+    <span class="nav-menu-overlay__div" aria-hidden="true"></span>
+    <div class="nav-menu-overlay__group">
+      <a class="nav-menu-overlay__link nav-menu-overlay__link--page" onclick="NavMenu.go('planning')">产业全景与岗位</a>
+      <a class="nav-menu-overlay__link nav-menu-overlay__link--page" onclick="NavMenu.go('assessment')">职业测评</a>
+      <a class="nav-menu-overlay__link nav-menu-overlay__link--page" onclick="NavMenu.go('plan')">我的规划</a>
+    </div>
+    <a class="nav-menu-overlay__cta" onclick="NavMenu.go('planning')">
+      规划我的未来 <span class="u-en" style="font-size:12px;opacity:.7;">/ Plan Your Future</span>
+    </a>
+  </div>
+</div>
+
+<!-- ═══ STICKY COLLAPSE BAR ═══ -->
+<div id="sticky-collapse" class="sticky-collapse" style="display:none">
+  <button class="sticky-collapse__btn" id="sticky-collapse-btn">↑ 收起</button>
+</div>
+
+<!-- ═══ SIDEBAR ═══ -->
+<div id="sidebar-overlay" class="sidebar-overlay" onclick="Sidebar.close()"></div>
+<div id="sidebar" class="sidebar">
+  <button class="sidebar__close" onclick="Sidebar.close()">✕</button>
+  <div id="sidebar-content"></div>
+</div>
+
+<!-- ════════════════════════════════════════
+     HOME PAGE
+════════════════════════════════════════ -->
+<div id="page-home" class="page is-active">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__bloom hero__bloom--blue" aria-hidden="true"></div>
+    <div class="hero__bloom hero__bloom--lime" aria-hidden="true"></div>
+    <div class="hero__scan" aria-hidden="true"></div>
+    <!-- 首页影像层：原「浮动 logo 图形」位置现在播放「2025青年影像展混剪」处理版。
+         源片 2025青年影像展混剪.mp4（1920×1080 / 原始时长 3:02.4）经处理：
+         ① ffmpeg delogo 去除左上角「INTERNATIONAL ART EDUCATION / 斯芬克」水印；
+         ② 裁掉上下黑边各 132px（纯黑 Letterbox），得到有效画面 1920×816（≈2.35:1），画面主体宽高比不变；
+         ③ 视频编码不变速、不重新采样音频（AAC 直接复制），站内副本 assets/video/kexi-intro-2025-clean-fill.mp4。
+         影像铺满「科系介绍」首页的整个可见区域，容器尺寸 = 界面实时显示尺寸，
+         已彻底取消浮动动效（无位移）；视频宽高比不变（object-fit:cover 只裁切不拉伸）。
+         视觉处理保持不变：弱化不透明度 .70 + 轻微滤镜 + 径向遮罩 + 左实右透蒙层（正文侧更实）。
+         离开首页或下滑离开首屏时自动暂停播放（声音同步停止），见 assets/js/hero-video.js。 -->
+    <div class="hero__logomark hero__logomark--video" aria-hidden="true">
+      <video id="hero-video" class="hero__video"
+             src="assets/video/kexi-intro-2025-clean-fill.mp4"
+             autoplay muted loop playsinline preload="auto"
+             disablepictureinpicture tabindex="-1"></video>
+      <span class="hero__video-veil" aria-hidden="true"></span>
+    </div>
+    <div class="hero__posters" id="hero-posters" aria-hidden="true"></div>
+    <div class="hero__hud hero__hud--tl" aria-hidden="true"></div>
+    <div class="hero__hud hero__hud--tr" aria-hidden="true"></div>
+    <div class="hero__hud hero__hud--bl" aria-hidden="true"></div>
+    <div class="hero__hud hero__hud--br" aria-hidden="true"></div>
+
+    <div class="hero__readout" aria-hidden="true">
+      <span class="hero__readout-id">SFK Film, Media &amp; Communication</span>
+      <span class="hero__readout-geo">31.2304°N · 121.4737°E</span>
+      <span class="hero__readout-live"><i></i> LIVE · AY 2026–2027</span>
+    </div>
+
+    <div class="hero__inner">
+      <div class="hero__eyebrow reveal reveal-1">SFK · 影视传媒科系 &nbsp;·&nbsp; <span class="u-en">Film, Media &amp; Communication</span></div>
+      <h1 class="hero__title reveal reveal-2">内容 <span class="hero__x">×</span> 技术 <span class="hero__x">×</span> 商业<br><em>重写你的影像职业路径</em></h1>
+      <p class="hero__sub reveal reveal-3">影视传媒正在被重新定义：AI 生成影像压缩了制作周期，流媒体与短视频重写了发行与内容运营的规则，品牌、平台与版权方开始争夺同一批"既懂创作、又会技术、还能对接商业"的复合型内容人才。<br><br>我们不培养只会拍片的技术执行者，也不培养只会写方案的空想型创意人。我们培养的，是能在 AI 时代把故事、技术与商业连成一条完整链路的创作者与内容决策者。</p>
+      <div class="hero__stats reveal reveal-4">
+        <div class="hero__stat"><div class="hero__stat-num">8</div><div class="hero__stat-label">大产业方向 × 学术分支</div></div>
+        <div class="hero__stat"><div class="hero__stat-num">61</div><div class="hero__stat-label">个核心岗位与晋升路径</div></div>
+        <div class="hero__stat"><div class="hero__stat-num">146</div><div class="hero__stat-label">所海外影视传媒院校</div></div>
+        <div class="hero__stat"><div class="hero__stat-num">341</div><div class="hero__stat-label">个可申请本硕专业</div></div>
+      </div>
+      <div class="hero__actions reveal reveal-5">
+        <a class="hero__cta" onclick="Router.go('planning')">
+          规划我的未来 <span class="hero__cta-sub">/ Plan Your Future</span>
+        </a>
+        <a class="hero__ghost" onclick="Router.go('assessment')">
+          职业测评 <span class="hero__cta-sub">/ Assessment</span>
+        </a>
+        <a class="hero__ghost" onclick="Router.go('home',{scrollTo:'#courses'})">
+          浏览课程产品 <span class="hero__cta-sub">/ Courses</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFERS -->
+  <section class="home-section" id="offers">
+    <div class="section-eyebrow">Offers 2026–2027</div>
+    <h2 class="section-title">offer 展示</h2>
+    <p class="section-desc">2026–2027 申请季影视传媒方向录取战报。覆盖美国、英国、港澳与全球影视传媒院校的本科 / 硕士 offer 成果，点击切换地区查看各院校 offer 数量。</p>
+    <div id="offers-total"></div>
+    <hr class="section-divider">
+    <div class="filter-bar" id="offers-country-tabs">
+      <button class="filter-btn is-active" data-group="US" onclick="OffersPage.switchGroup('US',this)">🇺🇸 美国</button>
+      <button class="filter-btn" data-group="UK" onclick="OffersPage.switchGroup('UK',this)">🇬🇧 英国</button>
+      <button class="filter-btn" data-group="HK_SG" onclick="OffersPage.switchGroup('HK_SG',this)">🇭🇰 港澳</button>
+      <button class="filter-btn" data-group="OTHER" onclick="OffersPage.switchGroup('OTHER',this)">🌏 其他</button>
+    </div>
+    <div id="offers-grid"></div>
+  </section>
+
+  <!-- INSTRUCTORS -->
+  <section class="home-section" id="instructors">
+    <div class="section-eyebrow">Instructors</div>
+    <h2 class="section-title">导师团队</h2>
+    <p class="section-desc">来自纽约大学、南加州大学、AFI、英国国立电影电视学院等海外影视院校的教授，与头部平台、制作公司、品牌与公关机构、版权运营方的一线行业导师，覆盖八大产业方向，全程陪跑你的升学与职业发展。</p>
+    <hr class="section-divider">
+    <div class="filter-bar" id="instructor-tabs" style="margin-bottom:16px;">
+      <button class="filter-btn is-active" data-itype="all" onclick="HomePage.filterInstructors('all',this)">全部</button>
+      <button class="filter-btn" data-itype="overseas" onclick="HomePage.filterInstructors('overseas',this)">海外教授</button>
+      <button class="filter-btn" data-itype="industry" onclick="HomePage.filterInstructors('industry',this)">行业导师</button>
+    </div>
+    <div class="grid-6" id="instructors-grid"></div>
+    <div style="text-align:center;margin-top:16px;">
+      <button id="inst-expand-btn" class="filter-btn" style="display:none" onclick="HomePage.toggleInstructors()">展开查看更多</button>
+    </div>
+  </section>
+
+  <!-- RESOURCES -->
+  <section class="home-section" id="resources">
+    <div class="section-eyebrow">Network</div>
+    <h2 class="section-title">资源网络</h2>
+    <p class="section-desc">横跨影视内容、内容平台、广告品牌、演艺娱乐、新闻节目、企业公关、出版版权与 AI 影视科技八大产业方向，深度合作的内容公司、平台方、品牌与公关机构、出版社与版权机构，直连升学与就业的第一线。</p>
+    <hr class="section-divider">
+    <div class="coop-marquee-section">
+      <div class="coop-marquee-wrap"><div class="coop-marquee-track" id="coop-row-a"></div></div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section class="home-section" id="courses">
+    <div class="section-eyebrow">Featured Courses</div>
+    <h2 class="section-title">精选课程</h2>
+    <p class="section-desc">从头部平台岗位实习、行业导师带训，到海外院校冬夏校与大师课，长线旗舰项目与课程目录一站汇总，点击任意卡片查看完整介绍。</p>
+    <hr class="section-divider">
+    <div class="featured-rail-wrap"><div class="featured-rail" id="featured-courses-rail"></div></div>
+    <div style="text-align:center;margin-top:var(--space-6);">
+      <button class="section-cta" onclick="Router.go('course-products')">查看更多 <span class="u-en">/ View All Courses</span></button>
+    </div>
+  </section>
+
+</div><!-- /page-home -->
+
+<!-- ════════════════════════════════════════
+     PORTFOLIO PAGE
+════════════════════════════════════════ -->
+<div id="page-portfolio" class="page">
+  <section class="home-section" style="padding-top:var(--space-9);">
+    <div class="section-eyebrow">Admission Cases</div>
+    <h2 class="section-title">案例展示</h2>
+    <p class="section-desc">影视传媒方向录取案例精选，覆盖八大产业方向。点击任意卡片查看学生背景、作品、实习与申请策略。</p>
+    <hr class="section-divider">
+    <div class="portfolio-cats" id="portfolio-cats"></div>
+    <div class="portfolio-grid" id="portfolio-grid"></div>
+  </section>
+</div>
+
+<!-- ════════════════════════════════════════
+     PLANNING PAGE
+════════════════════════════════════════ -->
+<div id="page-planning" class="page">
+  <section class="plan-hero">
+    <h1 class="plan-hero__title">产业全景 <em>× 岗位规划</em></h1>
+    <p class="plan-hero__sub">从八大影视传媒产业方向出发，深入了解每个赛道的头部企业、核心岗位、招聘门槛与对应升学路径。点击企业查看岗位详情，点击岗位方向查看匹配院校与专业。</p>
+  </section>
+  <nav class="industry-nav" id="industry-nav"></nav>
+  <div id="industry-sections"></div>
+</div>
+
+<!-- ════════════════════════════════════════
+     TIMELINE PAGE
+════════════════════════════════════════ -->
+<div id="page-timeline" class="page">
+  <section class="timeline-hero">
+    <h1 class="timeline-hero__title">升学与求职时间轴</h1>
+    <p class="timeline-hero__sub">选择申请季与国家 / 地区路线，查看从出国前准备到毕业入职的完整月度路径。点击任一节点，查看该阶段的作品集准备、AI 工具、关键行动与产出物。</p>
+  </section>
+  <div class="timeline-section">
+
+    <!-- Selectors（由 data/timeline.json 驱动渲染） -->
+    <div class="tl-controls">
+      <div class="tl-ctrl-group">
+        <div class="tl-ctrl-label">申请季</div>
+        <div class="tl-seg-tabs" id="tl-tabs-cohort"></div>
+      </div>
+      <div class="tl-ctrl-group">
+        <div class="tl-ctrl-label">国家 / 地区路线</div>
+        <div class="tl-seg-tabs" id="tl-tabs-route"></div>
+      </div>
+      <div class="tl-ctrl-group">
+        <div class="tl-ctrl-label">视图</div>
+        <div class="tl-seg-tabs" id="tl-tabs-view"></div>
+      </div>
+    </div>
+
+    <!-- Track 摘要 -->
+    <div class="tl-legend" id="tl-track-summary" style="align-items:flex-start;"></div>
+
+    <!-- Legend -->
+    <div class="tl-legend">
+      <div class="tl-legend__item"><div class="tl-legend__dot tl-legend__dot--milestone"></div>关键节点</div>
+      <div class="tl-legend__item"><div class="tl-legend__dot tl-legend__dot--growth"></div>专业成长</div>
+      <div class="tl-legend__item"><div class="tl-legend__dot tl-legend__dot--career"></div>求职准备</div>
+    </div>
+
+    <!-- Gantt -->
+    <div class="tl-gantt-wrap" id="tl-gantt-wrap">
+      <div class="tl-gantt" id="tl-gantt"></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     COURSE PRODUCTS PAGE
+════════════════════════════════════════ -->
+<div id="page-course-products" class="page">
+  <section class="timeline-hero">
+    <h1 class="timeline-hero__title">课程产品</h1>
+    <p class="timeline-hero__sub">从长线旗舰项目到分类课程目录，覆盖影视作品集孵化、AI 影视科技研创与行业就业直通的完整课程体系。点击任意卡片查看完整介绍。</p>
+  </section>
+  <div class="cp-page">
+    <div class="cp-zone">
+      <div class="section-eyebrow">Signature Programs</div>
+      <h2 class="section-title">长线旗舰产品</h2>
+      <div class="cp-grid" id="cp-longform-grid"></div>
+    </div>
+    <div class="cp-zone cp-zone--catalog">
+      <div class="section-eyebrow">Program Catalog</div>
+      <h2 class="section-title">课程目录</h2>
+      <div class="cp-grid" id="cp-catalog-grid"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     ASSESSMENT PAGE（职业测评）
+════════════════════════════════════════ -->
+<div id="page-assessment" class="page">
+  <section class="as-hero">
+    <div class="as-hero__eyebrow">Career Assessment</div>
+    <h1 class="as-hero__title">职业测评 · <em>找到你的影视传媒坐标</em></h1>
+    <p class="as-hero__sub">6 道题、10 个能力维度，输出你最匹配的产业方向与岗位目标，并给出可执行的升学 / 求职准备建议。结果可直接带入「我的规划」生成行动清单。</p>
+  </section>
+  <div class="as-progress">
+    <div class="as-progress__bar"><div class="as-progress__fill" id="as-progress-fill"></div></div>
+    <div class="as-progress__label" id="as-progress-label">0 / 6</div>
+  </div>
+  <div class="as-stage" id="as-stage"></div>
+</div>
+
+<!-- ════════════════════════════════════════
+     PLAN PAGE（我的规划）
+════════════════════════════════════════ -->
+<div id="page-plan" class="page">
+  <section class="plan-hero">
+    <h1 class="plan-hero__title">我的规划 <em>× 行动清单</em></h1>
+    <p class="plan-hero__sub">选择申请季、目标产业方向与目标岗位，自动生成按月推进的行动清单（作品集、AI 工具、实习与投递节奏），并推荐匹配院校专业与在售课程。规划保存在本地浏览器，可随时修改或清空。</p>
+  </section>
+  <div class="pl-layout">
+    <aside class="pl-side">
+      <div class="pl-card">
+        <div class="pl-card__label">规划模式</div>
+        <div class="pl-modes" id="pl-modes"></div>
+      </div>
+      <div class="pl-card">
+        <div class="pl-card__label">规划目标</div>
+        <div class="pl-fields">
+          <div>
+            <label class="pl-field__label" for="pl-cohort">申请季</label>
+            <select id="pl-cohort"></select>
+          </div>
+          <div>
+            <label class="pl-field__label" for="pl-industry">目标产业方向</label>
+            <select id="pl-industry"></select>
+          </div>
+          <div>
+            <label class="pl-field__label" for="pl-role">目标岗位方向</label>
+            <select id="pl-role"></select>
+          </div>
+        </div>
+        <div class="pl-actions" style="margin-top:var(--space-4);">
+          <button class="pl-btn pl-btn--primary" onclick="PlanPage.generate()">生成规划</button>
+          <button class="pl-btn pl-btn--ghost" onclick="PlanPage.reset()">清空</button>
+        </div>
+      </div>
+      <div class="pl-card">
+        <div class="pl-card__label">从测评带入</div>
+        <p style="font-size:var(--text-sm);color:var(--color-text-muted);line-height:1.7;margin-bottom:var(--space-3);">
+          还未确定方向？先完成职业测评，系统会把最匹配的产业方向与岗位目标自动填入本页。
+        </p>
+        <button class="pl-btn" onclick="Router.go('assessment')">前往职业测评</button>
+      </div>
+    </aside>
+    <div class="pl-main" id="pl-main"></div>
+  </div>
+</div>
+
+<!-- ═══ COURSE OVERLAY ═══ -->
+<div id="course-overlay" class="course-overlay">
+  <div class="course-overlay__backdrop"></div>
+  <div class="course-overlay__panel">
+    <button class="course-overlay__close" aria-label="Close">✕</button>
+    <div id="course-overlay-body" class="cd-page__body"></div>
+  </div>
+</div>
+
+<!-- ═══ MINI-COURSE DETAIL MODAL ═══ -->
+<div id="minicourse-modal" class="minicourse-modal">
+  <div class="minicourse-modal__backdrop"></div>
+  <div class="minicourse-modal__panel">
+    <button class="minicourse-modal__close" aria-label="Close">✕</button>
+    <div id="minicourse-body"></div>
+  </div>
+</div>
+
+<!-- ═══ IMAGE MODAL ═══
+     ImageModal（assets/js/components.js）按需创建 .img-modal-backdrop，
+     故此处不再保留重复的静态模态结构（其背景层会常驻并拦截全页点击）。 -->
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__brand">
+      <span class="site-footer__logo">
+        <img class="site-footer__logo-mark" src="assets/img/brand/sfk-dept-film-media--reverse.png"
+             width="18" height="18" alt="" aria-hidden="true" decoding="async">
+      </span>
+      <div>
+        <div class="site-footer__brand-name"><span class="u-en">SFK</span>影视传媒科系</div>
+        <p class="site-footer__brand-desc">内容 × 技术 × 商业 — 培养能在 AI 时代把故事、技术与商业连成一条完整链路的创作者与内容决策者。</p>
+      </div>
+    </div>
+
+    <div class="site-footer__grid">
+      <div class="site-footer__col">
+        <h2 class="site-footer__col-title">页面导航<span class="u-en">Pages</span></h2>
+        <a onclick="Router.go('home')"><strong>科系介绍</strong><span class="u-en">Home</span></a>
+        <a onclick="Router.go('portfolio')"><strong>案例展示</strong><span class="u-en">Cases</span></a>
+        <a onclick="Router.go('timeline')"><strong>成长时间轴</strong><span class="u-en">Timeline</span></a>
+        <a onclick="Router.go('course-products')"><strong>课程产品</strong><span class="u-en">Courses</span></a>
+        <a onclick="Router.go('planning')"><strong>产业全景与岗位</strong><span class="u-en">Industry &amp; Jobs</span></a>
+        <a onclick="Router.go('assessment')"><strong>职业测评</strong><span class="u-en">Assessment</span></a>
+        <a onclick="Router.go('plan')"><strong>我的规划</strong><span class="u-en">My Plan</span></a>
+      </div>
+      <div class="site-footer__col">
+        <h2 class="site-footer__col-title">科系板块<span class="u-en">Sections</span></h2>
+        <a onclick="Router.go('home',{scrollTo:'#offers'})"><strong>offer 展示</strong><span class="u-en">Offers</span></a>
+        <a onclick="Router.go('home',{scrollTo:'#instructors'})"><strong>导师团队</strong><span class="u-en">Instructors</span></a>
+        <a onclick="Router.go('home',{scrollTo:'#resources'})"><strong>资源网络</strong><span class="u-en">Network</span></a>
+        <a onclick="Router.go('home',{scrollTo:'#courses'})"><strong>精选课程</strong><span class="u-en">Featured Courses</span></a>
+      </div>
+      <div class="site-footer__col">
+        <h2 class="site-footer__col-title">八大产业方向<span class="u-en">Industries</span></h2>
+        <a onclick="Router.goToIndustry('film_tv')"><strong>影视内容产业</strong><span class="u-en">Film &amp; TV</span></a>
+        <a onclick="Router.goToIndustry('digital_platform')"><strong>数字内容与平台</strong><span class="u-en">Platforms</span></a>
+        <a onclick="Router.goToIndustry('advertising_brand')"><strong>广告、品牌与商业创意</strong><span class="u-en">Brand &amp; Creative</span></a>
+        <a onclick="Router.goToIndustry('entertainment')"><strong>演艺娱乐产业</strong><span class="u-en">Entertainment</span></a>
+        <a onclick="Router.goToIndustry('media_program')"><strong>新闻传媒与节目制作</strong><span class="u-en">News &amp; Programme</span></a>
+        <a onclick="Router.goToIndustry('corporate_pr')"><strong>企业传播与公共关系</strong><span class="u-en">Corporate PR</span></a>
+        <a onclick="Router.goToIndustry('rights_ip')"><strong>出版、版权与IP开发</strong><span class="u-en">Publishing &amp; IP</span></a>
+        <a onclick="Router.goToIndustry('ai_filmtech')"><strong>AI影视科技</strong><span class="u-en">AI Film Tech</span></a>
+      </div>
+      <div class="site-footer__col">
+        <h2 class="site-footer__col-title">规划咨询<span class="u-en">Get in Touch</span></h2>
+        <span class="site-footer__cta">预约专业评估</span>
+        <p class="site-footer__contact"><span class="u-en">Email</span>admissions@sfk-edu.demo</p>
+        <p class="site-footer__contact"><span class="u-en">Tel</span>400-000-0000</p>
+        <p class="site-footer__contact">上海市 · 校区地址待定</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-footer__bottom">
+    <p>© <span id="footer-year"></span> SFK 影视传媒科系 · 本页面为课程与案例演示站点，数据仅供展示</p>
+  </div>
+</footer>
+
+<!-- ═══ HERO VIDEO SOUND TOGGLE ═══
+     固定在视口右下角，随「首页浮动影像是否可见」自动显隐；
+     纯图标按钮（不含文字），不同分辨率下始终保持 44×44 可见可点击；
+     状态语义由 aria-pressed / aria-label / title 承担。 -->
+<button id="hero-video-sound" class="hero-sound" type="button" hidden
+        aria-pressed="true" aria-label="科系介绍影像声音：当前静音，点击开启声音" title="当前静音 · 点击开启声音">
+  <span class="hero-sound__icon" aria-hidden="true">
+    <svg class="hero-sound__svg hero-sound__svg--off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M11.5 4.8 6.9 8.8H3.4v6.4h3.5l4.6 4V4.8Z"/>
+      <path d="m15.8 9.6 4.4 4.8M20.2 9.6l-4.4 4.8"/>
+    </svg>
+    <svg class="hero-sound__svg hero-sound__svg--on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M11.5 4.8 6.9 8.8H3.4v6.4h3.5l4.6 4V4.8Z"/>
+      <path d="M15.6 8.9a4.6 4.6 0 0 1 0 6.2M18.5 6.2a8.4 8.4 0 0 1 0 11.6"/>
+    </svg>
+  </span>
+</button>
+
+<!-- ═══ SCRIPTS ═══ -->
+<script src="assets/js/data.js"></script>
+<script src="assets/js/router.js"></script>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/products-film.js"></script>
+<script src="assets/js/pages/home.js"></script>
+<script src="assets/js/pages/offers.js"></script>
+<script src="assets/js/pages/planning.js"></script>
+<script src="assets/js/pages/portfolio.js"></script>
+<script src="assets/js/pages/timeline.js"></script>
+<script src="assets/js/course-demo.js"></script>
+<script src="assets/js/pages/course-products.js"></script>
+<script src="assets/js/pages/assessment.js"></script>
+<script src="assets/js/pages/plan.js"></script>
+<script src="assets/js/effects.js"></script>
+<script src="assets/js/hero-video.js"></script>
+<script>
+(async () => {
+  try {
+    await DATA.load();
+  } catch (err) {
+    console.error(err);
+    document.body.insertAdjacentHTML('afterbegin',
+      '<div style="padding:14px 40px;background:#C0243B;color:#fff;font:14px/1.6 sans-serif">' +
+      '数据加载失败：请通过 HTTP 服务访问（例如 <code>python3 -m http.server</b>），不要直接双击打开 index.html。</div>');
+    return;
+  }
+  HomePage.build();
+  OffersPage.build();
+  PlanningPage.build();
+  PortfolioPage.build();
+  TimelinePage.build();
+  CourseProductsPage.build();
+  AssessmentPage.build();
+  PlanPage.build();
+  Search.init();
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+  /* Restore page from URL hash on load/refresh */
+  const PAGES = ['portfolio', 'planning', 'timeline', 'course-products', 'assessment', 'plan'];
+  const hashPage = location.hash.replace('#', '');
+  if (PAGES.includes(hashPage)) {
+    Router.go(hashPage);
+  } else {
+    window.scrollTo(0, 0);
+  }
+})();
+</script>
+
+</body>
+</html>

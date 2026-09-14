@@ -1,0 +1,1209 @@
+{
+ "US": [
+  {
+   "school_en": "University of Southern California",
+   "school_zh": "南加州大学",
+   "school_short": "USC",
+   "country": "US",
+   "industry_score": 98,
+   "category": "影视"
+  },
+  {
+   "school_en": "New York University",
+   "school_zh": "纽约大学",
+   "school_short": "NYU",
+   "country": "US",
+   "industry_score": 96,
+   "category": "影视 + AI 影视"
+  },
+  {
+   "school_en": "UCLA",
+   "school_zh": "加州大学洛杉矶分校",
+   "school_short": "UCLA",
+   "country": "US",
+   "industry_score": 95,
+   "category": "影视"
+  },
+  {
+   "school_en": "American Film Institute",
+   "school_zh": "美国电影学院",
+   "school_short": "AFI",
+   "country": "US",
+   "industry_score": 94,
+   "category": "影视"
+  },
+  {
+   "school_en": "California Institute of the Arts",
+   "school_zh": "加州艺术学院",
+   "school_short": "CalArts",
+   "country": "US",
+   "industry_score": 93,
+   "category": "影视"
+  },
+  {
+   "school_en": "Columbia University",
+   "school_zh": "哥伦比亚大学",
+   "school_short": "哥大",
+   "country": "US",
+   "industry_score": 92,
+   "category": "影视"
+  },
+  {
+   "school_en": "Chapman University",
+   "school_zh": "查普曼大学",
+   "school_short": "Chapman",
+   "country": "US",
+   "industry_score": 91,
+   "category": "影视"
+  },
+  {
+   "school_en": "Emerson College",
+   "school_zh": "爱默生学院",
+   "school_short": "Emerson",
+   "country": "US",
+   "industry_score": 90,
+   "category": "影视 + 传媒"
+  },
+  {
+   "school_en": "School of Visual Arts",
+   "school_zh": "纽约视觉艺术学院",
+   "school_short": "SVA",
+   "country": "US",
+   "industry_score": 90,
+   "category": "影视"
+  },
+  {
+   "school_en": "School of the Art Institute of Chicago",
+   "school_zh": "芝加哥艺术学院",
+   "school_short": "SAIC",
+   "country": "US",
+   "industry_score": 85,
+   "category": "影视 + 传媒"
+  },
+  {
+   "school_en": "Boston University",
+   "school_zh": "波士顿大学",
+   "school_short": "BU",
+   "country": "US",
+   "industry_score": 80,
+   "category": "影视 / 电视管理 / 传媒"
+  },
+  {
+   "school_en": "Art Center College of Design",
+   "school_zh": "艺术中心设计学院",
+   "school_short": "ACCD",
+   "country": "US",
+   "industry_score": 79,
+   "category": "影视"
+  },
+  {
+   "school_en": "American University",
+   "school_zh": "美国大学",
+   "school_short": "American",
+   "country": "US",
+   "industry_score": 72,
+   "category": "影视"
+  },
+  {
+   "school_en": "California State University, Northridge",
+   "school_zh": "加州州立大学北岭分校",
+   "school_short": "California",
+   "country": "US",
+   "industry_score": 72,
+   "category": "影视"
+  },
+  {
+   "school_en": "University of California, Berkeley",
+   "school_zh": "加州大学伯克利分校",
+   "school_short": "UCB",
+   "country": "US",
+   "industry_score": 66,
+   "category": "新闻传媒 / 调查纪实"
+  },
+  {
+   "school_en": "University of North Carolina School of the Arts",
+   "school_zh": "北卡罗来纳艺术学院",
+   "school_short": "UNCSA",
+   "country": "US",
+   "industry_score": 65,
+   "category": "影视"
+  },
+  {
+   "school_en": "Johns Hopkins University",
+   "school_zh": "约翰霍普金斯大学",
+   "school_short": "JHU",
+   "country": "US",
+   "industry_score": 65,
+   "category": "影视媒体 + XR + AI 应用"
+  },
+  {
+   "school_en": "New York Film Academy",
+   "school_zh": "纽约电影学院",
+   "school_short": "NYFA",
+   "country": "US",
+   "industry_score": 60,
+   "category": "影视"
+  },
+  {
+   "school_en": "University of California, Santa Barbara",
+   "school_zh": "加州大学圣塔芭芭拉分校",
+   "school_short": "UCSB",
+   "country": "US",
+   "industry_score": 58,
+   "category": "媒体艺术 + STEM"
+  },
+  {
+   "school_en": "Savannah College of Art and Design",
+   "school_zh": "萨凡纳艺术设计学院",
+   "school_short": "SCAD",
+   "country": "US",
+   "industry_score": 58,
+   "category": "影视"
+  },
+  {
+   "school_en": "University of Florida",
+   "school_zh": "佛罗里达大学",
+   "school_short": "UF",
+   "country": "US",
+   "industry_score": 55,
+   "category": "影视技术 + STEM"
+  },
+  {
+   "school_en": "Duke University",
+   "school_zh": "杜克大学",
+   "school_short": "Duke",
+   "country": "US",
+   "industry_score": 55,
+   "category": "影视技术 + STEM"
+  },
+  {
+   "school_en": "Rochester Institute of Technology",
+   "school_zh": "罗彻斯特理工学院",
+   "school_short": "RIT",
+   "country": "US",
+   "industry_score": 55,
+   "category": "影视"
+  },
+  {
+   "school_en": "University of Chicago",
+   "school_zh": "芝加哥大学",
+   "school_short": "UChicago",
+   "country": "US",
+   "industry_score": 55,
+   "category": "视觉艺术 + 新媒体"
+  },
+  {
+   "school_en": "Northwestern University",
+   "school_zh": "西北大学",
+   "school_short": "Northwestern",
+   "country": "US",
+   "industry_score": 55,
+   "category": "影视剧作 / 非虚构影像 / 戏剧"
+  },
+  {
+   "school_en": "Syracuse University",
+   "school_zh": "雪城大学",
+   "school_short": "Syracuse",
+   "country": "US",
+   "industry_score": 55,
+   "category": "影视"
+  },
+  {
+   "school_en": "Academy of Art University",
+   "school_zh": "旧金山艺术大学",
+   "school_short": "AAU",
+   "country": "US",
+   "industry_score": 53,
+   "category": "影视"
+  },
+  {
+   "school_en": "Loyola Marymount University",
+   "school_zh": "洛约拉马利蒙特大学",
+   "school_short": "LMU",
+   "country": "US",
+   "industry_score": 53,
+   "category": "影视"
+  },
+  {
+   "school_en": "Columbia College Chicago",
+   "school_zh": "芝加哥哥伦比亚学院",
+   "school_short": "CCC",
+   "country": "US",
+   "industry_score": 53,
+   "category": "影视"
+  },
+  {
+   "school_en": "DePaul University",
+   "school_zh": "德保罗大学",
+   "school_short": "DePaul",
+   "country": "US",
+   "industry_score": 51,
+   "category": "影视"
+  },
+  {
+   "school_en": "Florida State University",
+   "school_zh": "佛罗里达州立大学",
+   "school_short": "FSU",
+   "country": "US",
+   "industry_score": 50,
+   "category": "影视"
+  },
+  {
+   "school_en": "Feirstein Graduate School of Cinema at Brooklyn College",
+   "school_zh": "布鲁克林学院费尔斯坦电影研究生院",
+   "school_short": "Feirstein",
+   "country": "US",
+   "industry_score": 50,
+   "category": "影视"
+  },
+  {
+   "school_en": "University of Texas, Austin",
+   "school_zh": "德克萨斯大学奥斯汀分校",
+   "school_short": "UT Austin",
+   "country": "US",
+   "industry_score": 50,
+   "category": "影视 + 传媒"
+  },
+  {
+   "school_en": "San Francisco State University",
+   "school_zh": "旧金山州立大学",
+   "school_short": "SFSU",
+   "country": "US",
+   "industry_score": 50,
+   "category": "影视"
+  },
+  {
+   "school_en": "Howard University",
+   "school_zh": "霍华德大学",
+   "school_short": "Howard",
+   "country": "US",
+   "industry_score": 50,
+   "category": "影视"
+  },
+  {
+   "school_en": "Maryland Institute College of Art",
+   "school_zh": "马里兰艺术学院",
+   "school_short": "MICA",
+   "country": "US",
+   "industry_score": 50,
+   "category": "影视"
+  }
+ ],
+ "UK": [
+  {
+   "school_en": "National Film and Television School",
+   "school_zh": "英国国立电影电视学院",
+   "school_short": "NFTS",
+   "country": "UK",
+   "industry_score": 92,
+   "category": "影视 + AI 影视"
+  },
+  {
+   "school_en": "University of the Arts London",
+   "school_zh": "伦敦艺术大学",
+   "school_short": "UAL",
+   "country": "UK",
+   "industry_score": 92,
+   "category": "艺术 + 设计联盟"
+  },
+  {
+   "school_en": "The London Film School",
+   "school_zh": "伦敦电影学院",
+   "school_short": "LFS",
+   "country": "UK",
+   "industry_score": 88,
+   "category": "影视"
+  },
+  {
+   "school_en": "Central Saint Martins College of Art and Design",
+   "school_zh": "中央圣马丁设计学院",
+   "school_short": "CSM",
+   "country": "UK",
+   "industry_score": 85,
+   "category": "传媒"
+  },
+  {
+   "school_en": "The London School of Economic and Political Science",
+   "school_zh": "伦敦政治经济学院",
+   "school_short": "LSE",
+   "country": "UK",
+   "industry_score": 85,
+   "category": "传媒 + AI 影视"
+  },
+  {
+   "school_en": "University of Southampton",
+   "school_zh": "南安普顿大学",
+   "school_short": "Southampton",
+   "country": "UK",
+   "industry_score": 84,
+   "category": "传媒"
+  },
+  {
+   "school_en": "Royal Academy of Arts",
+   "school_zh": "皇家艺术学院",
+   "school_short": "RCA",
+   "country": "UK",
+   "industry_score": 84,
+   "category": "传媒"
+  },
+  {
+   "school_en": "Kingston University London",
+   "school_zh": "金斯顿大学",
+   "school_short": "Kingston",
+   "country": "UK",
+   "industry_score": 84,
+   "category": "影视 + 传媒 + AI 影视"
+  },
+  {
+   "school_en": "University of Westminister",
+   "school_zh": "威斯特敏斯特大学",
+   "school_short": "Westminster",
+   "country": "UK",
+   "industry_score": 82,
+   "category": "传媒 + AI 影视"
+  },
+  {
+   "school_en": "Goldsmith, University of London",
+   "school_zh": "金史密斯学院",
+   "school_short": "Goldsmiths",
+   "country": "UK",
+   "industry_score": 80,
+   "category": "影视 + 传媒 + AI 影视"
+  },
+  {
+   "school_en": "Bournemouth University",
+   "school_zh": "伯恩茅斯大学",
+   "school_short": "BU",
+   "country": "UK",
+   "industry_score": 79,
+   "category": "影视"
+  },
+  {
+   "school_en": "University of Manchester",
+   "school_zh": "曼切斯特大学",
+   "school_short": "Manchester",
+   "country": "UK",
+   "industry_score": 76,
+   "category": "传媒"
+  },
+  {
+   "school_en": "Edinburgh Napier University",
+   "school_zh": "爱丁堡龙比亚大学",
+   "school_short": "Edinburgh",
+   "country": "UK",
+   "industry_score": 72,
+   "category": "影视"
+  },
+  {
+   "school_en": "University College London",
+   "school_zh": "伦敦大学学院",
+   "school_short": "UCL",
+   "country": "UK",
+   "industry_score": 63,
+   "category": "影视 + 传媒 + AI 影视"
+  },
+  {
+   "school_en": "University of Leeds",
+   "school_zh": "利兹大学",
+   "school_short": "Leeds",
+   "country": "UK",
+   "industry_score": 63,
+   "category": "影视 + 传媒 + AI 影视"
+  },
+  {
+   "school_en": "University of Edinburgh",
+   "school_zh": "爱丁堡大学",
+   "school_short": "Edinburgh",
+   "country": "UK",
+   "industry_score": 63,
+   "category": "传媒"
+  },
+  {
+   "school_en": "University of Bristol",
+   "school_zh": "布里斯托大学",
+   "school_short": "Bristol",
+   "country": "UK",
+   "industry_score": 60,
+   "category": "影视 + 传媒"
+  },
+  {
+   "school_en": "King's College London",
+   "school_zh": "伦敦国王学院",
+   "school_short": "KCL",
+   "country": "UK",
+   "industry_score": 58,
+   "category": "传媒"
+  },
+  {
+   "school_en": "Royal Holloway, University of London",
+   "school_zh": "伦敦大学皇家霍洛威学院",
+   "school_short": "RHUL",
+   "country": "UK",
+   "industry_score": 58,
+   "category": "影视"
+  },
+  {
+   "school_en": "University of Exeter",
+   "school_zh": "埃克塞特大学",
+   "school_short": "Exeter",
+   "country": "UK",
+   "industry_score": 58,
+   "category": "影视"
+  },
+  {
+   "school_en": "Met Film School",
+   "school_zh": "梅特电影学院",
+   "school_short": "Met",
+   "country": "UK",
+   "industry_score": 58,
+   "category": "影视"
+  },
+  {
+   "school_en": "University for the Creative Arts",
+   "school_zh": "创意艺术大学",
+   "school_short": "UCA",
+   "country": "UK",
+   "industry_score": 55,
+   "category": "影视"
+  },
+  {
+   "school_en": "University of Cambridge",
+   "school_zh": "剑桥大学",
+   "school_short": "Cambridge",
+   "country": "UK",
+   "industry_score": 55,
+   "category": "传媒"
+  },
+  {
+   "school_en": "Imperial College London",
+   "school_zh": "帝国理工学院",
+   "school_short": "IC",
+   "country": "UK",
+   "industry_score": 55,
+   "category": "影视 + 传媒"
+  },
+  {
+   "school_en": "Manchester Metropolitan University",
+   "school_zh": "曼彻斯特城市大学",
+   "school_short": "MMU",
+   "country": "UK",
+   "industry_score": 55,
+   "category": "影视"
+  },
+  {
+   "school_en": "University of Birmingham",
+   "school_zh": "伯明翰大学",
+   "school_short": "Birmingham",
+   "country": "UK",
+   "industry_score": 53,
+   "category": "影视"
+  },
+  {
+   "school_en": "University of Lincoln",
+   "school_zh": "林肯大学",
+   "school_short": "Lincoln",
+   "country": "UK",
+   "industry_score": 53,
+   "category": "影视"
+  },
+  {
+   "school_en": "University of Warwick",
+   "school_zh": "华威大学",
+   "school_short": "Warwick",
+   "country": "UK",
+   "industry_score": 51,
+   "category": "影视"
+  },
+  {
+   "school_en": "London College of Communication",
+   "school_zh": "伦敦传媒学院",
+   "school_short": "LCC",
+   "country": "UK",
+   "industry_score": 50,
+   "category": "影视 + 传媒"
+  },
+  {
+   "school_en": "London College of Fashion",
+   "school_zh": "伦敦时尚学院",
+   "school_short": "LCF",
+   "country": "UK",
+   "industry_score": 50,
+   "category": "传媒"
+  },
+  {
+   "school_en": "Cardiff University",
+   "school_zh": "卡迪夫大学",
+   "school_short": "Cardiff",
+   "country": "UK",
+   "industry_score": 50,
+   "category": "传媒"
+  },
+  {
+   "school_en": "Edinburgh College of Art",
+   "school_zh": "爱丁堡艺术学院",
+   "school_short": "ECA",
+   "country": "UK",
+   "industry_score": 50,
+   "category": "影视"
+  },
+  {
+   "school_en": "University of York",
+   "school_zh": "约克大学",
+   "school_short": "York",
+   "country": "UK",
+   "industry_score": 50,
+   "category": "影视"
+  }
+ ],
+ "HK_SG": [
+  {
+   "school_en": "Hong Kong Baptist University",
+   "school_zh": "香港浸会大学",
+   "school_short": "HKBU",
+   "country": "HK",
+   "industry_score": 86,
+   "category": "影视 + 制片管理"
+  },
+  {
+   "school_en": "The University of Hong Kong",
+   "school_zh": "香港大学",
+   "school_short": "HKU",
+   "country": "HK",
+   "industry_score": 82,
+   "category": "影视 + 传媒 + AI 影视"
+  },
+  {
+   "school_en": "The Hong Kong Academy for Performing Arts",
+   "school_zh": "香港演艺学院",
+   "school_short": "HKAPA",
+   "country": "HK",
+   "industry_score": 80,
+   "category": "影视"
+  },
+  {
+   "school_en": "The Hong Kong Polytechnic University",
+   "school_zh": "香港理工大学",
+   "school_short": "PolyU",
+   "country": "HK",
+   "industry_score": 62,
+   "category": "传媒 + AI 影视"
+  },
+  {
+   "school_en": "The Hong Kong University of Science and Technology",
+   "school_zh": "香港科技大学",
+   "school_short": "HKUST",
+   "country": "HK",
+   "industry_score": 62,
+   "category": "AI 影视"
+  },
+  {
+   "school_en": "Lingnan University",
+   "school_zh": "岭南大学",
+   "school_short": "Lingnan",
+   "country": "HK",
+   "industry_score": 56,
+   "category": "传媒"
+  },
+  {
+   "school_en": "Macau University of Science and Technology",
+   "school_zh": "澳门科技大学",
+   "school_short": "MUST",
+   "country": "MO",
+   "industry_score": 56,
+   "category": "影视技术 + 影视传播"
+  },
+  {
+   "school_en": "The Chinese University of Hong Kong",
+   "school_zh": "香港中文大学",
+   "school_short": "CUHK",
+   "country": "HK",
+   "industry_score": 55,
+   "category": "传媒"
+  },
+  {
+   "school_en": "City University of Hong Kong",
+   "school_zh": "香港城市大学",
+   "school_short": "CityU",
+   "country": "HK",
+   "industry_score": 55,
+   "category": "传媒"
+  },
+  {
+   "school_en": "The Education University of Hong Kong",
+   "school_zh": "香港教育大学",
+   "school_short": "EdUHK",
+   "country": "HK",
+   "industry_score": 55,
+   "category": "传媒 + AI 影视"
+  },
+  {
+   "school_en": "Hong Kong Chu Hai College",
+   "school_zh": "香港珠海学院",
+   "school_short": "Chu Hai",
+   "country": "HK",
+   "industry_score": 55,
+   "category": "传媒"
+  },
+  {
+   "school_en": "City University of Macau",
+   "school_zh": "澳门城市大学",
+   "school_short": "CityU Macau",
+   "country": "MO",
+   "industry_score": 55,
+   "category": "艺术学 / 设计学 / 泛传媒交叉"
+  },
+  {
+   "school_en": "Macao Polytechnic University",
+   "school_zh": "澳门理工大学",
+   "school_short": "MPU",
+   "country": "MO",
+   "industry_score": 55,
+   "category": "跨媒介艺术 / 创意策划"
+  },
+  {
+   "school_en": "Beijing Normal-Hong Kong Baptist University",
+   "school_zh": "北师香港浸会大学",
+   "school_short": "UIC",
+   "country": "HK",
+   "industry_score": 50,
+   "category": "传媒"
+  },
+  {
+   "school_en": "The Hang Seng University of Hong Kong",
+   "school_zh": "香港恒生大学",
+   "school_short": "HSU",
+   "country": "HK",
+   "industry_score": 50,
+   "category": "传媒"
+  },
+  {
+   "school_en": "Hong Kong Metropolitan University",
+   "school_zh": "香港都会大学",
+   "school_short": "HKMU",
+   "country": "HK",
+   "industry_score": 50,
+   "category": "传媒"
+  }
+ ],
+ "OTHER": [
+  {
+   "school_en": "Australian Film Television and Radio School",
+   "school_zh": "AFTRS",
+   "school_short": "AFTRS",
+   "country": "AU",
+   "industry_score": 90,
+   "category": "影视"
+  },
+  {
+   "school_en": "Concordia University",
+   "school_zh": "康考迪亚大学",
+   "school_short": "Concordia",
+   "country": "CA",
+   "industry_score": 70,
+   "category": "电影制作 + 电影研究"
+  },
+  {
+   "school_en": "York University",
+   "school_zh": "约克大学（加拿大）",
+   "school_short": "York Canada",
+   "country": "CA",
+   "industry_score": 69,
+   "category": "电影制作 + 编剧制片 + 电影研究"
+  },
+  {
+   "school_en": "University of Toronto",
+   "school_zh": "多伦多大学",
+   "school_short": "多大",
+   "country": "CA",
+   "industry_score": 68,
+   "category": "电影学理论 / 传媒研究"
+  },
+  {
+   "school_en": "Toronto Metropolitan University",
+   "school_zh": "多伦多都会大学",
+   "school_short": "TMU",
+   "country": "CA",
+   "industry_score": 66,
+   "category": "电影制作"
+  },
+  {
+   "school_en": "Massey University",
+   "school_zh": "梅西大学",
+   "school_short": "Massey",
+   "country": "NZ",
+   "industry_score": 64,
+   "category": "Screen Arts + Film Production"
+  },
+  {
+   "school_en": "The University of Adelaide",
+   "school_zh": "阿德莱德大学",
+   "school_short": "Adelaide",
+   "country": "AU",
+   "industry_score": 62,
+   "category": "传媒 + AI 影视"
+  },
+  {
+   "school_en": "Korea National University of Arts",
+   "school_zh": "韩国艺术综合大学",
+   "school_short": "K-Arts",
+   "country": "KR",
+   "industry_score": 62,
+   "category": "影视 + 传媒"
+  },
+  {
+   "school_en": "Simon Fraser University",
+   "school_zh": "西蒙菲莎大学",
+   "school_short": "SFU",
+   "country": "CA",
+   "industry_score": 62,
+   "category": "电影制作 + 当代艺术"
+  },
+  {
+   "school_en": "Dongguk University",
+   "school_zh": "东国大学",
+   "school_short": "东国大学",
+   "country": "KR",
+   "industry_score": 60,
+   "category": "影视 + 传媒"
+  },
+  {
+   "school_en": "Victoria University of Wellington",
+   "school_zh": "惠灵顿维多利亚大学",
+   "school_short": "VUW",
+   "country": "NZ",
+   "industry_score": 60,
+   "category": "电影制作 + 电影研究"
+  },
+  {
+   "school_en": "The University of Sydney",
+   "school_zh": "悉尼大学",
+   "school_short": "Sydney",
+   "country": "AU",
+   "industry_score": 58,
+   "category": "传媒"
+  },
+  {
+   "school_en": "Chung-Ang University",
+   "school_zh": "中央大学",
+   "school_short": "中央大学",
+   "country": "KR",
+   "industry_score": 58,
+   "category": "电影制作 + 影像研究"
+  },
+  {
+   "school_en": "Hanyang University",
+   "school_zh": "汉阳大学",
+   "school_short": "汉阳大学",
+   "country": "KR",
+   "industry_score": 58,
+   "category": "戏剧电影 + 内容产业"
+  },
+  {
+   "school_en": "Sungkyunkwan University",
+   "school_zh": "成均馆大学",
+   "school_short": "成均馆大学",
+   "country": "KR",
+   "industry_score": 58,
+   "category": "电影电视 + 新媒体内容"
+  },
+  {
+   "school_en": "Konkuk University",
+   "school_zh": "建国大学",
+   "school_short": "建国大学",
+   "country": "KR",
+   "industry_score": 58,
+   "category": "动态影像 + 电影制作"
+  },
+  {
+   "school_en": "Sejong University",
+   "school_zh": "世宗大学",
+   "school_short": "世宗大学",
+   "country": "KR",
+   "industry_score": 58,
+   "category": "电影艺术 + 制作表演"
+  },
+  {
+   "school_en": "Kyung Hee University",
+   "school_zh": "庆熙大学",
+   "school_short": "庆熙大学",
+   "country": "KR",
+   "industry_score": 58,
+   "category": "戏剧电影 + 影像研究"
+  },
+  {
+   "school_en": "Dongseo University",
+   "school_zh": "东西大学",
+   "school_short": "东西大学",
+   "country": "KR",
+   "industry_score": 58,
+   "category": "电影 + 视觉特效"
+  },
+  {
+   "school_en": "Korean Academy of Film Arts",
+   "school_zh": "韩国电影艺术学院",
+   "school_short": "韩国电影艺术学院",
+   "country": "KR",
+   "industry_score": 58,
+   "category": "职业电影学院"
+  },
+  {
+   "school_en": "Hongik University",
+   "school_zh": "弘益大学",
+   "school_short": "弘益大学",
+   "country": "KR",
+   "industry_score": 58,
+   "category": "电影影像 + 视觉艺术"
+  },
+  {
+   "school_en": "Auckland University of Technology",
+   "school_zh": "奥克兰理工大学",
+   "school_short": "AUT",
+   "country": "NZ",
+   "industry_score": 58,
+   "category": "影视与电视制作"
+  },
+  {
+   "school_en": "The University of New South Wales",
+   "school_zh": "新南威尔士大学",
+   "school_short": "UNSW",
+   "country": "AU",
+   "industry_score": 56,
+   "category": "传媒"
+  },
+  {
+   "school_en": "Monash University",
+   "school_zh": "莫那什大学",
+   "school_short": "Monash",
+   "country": "AU",
+   "industry_score": 56,
+   "category": "传媒"
+  },
+  {
+   "school_en": "The University of Melbourne",
+   "school_zh": "墨尔本大学",
+   "school_short": "Melbourne",
+   "country": "AU",
+   "industry_score": 55,
+   "category": "影视 + 传媒"
+  },
+  {
+   "school_en": "The University of Auckland",
+   "school_zh": "奥克兰大学",
+   "school_short": "Auckland",
+   "country": "NZ",
+   "industry_score": 55,
+   "category": "影视 + 传媒"
+  },
+  {
+   "school_en": "Royal Melbourne Institute of Technology",
+   "school_zh": "皇家墨尔本理工",
+   "school_short": "RMIT",
+   "country": "AU",
+   "industry_score": 55,
+   "category": "传媒"
+  },
+  {
+   "school_en": "The University of Western Australia",
+   "school_zh": "西澳大学",
+   "school_short": "UWA",
+   "country": "AU",
+   "industry_score": 55,
+   "category": "传媒"
+  },
+  {
+   "school_en": "Tokyo University of the Arts",
+   "school_zh": "东京艺术大学",
+   "school_short": "东京艺大",
+   "country": "JP",
+   "industry_score": 55,
+   "category": "影视 + 传媒"
+  },
+  {
+   "school_en": "Toronto Film School",
+   "school_zh": "多伦多电影学院",
+   "school_short": "Toronto Film",
+   "country": "CA",
+   "industry_score": 55,
+   "category": "职业技术 / 影视实战"
+  },
+  {
+   "school_en": "The University of British Columbia",
+   "school_zh": "英属哥伦比亚大学",
+   "school_short": "UBC",
+   "country": "CA",
+   "industry_score": 55,
+   "category": "影视制作 / 独立电影"
+  },
+  {
+   "school_en": "The University of Queensland",
+   "school_zh": "昆士兰大学",
+   "school_short": "UQ",
+   "country": "AU",
+   "industry_score": 50,
+   "category": "传媒"
+  },
+  {
+   "school_en": "Western Sydney University",
+   "school_zh": "西悉尼大学",
+   "school_short": "WSU",
+   "country": "AU",
+   "industry_score": 50,
+   "category": "传媒"
+  },
+  {
+   "school_en": "Nihon University",
+   "school_zh": "日本大学",
+   "school_short": "日大",
+   "country": "JP",
+   "industry_score": 50,
+   "category": "影视"
+  },
+  {
+   "school_en": "Japan Institute of the Moving Image",
+   "school_zh": "日本映画大学",
+   "school_short": "映画大学",
+   "country": "JP",
+   "industry_score": 50,
+   "category": "影视"
+  },
+  {
+   "school_en": "Tokyo Polytechnic University",
+   "school_zh": "东京工艺大学",
+   "school_short": "东京工艺",
+   "country": "JP",
+   "industry_score": 48,
+   "category": "影视 + 写真"
+  },
+  {
+   "school_en": "Tokyo Zokei University",
+   "school_zh": "东京造形大学",
+   "school_short": "东京造形",
+   "country": "JP",
+   "industry_score": 48,
+   "category": "影视 + 写真"
+  },
+  {
+   "school_en": "Ritsumeikan University",
+   "school_zh": "立命馆大学",
+   "school_short": "立命馆",
+   "country": "JP",
+   "industry_score": 48,
+   "category": "影视 + 传媒"
+  },
+  {
+   "school_en": "Musashino Art University",
+   "school_zh": "武藏野美术大学",
+   "school_short": "武藏美",
+   "country": "JP",
+   "industry_score": 48,
+   "category": "影视 + 写真"
+  },
+  {
+   "school_en": "Akita University of Art",
+   "school_zh": "秋田公立美术大学",
+   "school_short": "秋田公立美大",
+   "country": "JP",
+   "industry_score": 48,
+   "category": "艺术影像"
+  },
+  {
+   "school_en": "Kanazawa College of Art",
+   "school_zh": "金泽美术工艺大学",
+   "school_short": "金泽美工",
+   "country": "JP",
+   "industry_score": 48,
+   "category": "影视 + 写真"
+  },
+  {
+   "school_en": "Rikkyo University",
+   "school_zh": "立教大学",
+   "school_short": "立教",
+   "country": "JP",
+   "industry_score": 47,
+   "category": "影视研究"
+  },
+  {
+   "school_en": "Tohoku University of Art and Design",
+   "school_zh": "东北艺术工科大学",
+   "school_short": "东北艺工大",
+   "country": "JP",
+   "industry_score": 47,
+   "category": "影视 + 设计"
+  },
+  {
+   "school_en": "Osaka University of Arts",
+   "school_zh": "大阪艺术大学",
+   "school_short": "大阪艺大",
+   "country": "JP",
+   "industry_score": 47,
+   "category": "影视 + 写真"
+  },
+  {
+   "school_en": "Kyoto University of the Arts",
+   "school_zh": "京都艺术大学",
+   "school_short": "京都艺大",
+   "country": "JP",
+   "industry_score": 47,
+   "category": "影视 + 写真"
+  },
+  {
+   "school_en": "Kyushu Sangyo University",
+   "school_zh": "九州产业大学",
+   "school_short": "九州产业",
+   "country": "JP",
+   "industry_score": 47,
+   "category": "影视 + 写真"
+  },
+  {
+   "school_en": "Kobe Design University",
+   "school_zh": "神户艺术工科大学",
+   "school_short": "神户艺工",
+   "country": "JP",
+   "industry_score": 47,
+   "category": "影视 + 设计"
+  },
+  {
+   "school_en": "Hiroshima City University",
+   "school_zh": "广岛市立大学",
+   "school_short": "广岛市立",
+   "country": "JP",
+   "industry_score": 46,
+   "category": "艺术影像"
+  },
+  {
+   "school_en": "Digital Hollywood University",
+   "school_zh": "数字好莱坞大学",
+   "school_short": "数字好莱坞",
+   "country": "JP",
+   "industry_score": 46,
+   "category": "影像内容延展"
+  },
+  {
+   "school_en": "Nagoya University of the Arts",
+   "school_zh": "名古屋艺术大学",
+   "school_short": "名古屋艺大",
+   "country": "JP",
+   "industry_score": 46,
+   "category": "影视 + 写真"
+  },
+  {
+   "school_en": "Bunka Gakuen University",
+   "school_zh": "文化学园大学",
+   "school_short": "文化学园",
+   "country": "JP",
+   "industry_score": 46,
+   "category": "影视 + 设计"
+  },
+  {
+   "school_en": "Shobi University",
+   "school_zh": "尚美学园大学",
+   "school_short": "尚美学园",
+   "country": "JP",
+   "industry_score": 46,
+   "category": "影视 + 音频"
+  },
+  {
+   "school_en": "Tama Art University",
+   "school_zh": "多摩美术大学",
+   "school_short": "多摩美",
+   "country": "JP",
+   "industry_score": 46,
+   "category": "写真 + 设计"
+  },
+  {
+   "school_en": "Nagaoka Institute of Design",
+   "school_zh": "长冈造形大学",
+   "school_short": "长冈造形",
+   "country": "JP",
+   "industry_score": 45,
+   "category": "写真 + 设计"
+  },
+  {
+   "school_en": "Okayama Prefectural University",
+   "school_zh": "冈山县立大学",
+   "school_short": "冈山县立",
+   "country": "JP",
+   "industry_score": 45,
+   "category": "写真 + 视觉设计"
+  },
+  {
+   "school_en": "Seian University of Art and Design",
+   "school_zh": "成安造形大学",
+   "school_short": "成安造形",
+   "country": "JP",
+   "industry_score": 45,
+   "category": "写真 + 设计"
+  },
+  {
+   "school_en": "Bunsei University of Art",
+   "school_zh": "文星艺术大学",
+   "school_short": "文星艺大",
+   "country": "JP",
+   "industry_score": 45,
+   "category": "写真 + 设计"
+  },
+  {
+   "school_en": "Yokohama University of Art and Design",
+   "school_zh": "横滨美术大学",
+   "school_short": "横滨美大",
+   "country": "JP",
+   "industry_score": 45,
+   "category": "写真 + 影像"
+  },
+  {
+   "school_en": "Nagoya University of Arts and Sciences",
+   "school_zh": "名古屋学艺大学",
+   "school_short": "名古屋学艺",
+   "country": "JP",
+   "industry_score": 45,
+   "category": "影视 + 写真"
+  },
+  {
+   "school_en": "J. F. Oberlin University",
+   "school_zh": "樱美林大学",
+   "school_short": "樱美林",
+   "country": "JP",
+   "industry_score": 44,
+   "category": "影视 + 写真"
+  },
+  {
+   "school_en": "Tokyo College of Photography",
+   "school_zh": "东京综合写真专门学校",
+   "school_short": "东京综合写真",
+   "country": "JP",
+   "industry_score": 44,
+   "category": "写真专门学校"
+  }
+ ],
+ "_meta": {
+  "sidebar_job_max_per_group": 3,
+  "sidebar_job_one_per_school": true,
+  "sidebar_company_total": 5,
+  "sidebar_company_one_per_school": true,
+  "country_groups": {
+   "US": [
+    "US"
+   ],
+   "UK": [
+    "UK"
+   ],
+   "HK_SG": [
+    "HK",
+    "MO"
+   ],
+   "OTHER": [
+    "JP",
+    "KR",
+    "AU",
+    "CA",
+    "NZ"
+   ]
+  },
+  "group_labels": {
+   "US": "🇺🇸 美国",
+   "UK": "🇬🇧 英国",
+   "HK_SG": "🇭🇰 港澳",
+   "OTHER": "🌏 其他"
+  }
+ }
+}

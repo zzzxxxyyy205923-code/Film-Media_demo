@@ -1,0 +1,1946 @@
+{
+ "cats": [
+  {
+   "name": "关键节点",
+   "type": "milestone"
+  },
+  {
+   "name": "专业成长",
+   "type": "summer"
+  },
+  {
+   "name": "求职准备",
+   "type": "internship"
+  }
+ ],
+ "cohorts": [
+  "26Fall",
+  "27Fall",
+  "28Fall"
+ ],
+ "routes": [
+  "英研",
+  "美研",
+  "日研",
+  "韩研"
+ ],
+ "views": [
+  {
+   "id": "all",
+   "label": "全部"
+  },
+  {
+   "id": "apply",
+   "label": "留学申请"
+  },
+  {
+   "id": "job",
+   "label": "求职准备"
+  }
+ ],
+ "tracks": [
+  {
+   "id": "26Fall|英研",
+   "cohort": "26Fall",
+   "route": "英研",
+   "windowLabel": "校招主窗口",
+   "firstWindow": "2026.07-2026.10",
+   "lead": "英研多数为 1 年制，求职准备不能等到开学后再开始。最关键的是尽快把作品、实习和岗位方向同步收拢。",
+   "note": "26Fall 这条线看的是完整校招节奏，不是只看投递，而是要一直推进到毕业、认证和正式入职。"
+  },
+  {
+   "id": "26Fall|美研",
+   "cohort": "26Fall",
+   "route": "美研",
+   "windowLabel": "校招主窗口",
+   "firstWindow": "2027.07-2027.10",
+   "lead": "美研的求职节奏更长，但真正有竞争力的人，往往会在第一个暑期前就建立作品、项目和岗位认知，而不是临近毕业才集中准备。",
+   "note": "美研路线的关键不是临近毕业才开始找工作，而是尽早把课堂项目、暑期实习和校招材料连成一条线。"
+  },
+  {
+   "id": "26Fall|日研",
+   "cohort": "26Fall",
+   "route": "日研",
+   "windowLabel": "校招主窗口",
+   "firstWindow": "2027.07-2027.10",
+   "lead": "日研求职需要和语言、研究室资源、影展或项目机会一起推进。越早把作品整理成可说明、可表达、可展示的形式，后续越容易衔接申请与就业。",
+   "note": "日研路线展示的是完整求职周期，既包含回国秋招，也兼容日本本地就活的收口节奏。"
+  },
+  {
+   "id": "26Fall|韩研",
+   "cohort": "26Fall",
+   "route": "韩研",
+   "windowLabel": "校招主窗口",
+   "firstWindow": "2027.07-2027.10",
+   "lead": "韩研路径更强调方向明确、执行力清晰和项目分工清楚。越早把作品经验整理成岗位语言，越容易后续衔接实习与求职。",
+   "note": "韩研路线按完整校招节奏排，不只看秋招投递，也覆盖春招补录与最终入职。"
+  },
+  {
+   "id": "27Fall|英研",
+   "cohort": "27Fall",
+   "route": "英研",
+   "windowLabel": "申请启动期",
+   "firstWindow": "2026.06-2026.12",
+   "lead": "英研多数项目为滚动录取或分轮申请，真正拉开差距的往往不是是否有作品，而是能否在申请前把作品集、AI能力和真实项目经历同步做完整。",
+   "note": "申请截止日前的 AI 实训课、实习与项目经历，同时计入留学申请准备与求职准备。"
+  },
+  {
+   "id": "27Fall|美研",
+   "cohort": "27Fall",
+   "route": "美研",
+   "windowLabel": "申请启动期",
+   "firstWindow": "2026.06-2026.12",
+   "lead": "美研申请材料通常更复杂，除了作品本身，还会考察自我表达、写作能力、创作思路和团队协作意识。",
+   "note": "美研路线的申请材料更复杂，所以更适合把作品、AI 实训课和项目经历放在同一条主线上推进。"
+  },
+  {
+   "id": "27Fall|日研",
+   "cohort": "27Fall",
+   "route": "日研",
+   "windowLabel": "申请启动期",
+   "firstWindow": "2026.06-2026.12",
+   "lead": "日研更适合把申请理解为作品、研究方向和语言表达的综合过程。对于电影方向来说，除了成片或文本本身，能否清晰说明创作意图和后续研究路径同样非常重要。",
+   "note": "日研路线按真实春季入学节奏换算，申请部分与求职部分不是割裂的两条线。"
+  },
+  {
+   "id": "27Fall|韩研",
+   "cohort": "27Fall",
+   "route": "韩研",
+   "windowLabel": "申请启动期",
+   "firstWindow": "2026.06-2026.11",
+   "lead": "韩研电影方向通常更强调方向明确、书面说明完整和执行方案清楚。很多学校不仅看最终成片，也会看申请者如何理解自己的作品和如何说明创作计划。",
+   "note": "韩研路线展示的是完整全周期：申请、入学、在读项目、毕业求职和最终入职。"
+  },
+  {
+   "id": "28Fall|英研",
+   "cohort": "28Fall",
+   "route": "英研",
+   "windowLabel": "申请启动期",
+   "firstWindow": "2027.06-2027.12",
+   "lead": "28Fall 与 27Fall 的核心逻辑一致，差别主要是时间整体后移一年。作品集、AI 实训课和项目经历的联动关系保持不变。",
+   "note": "28Fall 的展示方式与 27Fall 保持一致，后续如果整体改起始时间，可以优先改这一组时间段文本。"
+  },
+  {
+   "id": "28Fall|美研",
+   "cohort": "28Fall",
+   "route": "美研",
+   "windowLabel": "申请启动期",
+   "firstWindow": "2027.06-2027.12",
+   "lead": "28Fall 美研仍然建议把作品、AI 实训课和项目经历放在同一条主线上推进，申请只是这条线中的第一段。",
+   "note": "28Fall 美研的终点同样是入职，而不是入学。页面里看起来是申请线，实际上背后是完整职业线。"
+  },
+  {
+   "id": "28Fall|日研",
+   "cohort": "28Fall",
+   "route": "日研",
+   "windowLabel": "申请启动期",
+   "firstWindow": "2027.06-2027.12",
+   "lead": "28Fall 日研依然建议按真实春季入学节奏理解，不要机械套用英美秋季入学逻辑。",
+   "note": "日研 28Fall 依然建议优先改时间段文本，而不是改整套逻辑。逻辑本身和 27Fall 保持一致。"
+  },
+  {
+   "id": "28Fall|韩研",
+   "cohort": "28Fall",
+   "route": "韩研",
+   "windowLabel": "申请启动期",
+   "firstWindow": "2027.06-2027.11",
+   "lead": "28Fall 韩研同样采用全周期展示方式：申请、入学、在读项目、毕业求职和最终入职是一条连续主线。",
+   "note": "韩研 28Fall 同样遵循“申请截止日前的项目同时计入申请与求职”的规则。"
+  }
+ ],
+ "bars": [
+  {
+   "track": "26Fall|英研",
+   "year": "2026",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "出国前准备期",
+   "start": 1,
+   "end": 2,
+   "period": "2026.06-2026.07",
+   "portfolio": "整理短片、剧本、分镜和课程作业，先做一版可投递作品包。",
+   "ai": "AI 分镜、AI moodboard、AI pitch deck 入门。",
+   "action": "立刻定岗；补中英简历；补 1 段可写进简历的实习或项目。",
+   "output": "简历 1.0 + 作品包 1.0",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "英研"
+  },
+  {
+   "track": "26Fall|英研",
+   "year": "2026",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "提前批与秋招主战场",
+   "start": 2,
+   "end": 4,
+   "period": "2026.07-2026.10",
+   "portfolio": "用暑期项目补 1 个更商业化的作品样本，形成岗位版作品包。",
+   "ai": "AI 镜头预演、AI 宣发物料基础。",
+   "action": "集中打提前批、秋招、内推；开始第一轮笔试与初面。",
+   "output": "秋招投递包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "英研"
+  },
+  {
+   "track": "26Fall|英研",
+   "year": "2026",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "笔试面试与 offer 冲刺",
+   "start": 4,
+   "end": 6,
+   "period": "2026.10-2026.12",
+   "portfolio": "根据面试反馈调整作品表达与项目讲法。",
+   "ai": "AI 复盘、AI case study 包装。",
+   "action": "进入二面、终面、补申与 offer 冲刺阶段。",
+   "output": "面试冲刺包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "英研"
+  },
+  {
+   "track": "26Fall|英研",
+   "year": "2027",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "春招补录期",
+   "start": 7,
+   "end": 9,
+   "period": "2027.01-2027.03",
+   "portfolio": "把课堂项目和合作项目继续转成求职案例。",
+   "ai": "AI 面试表达、AI 项目讲述训练。",
+   "action": "继续投递春招、补录岗位与中小型内容公司机会。",
+   "output": "春招补录包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "英研"
+  },
+  {
+   "track": "26Fall|英研",
+   "year": "2027",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "毕业、认证、入职期",
+   "start": 10,
+   "end": 12,
+   "period": "2027.04-2027.07",
+   "portfolio": "按最终岗位方向微调作品展示。",
+   "ai": "AI 项目归档。",
+   "action": "完成毕业、留服认证与正式入职衔接。",
+   "output": "入职结果",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "英研"
+  },
+  {
+   "track": "26Fall|美研",
+   "year": "2026",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "第一学年积累期",
+   "start": 1,
+   "end": 6,
+   "period": "2026.06-2027.05",
+   "portfolio": "整理 visual sample、writing sample、合作项目 credit，把课堂项目逐步转成简历与作品条目。",
+   "ai": "AI 分镜、AI 预演、AI 虚拟拍摄认知、AI presentation。",
+   "action": "定岗；准备英文简历、作品页；争取校内 crew、教授项目、学生剧组。",
+   "output": "求职底稿 + 第一版作品页",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "美研"
+  },
+  {
+   "track": "26Fall|美研",
+   "year": "2027",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "暑期实习与秋招准备",
+   "start": 6,
+   "end": 7,
+   "period": "2027.06-2027.08",
+   "portfolio": "用暑期项目补强商业化或工业化样本。",
+   "ai": "AI trailer cut、AI 项目包装。",
+   "action": "冲刺暑期实习，并为第一波全职校招准备多版本简历。",
+   "output": "暑期实习成果包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "美研"
+  },
+  {
+   "track": "26Fall|美研",
+   "year": "2027",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "提前批与秋招主战场",
+   "start": 7,
+   "end": 8,
+   "period": "2027.07-2027.10",
+   "portfolio": "完成岗位版作品包、reel、writing packet。",
+   "ai": "AI 面试表达、AI case study。",
+   "action": "集中投递提前批、秋招、内推岗位。",
+   "output": "秋招投递包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "美研"
+  },
+  {
+   "track": "26Fall|美研",
+   "year": "2027",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "笔试面试与 offer 冲刺",
+   "start": 8,
+   "end": 9,
+   "period": "2027.10-2028.01",
+   "portfolio": "根据岗位方向继续细化导演、编剧、制片或后期版本。",
+   "ai": "AI 项目讲述训练、AI 复盘。",
+   "action": "进入笔试、面试、终面与 offer 冲刺阶段。",
+   "output": "面试冲刺包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "美研"
+  },
+  {
+   "track": "26Fall|美研",
+   "year": "2028",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "春招补录期",
+   "start": 10,
+   "end": 10,
+   "period": "2028.02-2028.04",
+   "portfolio": "把新项目和在读成果继续补进作品集。",
+   "ai": "AI 归档与补充样本。",
+   "action": "继续投递春招、补录岗位与内容团队机会。",
+   "output": "春招补录包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "美研"
+  },
+  {
+   "track": "26Fall|美研",
+   "year": "2028",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "毕业、认证、入职期",
+   "start": 11,
+   "end": 12,
+   "period": "2028.05-2028.09",
+   "portfolio": "按目标岗位微调最终作品展示。",
+   "ai": "AI 项目归档。",
+   "action": "完成毕业、留服认证与正式入职衔接。",
+   "output": "入职结果",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "美研"
+  },
+  {
+   "track": "26Fall|日研",
+   "year": "2026",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "在读积累期",
+   "start": 1,
+   "end": 6,
+   "period": "2026.06-2027.05",
+   "portfolio": "整理短片与日文作品说明，逐步把课堂、研究室或个人项目转成展示条目。",
+   "ai": "AI 分镜、AI 资料整理、AI 字幕辅助、AI presentation。",
+   "action": "补日文简历；优先争取纪录片、后期、影展、字幕类项目与教授项目。",
+   "output": "日文求职材料底稿",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "日研"
+  },
+  {
+   "track": "26Fall|日研",
+   "year": "2027",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "求职收口与秋招准备",
+   "start": 7,
+   "end": 7,
+   "period": "2027.06-2027.08",
+   "portfolio": "打通作品、研究方向和职业方向，形成岗位版作品包。",
+   "ai": "AI 后期辅助、AI 宣传包装。",
+   "action": "集中补项目经历，为回国秋招或日本本地就活做准备。",
+   "output": "求职作品包 1.0",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "日研"
+  },
+  {
+   "track": "26Fall|日研",
+   "year": "2027",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "提前批与秋招主战场",
+   "start": 7,
+   "end": 8,
+   "period": "2027.07-2027.10",
+   "portfolio": "完成可用于面试的作品清单与项目说明。",
+   "ai": "AI 面试表达、AI 项目讲述训练。",
+   "action": "集中投递秋招、提前批与内容类岗位。",
+   "output": "秋招投递包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "日研"
+  },
+  {
+   "track": "26Fall|日研",
+   "year": "2027",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "笔试面试与 offer 冲刺",
+   "start": 8,
+   "end": 10,
+   "period": "2027.10-2028.01",
+   "portfolio": "根据岗位反馈继续微调作品表达。",
+   "ai": "AI 复盘、AI case study。",
+   "action": "进入笔试、面试、终面与 offer 沟通阶段。",
+   "output": "面试冲刺包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "日研"
+  },
+  {
+   "track": "26Fall|日研",
+   "year": "2028",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "春招补录期",
+   "start": 10,
+   "end": 11,
+   "period": "2028.02-2028.04",
+   "portfolio": "将新增项目继续补入作品包。",
+   "ai": "AI 项目归档。",
+   "action": "继续投递春招与补录岗位，也可同步推进日本本地就活收尾。",
+   "output": "春招补录包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "日研"
+  },
+  {
+   "track": "26Fall|日研",
+   "year": "2028",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "毕业、认证、入职期",
+   "start": 11,
+   "end": 12,
+   "period": "2028.04-2028.07",
+   "portfolio": "按目标岗位微调最终展示。",
+   "ai": "AI 归档。",
+   "action": "完成毕业、认证与正式入职衔接。",
+   "output": "入职结果",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "日研"
+  },
+  {
+   "track": "26Fall|韩研",
+   "year": "2026",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "在读积累期",
+   "start": 1,
+   "end": 5,
+   "period": "2026.06-2027.02",
+   "portfolio": "整理作品、韩文或英文说明、项目分工，至少完成 1 个完整案例。",
+   "ai": "AI 分镜、AI 镜头设计、AI 视觉测试、AI previz。",
+   "action": "补韩文简历；优先争取剧组、后期、AI 内容团队项目。",
+   "output": "韩文求职底稿",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "26Fall|韩研",
+   "year": "2027",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "求职收口与秋招准备",
+   "start": 5,
+   "end": 7,
+   "period": "2027.03-2027.06",
+   "portfolio": "根据岗位拆分导演、编剧、制片、后期不同版本。",
+   "ai": "AI 剪辑辅助、AI case study 包装。",
+   "action": "继续补短项目、片场、内容团队经历，形成可投递版本。",
+   "output": "求职作品包 1.0",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "26Fall|韩研",
+   "year": "2027",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "提前批与秋招主战场",
+   "start": 7,
+   "end": 8,
+   "period": "2027.07-2027.10",
+   "portfolio": "完成可面试级作品包与项目说明。",
+   "ai": "AI 面试表达、AI 项目讲述训练。",
+   "action": "集中投递提前批、秋招、内推岗位。",
+   "output": "秋招投递包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "26Fall|韩研",
+   "year": "2027",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "笔试面试与 offer 冲刺",
+   "start": 8,
+   "end": 10,
+   "period": "2027.10-2028.01",
+   "portfolio": "根据岗位反馈继续细化展示版本。",
+   "ai": "AI 复盘、AI 演示包装。",
+   "action": "进入面试、终面与 offer 沟通阶段。",
+   "output": "面试冲刺包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "26Fall|韩研",
+   "year": "2028",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "春招补录期",
+   "start": 10,
+   "end": 11,
+   "period": "2028.02-2028.04",
+   "portfolio": "将新增项目继续补入作品包。",
+   "ai": "AI 项目归档。",
+   "action": "继续投递春招与补录岗位。",
+   "output": "春招补录包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "26Fall|韩研",
+   "year": "2028",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "毕业、认证、入职期",
+   "start": 11,
+   "end": 12,
+   "period": "2028.03-2028.07",
+   "portfolio": "按目标岗位微调最终展示。",
+   "ai": "AI 归档。",
+   "action": "完成毕业、认证与正式入职衔接。",
+   "output": "入职结果",
+   "tags": [
+    "job"
+   ],
+   "cohort": "26Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "27Fall|英研",
+   "year": "2026",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "方向定位与基础训练",
+   "start": 1,
+   "end": 2,
+   "period": "2026.06-2026.09",
+   "portfolio": "阅片、剧本分析、logline、treatment，完成 1-2 个小样片或脚本练习。",
+   "ai": "AI 分镜、AI moodboard、AI 文本到提案工作流。",
+   "action": "暑期跟组、影展志愿者、独立制片短实习。",
+   "output": "方向确认 + 作品雏形",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "英研"
+  },
+  {
+   "track": "27Fall|英研",
+   "year": "2026",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "第一批申请与主项目立项",
+   "start": 2,
+   "end": 3,
+   "period": "2026.10-2026.12",
+   "portfolio": "主短片或主剧本立项，完成大纲、人物、小传和视觉方案。",
+   "ai": "AI pitch deck、AI 镜头预演。",
+   "action": "继续做与作品集高度相关的实习，如编剧开发、制片助理、拍摄助理。",
+   "output": "主项目立项包",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "英研"
+  },
+  {
+   "track": "27Fall|英研",
+   "year": "2027",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "集中递交与补件面试",
+   "start": 3,
+   "end": 5,
+   "period": "2027.01-2027.04",
+   "portfolio": "主剧本定稿、分镜、场景设计、拍摄规划。",
+   "ai": "AI shot list、AI previsualization。",
+   "action": "春季继续补真实项目经历，优先短项目或 remote 实习。",
+   "output": "完整申请包",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "英研"
+  },
+  {
+   "track": "27Fall|英研",
+   "year": "2027",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "入学衔接与入学前作品定稿",
+   "start": 5,
+   "end": 6,
+   "period": "2027.05-2027.09",
+   "portfolio": "拍摄、粗剪、定剪、作品集打包。",
+   "ai": "AI 后期辅助、AI 海报与预告片包装。",
+   "action": "暑期实习继续推进，为入学后求职做前置积累。",
+   "output": "入学前最终作品集",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "英研"
+  },
+  {
+   "track": "27Fall|英研",
+   "year": "2027",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "入学后第一阶段积累",
+   "start": 6,
+   "end": 8,
+   "period": "2027.09-2028.01",
+   "portfolio": "把课堂练习、合作短片、导演或编剧作业转化为岗位样本。",
+   "ai": "AI 剪辑辅助、AI case study 包装。",
+   "action": "对接学校 career service、校友资源与行业活动；开始关注回国秋招与本地实习。",
+   "output": "在读求职底稿",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "英研"
+  },
+  {
+   "track": "27Fall|英研",
+   "year": "2028",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "毕业项目与求职材料定稿",
+   "start": 8,
+   "end": 9,
+   "period": "2028.02-2028.06",
+   "portfolio": "毕业主项目与岗位版作品集并行优化。",
+   "ai": "AI trailer cut、AI presentation、AI 项目复盘。",
+   "action": "冲刺实习、part-time 或项目合作，完善简历与作品页。",
+   "output": "求职作品集终版",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "英研"
+  },
+  {
+   "track": "27Fall|英研",
+   "year": "2028",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "秋招主战场",
+   "start": 10,
+   "end": 11,
+   "period": "2028.07-2028.10",
+   "portfolio": "把毕业作品转成可面试案例。",
+   "ai": "AI 面试表达、AI 项目讲述训练。",
+   "action": "集中投递国内外岗位，准备笔试、面试、内推。",
+   "output": "面试冲刺包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "英研"
+  },
+  {
+   "track": "27Fall|英研",
+   "year": "2028",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "面试、春招与入职衔接",
+   "start": 11,
+   "end": 12,
+   "period": "2028.10-2029.03",
+   "portfolio": "根据岗位反馈微调作品展示。",
+   "ai": "AI 复盘与补充样本。",
+   "action": "拿 offer、完成认证与入职落地。",
+   "output": "入职结果",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "英研"
+  },
+  {
+   "track": "27Fall|美研",
+   "year": "2026",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "定校定专业与样本池搭建",
+   "start": 1,
+   "end": 2,
+   "period": "2026.06-2026.08",
+   "portfolio": "准备 visual sample、writing sample、个人叙事素材，做 1 个短片练习。",
+   "ai": "AI 分镜、AI 剧本拆解、AI 虚拟拍摄入门。",
+   "action": "暑期短实习、学生剧组、AI 内容公司项目制实践。",
+   "output": "美研申请框架",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "美研"
+  },
+  {
+   "track": "27Fall|美研",
+   "year": "2026",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "主申季",
+   "start": 2,
+   "end": 3,
+   "period": "2026.09-2026.12",
+   "portfolio": "完成主 visual sample、自我介绍视频、SOP、writing package 与补充题。",
+   "ai": "AI previz、AI pitch deck、AI virtual production workflow。",
+   "action": "秋季继续积累项目 credit，优先选择可写入简历的岗位。",
+   "output": "主申材料定稿",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "美研"
+  },
+  {
+   "track": "27Fall|美研",
+   "year": "2027",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "面试、补件与结果等待",
+   "start": 3,
+   "end": 3,
+   "period": "2027.01-2027.03",
+   "portfolio": "优化作者性、协作能力和技术能力的作品集表达。",
+   "ai": "AI narrative testing、AI look development。",
+   "action": "春季争取短实习、festival assistant、development assistant 等岗位。",
+   "output": "面试版作品包",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "美研"
+  },
+  {
+   "track": "27Fall|美研",
+   "year": "2027",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "入学衔接与入学前强化",
+   "start": 4,
+   "end": 5,
+   "period": "2027.04-2027.08",
+   "portfolio": "再补 1 个体现岗位能力的小项目，避免入学前作品停滞。",
+   "ai": "AI trailer cut、AI 资产管理、AI 演示包装。",
+   "action": "入学前建立 LA / NY 公司与校友联系人池。",
+   "output": "入学前强化版作品集",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "美研"
+  },
+  {
+   "track": "27Fall|美研",
+   "year": "2027",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "第一学年积累",
+   "start": 5,
+   "end": 7,
+   "period": "2027.09-2028.05",
+   "portfolio": "把课堂短片、合作项目、片场 credit 转成可展示条目。",
+   "ai": "AI 虚拟拍摄进阶、AI 制片协同、AI 演示文稿训练。",
+   "action": "进入 student production、教授项目、校内 crew，准备次年暑期实习。",
+   "output": "第一学年求职底稿",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "美研"
+  },
+  {
+   "track": "27Fall|美研",
+   "year": "2028",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "第一轮暑期实习",
+   "start": 7,
+   "end": 8,
+   "period": "2028.06-2028.08",
+   "portfolio": "用暑期项目补强商业化或工业化样本。",
+   "ai": "AI workflow 实操、AI 项目归档。",
+   "action": "争取 studio、production company、streaming、AI 内容公司实习。",
+   "output": "暑期实习成果包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "美研"
+  },
+  {
+   "track": "27Fall|美研",
+   "year": "2028",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "第二学年与毕业求职并行",
+   "start": 8,
+   "end": 10,
+   "period": "2028.09-2029.03",
+   "portfolio": "毕业项目、reel、writing packet、岗位版作品包同步推进。",
+   "ai": "AI trailer cut、AI case study、AI 面试表达。",
+   "action": "集中准备全职投递、校友内推、行业活动与面试。",
+   "output": "毕业求职作品集终版",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "美研"
+  },
+  {
+   "track": "27Fall|美研",
+   "year": "2029",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "毕业前后集中投递",
+   "start": 10,
+   "end": 11,
+   "period": "2029.04-2029.09",
+   "portfolio": "把毕业作品和实习项目转成最终面试案例。",
+   "ai": "AI 复盘与补充样本。",
+   "action": "集中投递国内外岗位，冲刺全职 offer。",
+   "output": "面试冲刺包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "美研"
+  },
+  {
+   "track": "27Fall|美研",
+   "year": "2029",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "面试、春招与入职衔接",
+   "start": 11,
+   "end": 12,
+   "period": "2029.09-2030.03",
+   "portfolio": "根据岗位反馈微调作品展示。",
+   "ai": "AI 项目讲述与岗位复盘。",
+   "action": "拿 offer、完成入职落地。",
+   "output": "入职结果",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "美研"
+  },
+  {
+   "track": "27Fall|日研",
+   "year": "2026",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "方向确定与前期准备",
+   "start": 1,
+   "end": 2,
+   "period": "2026.06-2026.08",
+   "portfolio": "做日语环境下成立的作品阐述，包括短片、剧本、研究计划与动机说明。",
+   "ai": "AI 分镜、AI 视觉参考、AI 资料整理。",
+   "action": "暑期跟组、字幕、后期、纪录片辅助、AI 内容小项目。",
+   "output": "日研申请底稿",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "日研"
+  },
+  {
+   "track": "27Fall|日研",
+   "year": "2026",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "募集要项发布后补件",
+   "start": 2,
+   "end": 2,
+   "period": "2026.08-2026.10",
+   "portfolio": "打磨作品样本、研究计划和日文说明文本。",
+   "ai": "AI 提案可视化、AI pitch 页面。",
+   "action": "继续累积能写进 profile 的项目经历。",
+   "output": "可提交版申请包",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "日研"
+  },
+  {
+   "track": "27Fall|日研",
+   "year": "2026",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "正式出愿",
+   "start": 3,
+   "end": 3,
+   "period": "2026.11-2026.12",
+   "portfolio": "压缩作品包，突出为什么在该研究科继续创作与研究。",
+   "ai": "AI 演示辅助、AI 口头表达 rehearsal。",
+   "action": "保持项目参与，不要在申请季完全断掉实践。",
+   "output": "正式出愿",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "日研"
+  },
+  {
+   "track": "27Fall|日研",
+   "year": "2027",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "考试、面试与结果等待",
+   "start": 3,
+   "end": 4,
+   "period": "2027.01-2027.03",
+   "portfolio": "针对口试继续优化作品说明和研究陈述。",
+   "ai": "AI presentation 辅助。",
+   "action": "可继续做短项目或 part-time，保持作品与实务感。",
+   "output": "录取冲刺包",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "日研"
+  },
+  {
+   "track": "27Fall|日研",
+   "year": "2027",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "入学后第一阶段积累",
+   "start": 4,
+   "end": 6,
+   "period": "2027.04-2027.09",
+   "portfolio": "把课堂与研究项目逐步沉淀成可展示条目。",
+   "ai": "AI 影像整理、AI 字幕与资料管理。",
+   "action": "优先争取研究室项目、影展、纪录片、后期辅助类实践。",
+   "output": "在读项目底稿",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "日研"
+  },
+  {
+   "track": "27Fall|日研",
+   "year": "2027",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "在读深化与方向收拢",
+   "start": 6,
+   "end": 8,
+   "period": "2027.10-2028.03",
+   "portfolio": "继续深化短片、剧本或研究型作品，并补完整说明文本。",
+   "ai": "AI 后期辅助、AI presentation。",
+   "action": "保持项目参与，补 1-2 段更有含金量的实践。",
+   "output": "中期作品包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "日研"
+  },
+  {
+   "track": "27Fall|日研",
+   "year": "2028",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "毕业作品与求职启动",
+   "start": 8,
+   "end": 10,
+   "period": "2028.04-2028.09",
+   "portfolio": "毕业作品、研究成果与岗位版作品集并行推进。",
+   "ai": "AI 宣传包装、AI 项目讲述。",
+   "action": "可以同时准备日本本地就活或回国秋招材料。",
+   "output": "毕业求职作品包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "日研"
+  },
+  {
+   "track": "27Fall|日研",
+   "year": "2028",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "面试、毕业与求职冲刺",
+   "start": 10,
+   "end": 12,
+   "period": "2028.10-2029.03",
+   "portfolio": "把毕业作品转成面试案例与口头表达版本。",
+   "ai": "AI 面试表达、AI 复盘。",
+   "action": "集中投递、参加面试、完成毕业手续。",
+   "output": "offer 冲刺包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "日研"
+  },
+  {
+   "track": "27Fall|日研",
+   "year": "2029",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "入职衔接期",
+   "start": 12,
+   "end": 12,
+   "period": "2029.04-2029.06",
+   "portfolio": "根据目标岗位微调作品展示。",
+   "ai": "AI 项目归档。",
+   "action": "留服认证、签证或入职手续推进。",
+   "output": "入职结果",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "日研"
+  },
+  {
+   "track": "27Fall|韩研",
+   "year": "2026",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "细分方向确认",
+   "start": 1,
+   "end": 1,
+   "period": "2026.06-2026.07",
+   "portfolio": "整理 1-2 件核心作品与书面说明。",
+   "ai": "AI 分镜、AI 镜头设计、AI 剧本拆解。",
+   "action": "暑期优先做短项目、剧组、后期、AI 内容项目。",
+   "output": "韩研申请框架",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "27Fall|韩研",
+   "year": "2026",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "正式申请材料准备与提交",
+   "start": 1,
+   "end": 2,
+   "period": "2026.07-2026.09",
+   "portfolio": "作品之外，同时准备 profile、study plan 或 project plan。",
+   "ai": "AI 提案图、AI previz、AI 项目演示。",
+   "action": "继续累积能明确写出职责分工的实习经历。",
+   "output": "正式申请包",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "27Fall|韩研",
+   "year": "2026",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "考试、面试与作品评估",
+   "start": 2,
+   "end": 3,
+   "period": "2026.10-2026.11",
+   "portfolio": "继续补作品分析、替代创作方案和项目计划书。",
+   "ai": "AI case study、AI 面试演示。",
+   "action": "保持片场、后期、内容团队实践不断档。",
+   "output": "面试 / 考试版材料",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "27Fall|韩研",
+   "year": "2026",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "入学衔接",
+   "start": 3,
+   "end": 4,
+   "period": "2026.12-2027.03",
+   "portfolio": "把申请材料进一步整理成入学后可继续发展的创作档案。",
+   "ai": "AI workflow 升级。",
+   "action": "入学前继续短项目或实习。",
+   "output": "入学前强化版作品与简历",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "27Fall|韩研",
+   "year": "2027",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "入学后第一阶段积累",
+   "start": 4,
+   "end": 6,
+   "period": "2027.03-2027.08",
+   "portfolio": "课堂项目与个人项目并行，形成第一批在读案例。",
+   "ai": "AI 剪辑辅助、AI 项目管理基础。",
+   "action": "争取剧组、内容团队、后期或 AI 内容方向项目。",
+   "output": "在读项目底稿",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "27Fall|韩研",
+   "year": "2027",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "在读深化与方向收拢",
+   "start": 6,
+   "end": 7,
+   "period": "2027.09-2028.02",
+   "portfolio": "根据岗位拆分导演、编剧、制片、后期不同版本作品。",
+   "ai": "AI case study、AI 演示包装。",
+   "action": "继续补片场、短项目、内容团队实践。",
+   "output": "中期作品包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "27Fall|韩研",
+   "year": "2028",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "毕业作品与求职准备并行",
+   "start": 8,
+   "end": 9,
+   "period": "2028.03-2028.08",
+   "portfolio": "用毕业项目补齐最核心的岗位样本。",
+   "ai": "AI trailer cut、AI 项目复盘。",
+   "action": "集中准备韩国本地求职或回国秋招材料。",
+   "output": "毕业求职作品集",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "27Fall|韩研",
+   "year": "2028",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "毕业前后求职冲刺",
+   "start": 10,
+   "end": 11,
+   "period": "2028.09-2029.02",
+   "portfolio": "把毕业作品与项目经历转成最终面试案例。",
+   "ai": "AI 面试表达、AI 复盘。",
+   "action": "集中投递、参加面试、推进内推与 offer 沟通。",
+   "output": "offer 冲刺包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "27Fall|韩研",
+   "year": "2029",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "入职衔接期",
+   "start": 12,
+   "end": 12,
+   "period": "2029.03-2029.06",
+   "portfolio": "根据岗位反馈微调展示版本。",
+   "ai": "AI 项目归档。",
+   "action": "完成认证、手续与正式入职。",
+   "output": "入职结果",
+   "tags": [
+    "job"
+   ],
+   "cohort": "27Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "28Fall|英研",
+   "year": "2027",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "方向定位与基础训练",
+   "start": 1,
+   "end": 2,
+   "period": "2027.06-2027.09",
+   "portfolio": "基础训练与小样片 / 脚本练习并行推进。",
+   "ai": "AI 分镜、AI moodboard、AI 提案工作流。",
+   "action": "暑期跟组、影展志愿、独立制片短实习。",
+   "output": "方向确认 + 作品雏形",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "英研"
+  },
+  {
+   "track": "28Fall|英研",
+   "year": "2027",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "第一批申请与主项目立项",
+   "start": 2,
+   "end": 3,
+   "period": "2027.10-2027.12",
+   "portfolio": "主短片或主剧本立项，搭建完整创作框架。",
+   "ai": "AI pitch deck、AI 镜头预演。",
+   "action": "继续做编剧开发、制片助理、拍摄助理类实习。",
+   "output": "主项目立项包",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "英研"
+  },
+  {
+   "track": "28Fall|英研",
+   "year": "2028",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "集中递交与补件面试",
+   "start": 3,
+   "end": 5,
+   "period": "2028.01-2028.04",
+   "portfolio": "主剧本定稿、分镜和拍摄规划同步完成。",
+   "ai": "AI shot list、AI previsualization。",
+   "action": "春季继续补真实项目经历。",
+   "output": "完整申请包",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "英研"
+  },
+  {
+   "track": "28Fall|英研",
+   "year": "2028",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "入学衔接与入学前作品定稿",
+   "start": 5,
+   "end": 6,
+   "period": "2028.05-2028.09",
+   "portfolio": "拍摄、剪辑、打包最终作品集。",
+   "ai": "AI 后期辅助、AI 海报与预告片包装。",
+   "action": "暑期实习继续推进。",
+   "output": "入学前最终作品集",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "英研"
+  },
+  {
+   "track": "28Fall|英研",
+   "year": "2028",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "入学后第一阶段积累",
+   "start": 6,
+   "end": 8,
+   "period": "2028.09-2029.01",
+   "portfolio": "把课堂练习和合作项目转化为岗位样本。",
+   "ai": "AI 剪辑辅助、AI case study 包装。",
+   "action": "对接 career service、校友资源与行业活动。",
+   "output": "在读求职底稿",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "英研"
+  },
+  {
+   "track": "28Fall|英研",
+   "year": "2029",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "毕业项目与求职材料定稿",
+   "start": 8,
+   "end": 9,
+   "period": "2029.02-2029.06",
+   "portfolio": "毕业主项目与岗位版作品集并行优化。",
+   "ai": "AI trailer cut、AI presentation、AI 项目复盘。",
+   "action": "冲刺实习、part-time 或项目合作。",
+   "output": "求职作品集终版",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "英研"
+  },
+  {
+   "track": "28Fall|英研",
+   "year": "2029",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "秋招主战场",
+   "start": 10,
+   "end": 11,
+   "period": "2029.07-2029.10",
+   "portfolio": "把毕业作品转成可面试案例。",
+   "ai": "AI 面试表达、AI 项目讲述训练。",
+   "action": "集中投递国内外岗位，准备笔试、面试、内推。",
+   "output": "面试冲刺包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "英研"
+  },
+  {
+   "track": "28Fall|英研",
+   "year": "2029",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "面试、春招与入职衔接",
+   "start": 11,
+   "end": 12,
+   "period": "2029.10-2030.03",
+   "portfolio": "根据岗位反馈微调作品展示。",
+   "ai": "AI 复盘与补充样本。",
+   "action": "拿 offer、完成认证与入职落地。",
+   "output": "入职结果",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "英研"
+  },
+  {
+   "track": "28Fall|美研",
+   "year": "2027",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "定校定专业与样本池搭建",
+   "start": 1,
+   "end": 2,
+   "period": "2027.06-2027.08",
+   "portfolio": "准备样本池与短片练习。",
+   "ai": "AI 分镜、AI 剧本拆解、AI 虚拟拍摄入门。",
+   "action": "暑期短实习、学生剧组、AI 内容公司项目。",
+   "output": "美研申请框架",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "美研"
+  },
+  {
+   "track": "28Fall|美研",
+   "year": "2027",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "主申季",
+   "start": 2,
+   "end": 3,
+   "period": "2027.09-2027.12",
+   "portfolio": "完成主 visual sample、自我介绍视频、SOP 和 writing package。",
+   "ai": "AI previz、AI pitch deck、AI virtual production workflow。",
+   "action": "秋季继续积累项目 credit。",
+   "output": "主申材料定稿",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "美研"
+  },
+  {
+   "track": "28Fall|美研",
+   "year": "2028",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "面试、补件与结果等待",
+   "start": 3,
+   "end": 3,
+   "period": "2028.01-2028.03",
+   "portfolio": "优化作品集表达与岗位语言。",
+   "ai": "AI narrative testing、AI look development。",
+   "action": "春季争取短实习、festival assistant、development assistant。",
+   "output": "面试版作品包",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "美研"
+  },
+  {
+   "track": "28Fall|美研",
+   "year": "2028",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "入学衔接与入学前强化",
+   "start": 4,
+   "end": 5,
+   "period": "2028.04-2028.08",
+   "portfolio": "再补 1 个体现岗位能力的小项目。",
+   "ai": "AI trailer cut、AI 资产管理、AI 演示包装。",
+   "action": "建立公司与校友联系人池。",
+   "output": "入学前强化版作品集",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "美研"
+  },
+  {
+   "track": "28Fall|美研",
+   "year": "2028",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "第一学年积累",
+   "start": 5,
+   "end": 7,
+   "period": "2028.09-2029.05",
+   "portfolio": "把课堂短片、合作项目和片场 credit 转成可展示条目。",
+   "ai": "AI 虚拟拍摄进阶、AI 制片协同、AI 演示文稿训练。",
+   "action": "进入 student production、教授项目、校内 crew，准备次年暑期实习。",
+   "output": "第一学年求职底稿",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "美研"
+  },
+  {
+   "track": "28Fall|美研",
+   "year": "2029",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "第一轮暑期实习",
+   "start": 7,
+   "end": 8,
+   "period": "2029.06-2029.08",
+   "portfolio": "用暑期项目补强商业化或工业化样本。",
+   "ai": "AI workflow 实操、AI 项目归档。",
+   "action": "争取 studio、production company、streaming、AI 内容公司实习。",
+   "output": "暑期实习成果包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "美研"
+  },
+  {
+   "track": "28Fall|美研",
+   "year": "2029",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "第二学年与毕业求职并行",
+   "start": 8,
+   "end": 10,
+   "period": "2029.09-2030.03",
+   "portfolio": "毕业项目、reel、writing packet、岗位版作品包同步推进。",
+   "ai": "AI trailer cut、AI case study、AI 面试表达。",
+   "action": "集中准备全职投递、校友内推、行业活动与面试。",
+   "output": "毕业求职作品集终版",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "美研"
+  },
+  {
+   "track": "28Fall|美研",
+   "year": "2030",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "毕业前后集中投递",
+   "start": 10,
+   "end": 11,
+   "period": "2030.04-2030.09",
+   "portfolio": "把毕业作品和实习项目转成最终面试案例。",
+   "ai": "AI 复盘与补充样本。",
+   "action": "集中投递国内外岗位，冲刺全职 offer。",
+   "output": "面试冲刺包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "美研"
+  },
+  {
+   "track": "28Fall|美研",
+   "year": "2030",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "面试、春招与入职衔接",
+   "start": 11,
+   "end": 12,
+   "period": "2030.09-2031.03",
+   "portfolio": "根据岗位反馈微调作品展示。",
+   "ai": "AI 项目讲述与岗位复盘。",
+   "action": "拿 offer、完成入职落地。",
+   "output": "入职结果",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "美研"
+  },
+  {
+   "track": "28Fall|日研",
+   "year": "2027",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "方向确定与前期准备",
+   "start": 1,
+   "end": 2,
+   "period": "2027.06-2027.08",
+   "portfolio": "做短片、剧本、研究计划与动机说明。",
+   "ai": "AI 分镜、AI 视觉参考、AI 资料整理。",
+   "action": "跟组、字幕、后期、纪录片辅助、AI 内容小项目。",
+   "output": "日研申请底稿",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "日研"
+  },
+  {
+   "track": "28Fall|日研",
+   "year": "2027",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "募集要项发布后补件",
+   "start": 2,
+   "end": 2,
+   "period": "2027.08-2027.10",
+   "portfolio": "打磨作品样本、研究计划和日文说明文本。",
+   "ai": "AI 提案可视化、AI pitch 页面。",
+   "action": "继续累积能写进 profile 的项目经历。",
+   "output": "可提交版申请包",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "日研"
+  },
+  {
+   "track": "28Fall|日研",
+   "year": "2027",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "正式出愿",
+   "start": 3,
+   "end": 3,
+   "period": "2027.11-2027.12",
+   "portfolio": "压缩作品包，突出创作与研究动机。",
+   "ai": "AI 演示辅助、AI 口头表达 rehearsal。",
+   "action": "保持项目参与。",
+   "output": "正式出愿",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "日研"
+  },
+  {
+   "track": "28Fall|日研",
+   "year": "2028",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "考试、面试与结果等待",
+   "start": 3,
+   "end": 4,
+   "period": "2028.01-2028.03",
+   "portfolio": "优化口试版本的作品说明与研究陈述。",
+   "ai": "AI presentation 辅助。",
+   "action": "可继续做短项目或 part-time。",
+   "output": "录取冲刺包",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "日研"
+  },
+  {
+   "track": "28Fall|日研",
+   "year": "2028",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "入学后第一阶段积累",
+   "start": 4,
+   "end": 6,
+   "period": "2028.04-2028.09",
+   "portfolio": "把课堂与研究项目逐步沉淀成可展示条目。",
+   "ai": "AI 影像整理、AI 字幕与资料管理。",
+   "action": "优先争取研究室项目、影展、纪录片、后期辅助类实践。",
+   "output": "在读项目底稿",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "日研"
+  },
+  {
+   "track": "28Fall|日研",
+   "year": "2028",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "在读深化与方向收拢",
+   "start": 6,
+   "end": 8,
+   "period": "2028.10-2029.03",
+   "portfolio": "继续深化短片、剧本或研究型作品，并补完整说明文本。",
+   "ai": "AI 后期辅助、AI presentation。",
+   "action": "保持项目参与，补 1-2 段更有含金量的实践。",
+   "output": "中期作品包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "日研"
+  },
+  {
+   "track": "28Fall|日研",
+   "year": "2029",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "毕业作品与求职启动",
+   "start": 8,
+   "end": 10,
+   "period": "2029.04-2029.09",
+   "portfolio": "毕业作品、研究成果与岗位版作品集并行推进。",
+   "ai": "AI 宣传包装、AI 项目讲述。",
+   "action": "可以同时准备日本本地就活或回国秋招材料。",
+   "output": "毕业求职作品包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "日研"
+  },
+  {
+   "track": "28Fall|日研",
+   "year": "2029",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "面试、毕业与求职冲刺",
+   "start": 10,
+   "end": 12,
+   "period": "2029.10-2030.03",
+   "portfolio": "把毕业作品转成面试案例与口头表达版本。",
+   "ai": "AI 面试表达、AI 复盘。",
+   "action": "集中投递、参加面试、完成毕业手续。",
+   "output": "offer 冲刺包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "日研"
+  },
+  {
+   "track": "28Fall|日研",
+   "year": "2030",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "入职衔接期",
+   "start": 12,
+   "end": 12,
+   "period": "2030.04-2030.06",
+   "portfolio": "根据目标岗位微调作品展示。",
+   "ai": "AI 项目归档。",
+   "action": "留服认证、签证或入职手续推进。",
+   "output": "入职结果",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "日研"
+  },
+  {
+   "track": "28Fall|韩研",
+   "year": "2027",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "细分方向确认",
+   "start": 1,
+   "end": 1,
+   "period": "2027.06-2027.07",
+   "portfolio": "整理 1-2 件核心作品与书面说明。",
+   "ai": "AI 分镜、AI 镜头设计、AI 剧本拆解。",
+   "action": "短项目、剧组、后期、AI 内容项目。",
+   "output": "韩研申请框架",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "28Fall|韩研",
+   "year": "2027",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "正式申请材料准备与提交",
+   "start": 1,
+   "end": 2,
+   "period": "2027.07-2027.09",
+   "portfolio": "准备 profile、study plan 或 project plan。",
+   "ai": "AI 提案图、AI previz、AI 项目演示。",
+   "action": "继续累积职责清晰的实习经历。",
+   "output": "正式申请包",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "28Fall|韩研",
+   "year": "2027",
+   "category": "关键节点",
+   "type": "milestone",
+   "label": "考试、面试与作品评估",
+   "start": 2,
+   "end": 3,
+   "period": "2027.10-2027.11",
+   "portfolio": "补作品分析、替代创作方案和项目计划书。",
+   "ai": "AI case study、AI 面试演示。",
+   "action": "保持实践不断档。",
+   "output": "面试 / 考试版材料",
+   "tags": [
+    "apply",
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "28Fall|韩研",
+   "year": "2027",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "入学衔接",
+   "start": 3,
+   "end": 4,
+   "period": "2027.12-2028.03",
+   "portfolio": "整理成可继续发展的创作档案。",
+   "ai": "AI workflow 升级。",
+   "action": "入学前继续短项目或实习。",
+   "output": "入学前强化版作品与简历",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "28Fall|韩研",
+   "year": "2028",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "入学后第一阶段积累",
+   "start": 4,
+   "end": 6,
+   "period": "2028.03-2028.08",
+   "portfolio": "课堂项目与个人项目并行，形成第一批在读案例。",
+   "ai": "AI 剪辑辅助、AI 项目管理基础。",
+   "action": "争取剧组、内容团队、后期或 AI 内容方向项目。",
+   "output": "在读项目底稿",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "28Fall|韩研",
+   "year": "2028",
+   "category": "专业成长",
+   "type": "summer",
+   "label": "在读深化与方向收拢",
+   "start": 6,
+   "end": 7,
+   "period": "2028.09-2029.02",
+   "portfolio": "根据岗位拆分导演、编剧、制片、后期不同版本作品。",
+   "ai": "AI case study、AI 演示包装。",
+   "action": "继续补片场、短项目、内容团队实践。",
+   "output": "中期作品包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "28Fall|韩研",
+   "year": "2029",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "毕业作品与求职准备并行",
+   "start": 8,
+   "end": 9,
+   "period": "2029.03-2029.08",
+   "portfolio": "用毕业项目补齐最核心的岗位样本。",
+   "ai": "AI trailer cut、AI 项目复盘。",
+   "action": "集中准备韩国本地求职或回国秋招材料。",
+   "output": "毕业求职作品集",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "28Fall|韩研",
+   "year": "2029",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "毕业前后求职冲刺",
+   "start": 10,
+   "end": 11,
+   "period": "2029.09-2030.02",
+   "portfolio": "把毕业作品与项目经历转成最终面试案例。",
+   "ai": "AI 面试表达、AI 复盘。",
+   "action": "集中投递、参加面试、推进内推与 offer 沟通。",
+   "output": "offer 冲刺包",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "韩研"
+  },
+  {
+   "track": "28Fall|韩研",
+   "year": "2030",
+   "category": "求职准备",
+   "type": "internship",
+   "label": "入职衔接期",
+   "start": 12,
+   "end": 12,
+   "period": "2030.03-2030.06",
+   "portfolio": "根据岗位反馈微调展示版本。",
+   "ai": "AI 项目归档。",
+   "action": "完成认证、手续与正式入职。",
+   "output": "入职结果",
+   "tags": [
+    "job"
+   ],
+   "cohort": "28Fall",
+   "route": "韩研"
+  }
+ ]
+}

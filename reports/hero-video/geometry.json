@@ -1,0 +1,170 @@
+[
+  {
+    "tag": "desktop-1680",
+    "ok": true,
+    "vw": 1680,
+    "vh": 1050,
+    "hidden": false,
+    "rect": [
+      1618,
+      988,
+      44,
+      44
+    ],
+    "inView": true,
+    "hit": "ok",
+    "box": [
+      0,
+      56,
+      1680,
+      1050
+    ],
+    "boxRatio": 1.6,
+    "text": "",
+    "opacity": "0.662648"
+  },
+  {
+    "tag": "laptop-1440",
+    "ok": true,
+    "vw": 1440,
+    "vh": 900,
+    "hidden": false,
+    "rect": [
+      1378,
+      838,
+      44,
+      44
+    ],
+    "inView": true,
+    "hit": "ok",
+    "box": [
+      0,
+      56,
+      1440,
+      900
+    ],
+    "boxRatio": 1.6,
+    "text": "",
+    "opacity": "0.679218"
+  },
+  {
+    "tag": "small-laptop-1180",
+    "ok": true,
+    "vw": 1180,
+    "vh": 820,
+    "hidden": false,
+    "rect": [
+      1118,
+      758,
+      44,
+      44
+    ],
+    "inView": true,
+    "hit": "ok",
+    "box": [
+      0,
+      56,
+      1180,
+      865
+    ],
+    "boxRatio": 1.365,
+    "text": "",
+    "opacity": "0.74932"
+  },
+  {
+    "tag": "tablet-1024",
+    "ok": true,
+    "vw": 1024,
+    "vh": 768,
+    "hidden": false,
+    "rect": [
+      962,
+      706,
+      44,
+      44
+    ],
+    "inView": true,
+    "hit": "ok",
+    "box": [
+      0,
+      56,
+      1024,
+      866
+    ],
+    "boxRatio": 1.182,
+    "text": "",
+    "opacity": "0.779937"
+  },
+  {
+    "tag": "tablet-portrait-768",
+    "ok": true,
+    "vw": 768,
+    "vh": 1024,
+    "hidden": false,
+    "rect": [
+      706,
+      962,
+      44,
+      44
+    ],
+    "inView": true,
+    "hit": "ok",
+    "box": [
+      0,
+      56,
+      768,
+      1024
+    ],
+    "boxRatio": 0.75,
+    "text": "",
+    "opacity": "0.745396"
+  },
+  {
+    "tag": "phone-390",
+    "ok": true,
+    "vw": 390,
+    "vh": 844,
+    "hidden": false,
+    "rect": [
+      328,
+      782,
+      44,
+      44
+    ],
+    "inView": true,
+    "hit": "ok",
+    "box": [
+      0,
+      56,
+      390,
+      1094
+    ],
+    "boxRatio": 0.357,
+    "text": "",
+    "opacity": "0.676961"
+  },
+  {
+    "tag": "phone-320",
+    "ok": true,
+    "vw": 320,
+    "vh": 568,
+    "hidden": false,
+    "rect": [
+      258,
+      506,
+      44,
+      44
+    ],
+    "inView": true,
+    "hit": "ok",
+    "box": [
+      0,
+      56,
+      320,
+      1212
+    ],
+    "boxRatio": 0.264,
+    "text": "",
+    "opacity": "0.661413"
+  }
+]

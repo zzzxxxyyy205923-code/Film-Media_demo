@@ -1,0 +1,322 @@
+/* ═══════════════════════════════════════════
+   IST WEBSITE — THEME & LAYOUT
+   Migration note: all visual tokens in :root.
+   Layout classes are semantic, not cosmetic.
+   CSS custom properties = single place to restyle.
+═══════════════════════════════════════════ */
+
+/* ── TOKENS ─────────────────────────────────
+   PAPER-FIRST VI — 梅子紫 (plum) + 纸白 (paper) + 金琥珀 (amber gold).
+   :root = 纸白浅色主题（页面主体）；深色「舞台」块（hero / 浮层 / 页脚）
+   在下方 .stage-dark 作用域内就地覆盖同名令牌 → 一处改色、全站生效。
+   所有取值均已按 WCAG AA 校验，明细见 docs/VI-色彩方案.md。
+─────────────────────────────────────────── */
+:root {
+  /* Brand — LOCKED 主色 */
+  --color-primary:     #983269;   /* plum 梅子紫 rgb(152,50,105) — 填充 / CTA / 焦点 */
+  --color-accent:      #B8891F;   /* amber gold 金琥珀 — 按钮 / 描边 / 图形强调 */
+
+  /* Brand — 官方 VI 实测值（2026-09-14 由 SFK科系 VI 资产逐像素取样）
+     CMYK 为通用换算值（未挂 ICC profile），仅作设计依据，印刷前请以设计方色票为准。 */
+  --sfk-magenta:      #D0054C;   /* 主 logo（SFK24 新版）洋红 — C0 M98 Y64 K18 */
+  --sfk-dept:         #E984DB;   /* 「影视传媒」科系图标专色 — C0 M43 Y6 K9 */
+
+  /* Logo 尺度（横式 lockup 内的取值，改这两条即可整体缩放） */
+  --logo-size:        18px;      /* 图标显示尺寸：≈标准字行高 19.2px 的 0.94、墨迹高 11.3px 的 1.59 倍 */
+  --logo-clear-space: 0.25;      /* 官方资产安全留白比例 = 图形自身尺寸的 1/4（单位量，供 calc 用） */
+
+  /* Brand — derived（按所在明暗自动切换，见 .stage-dark） */
+  --color-primary-bright: #7C2755;  /* 浅底上的链接 / 标签 / 强调文字 8.52:1 */
+  --color-primary-deep:   #5E1D42;  /* 按下态 / 深描边 / 渐变深端 11.22:1 */
+  --color-primary-veil:   rgba(152,50,105,.10);
+  --color-accent-deep:    #8A6810;  /* 浅底上的金色强调文字 / 链接 4.77:1 */
+  --color-accent-bright:  #E7C36B;  /* 深底上的金色文字 / 徽标 10.79:1 */
+  --color-accent-veil:    rgba(184,137,31,.14);
+
+  /* Surfaces — paper, layered (low → high) */
+  --color-void:        #20101A;   /* 深色舞台底（hero / 页脚 / 深色徽标） */
+  --color-bg:          #F6F6F4;   /* page canvas — rgb(246,246,244) */
+  --color-surface:     #FFFFFF;   /* raised card / chip / avatar */
+  --color-surface-2:   #EFEDEA;   /* hover / inset / higher elevation */
+  --color-border:      #DED7D2;   /* hairline grid + dividers */
+  --color-border-2:    #8E7A88;   /* stronger divider / focus ring 3.4:1 */
+
+  /* Ink — warm plum-grey ramp, every step passes AA on paper */
+  --color-text:        #26181F;   /* 15.74:1 */
+  --color-text-secondary: #4E3C47;   /* 9.42:1 — body copy */
+  --color-text-muted:  #6E5A66;   /* 5.85:1 — labels, meta */
+  --color-text-faint:  #7A6772;   /* 4.84:1 — smallest hint text (still AA) */
+
+  /* Industry colors (tags/accents) — deep jewel tones for paper */
+  --color-internet:    #2B4FA8;
+  --color-hardware:    #A5561A;
+  --color-culture:     #7A3FA8;
+  --color-brand:       #1E6E90;
+  --color-arch:        #1B7A5C;
+
+  /* Semantic — paper-surface chips (veil bg + deep ink) */
+  --color-success:        #1A7A4E;
+  --color-success-veil:   rgba(26,122,78,.12);
+  --color-danger:         #C0243B;
+  --color-danger-veil:    rgba(192,36,59,.10);
+  --color-warning:        #A94E12;
+  --color-warning-veil:   rgba(169,78,18,.12);
+
+  /* Elevation signatures — soft ink-tinted, no neon on paper */
+  --glow-primary:      0 0 0 1px rgba(152,50,105,.30), 0 12px 32px -16px rgba(152,50,105,.45);
+  --glow-primary-soft: 0 18px 48px -24px rgba(152,50,105,.35);
+  --glow-accent:       0 0 0 1px rgba(184,137,31,.40), 0 10px 30px -18px rgba(184,137,31,.50);
+  --glow-accent-soft:  0 24px 60px -30px rgba(184,137,31,.35);
+  --shadow-pop:        0 24px 60px -24px rgba(38,24,31,.30);
+  --shadow-card:       0 1px 2px rgba(38,24,31,.05), 0 14px 32px -22px rgba(38,24,31,.22);
+
+  /* Typography */
+  --font-en:   'Space Grotesk', sans-serif;
+  --font-cn:   'Noto Sans SC', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;  /* technical metadata, timestamps, data */
+  --text-xs:   11px;
+  --text-sm:   12px;
+  --text-base: 14px;
+  --text-md:   16px;
+  --text-lg:   20px;
+  --text-xl:   28px;
+  --text-2xl:  40px;
+
+  /* Radius — small, modern */
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-pill: 999px;
+
+  /* Spacing */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+  --space-7:  48px;
+  --space-8:  64px;
+  --space-9:  80px;
+  --space-10: 120px;
+
+  /* Layout */
+  --navbar-h:     56px;
+  --sidebar-w:    520px;
+  --content-max:  1240px;
+  --section-pad:  var(--space-9) 40px;
+
+  /* Transitions */
+  --transition-fast: 0.18s cubic-bezier(.22,1,.36,1);
+  --transition-med:  0.32s cubic-bezier(.22,1,.36,1);
+  --transition-slow: 0.6s  cubic-bezier(.22,1,.36,1);
+  --ease-out: cubic-bezier(.22,1,.36,1);
+}
+
+/* ── DARK STAGE SCOPE ───────────────────────
+   深色「舞台」块 = hero / 大幅页头（规划、时间轴）/ 导航浮层 / 侧栏 /
+   课程与图片浮层 / 悬浮按钮 / 页脚。这些区域保留原来的深色电影感，
+   做法是在容器内**就地覆盖同名令牌**，因此内部所有组件无需改动即自动
+   换成「深梅子底 + 纸白文字 + 暖金强调」，且每个取值都重新按深底校验 AA。
+   浅色正文区不使用本作用域。 */
+.hero, .plan-hero, .timeline-hero, .navbar, .nav-menu-overlay, .sidebar, .sidebar-overlay,
+.course-overlay, .minicourse-modal, .img-modal-backdrop, .sticky-collapse__btn, footer,
+.hero-sound {
+  --color-bg:          #20101A;
+  --color-surface:     #2E1A26;
+  --color-surface-2:   #3B2331;
+  --color-border:      rgba(246,246,244,.13);
+  --color-border-2:    rgba(246,246,244,.26);
+
+  --color-text:           #F6F6F4;   /* 16.87:1 */
+  --color-text-secondary: #E4DAE0;   /* 13.39:1 */
+  --color-text-muted:     #C0B1B9;   /*  8.9:1 — 也覆盖半透明导航条的合成底 */
+  --color-text-faint:     #A4979E;   /*  5.6:1 */
+
+  --color-primary-bright: #E9A6CB;   /*  9.37:1 — 深底上的品牌色 */
+  --color-accent:         #E7C36B;   /* 10.79:1 */
+  --color-accent-deep:    #E7C36B;
+  --color-accent-bright:  #F3D98F;
+  --color-primary-veil:   rgba(233,166,203,.12);
+  --color-accent-veil:    rgba(231,195,107,.14);
+
+  --glow-primary:      0 0 0 1px rgba(233,166,203,.35), 0 0 28px rgba(152,50,105,.55);
+  --glow-primary-soft: 0 0 40px rgba(152,50,105,.35);
+  --glow-accent:       0 0 24px rgba(231,195,107,.38);
+  --glow-accent-soft:  0 0 60px rgba(231,195,107,.18);
+  --shadow-pop:        0 24px 60px -20px rgba(38,24,31,.85);
+
+  /* 语义色 / 产业分类色 — 深底亮阶（每个都 ≥4.5:1 on #20101A） */
+  --color-success:  #4FD18B;
+  --color-danger:   #FF8A99;
+  --color-warning:  #E9A85E;
+  --color-internet: #5A67FF;
+  --color-hardware: #FF9A3D;
+  --color-culture:  #C06BFF;
+  --color-brand:    #46B6FF;
+  --color-arch:     #4FD18B;
+  --color-film:     #E8879C;
+
+  color: var(--color-text);   /* 舞台块自身采用纸白文字（否则会从 body 继承深墨） */
+}
+
+/* ── RESET ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-cn);
+  font-size: var(--text-base);
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* Faint lab-grid texture across the whole canvas */
+body::before {
+  content: "";
+  position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  background:
+    radial-gradient(1100px 700px at 88% -8%, var(--color-primary-veil), transparent 60%),
+    radial-gradient(900px 600px at -6% 108%, var(--color-accent-veil), transparent 60%),
+    linear-gradient(var(--color-border) 1px, transparent 1px) 0 0 / 100% 64px,
+    linear-gradient(90deg, var(--color-border) 1px, transparent 1px) 0 0 / 64px 100%;
+  opacity: .35;
+  -webkit-mask-image: radial-gradient(120% 90% at 50% 0%, #000 30%, transparent 80%);
+          mask-image: radial-gradient(120% 90% at 50% 0%, #000 30%, transparent 80%);
+}
+.navbar, .page, .sidebar, .sidebar-overlay, .search-results { position: relative; z-index: 1; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; font-family: inherit; color: inherit; border: none; background: none; }
+ul, ol { list-style: none; }
+img { max-width: 100%; display: block; }
+
+/* ── UTILITY ── */
+.u-visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+.u-en { font-family: var(--font-en); }
+.u-muted { color: var(--color-text-muted); }
+
+/* ── PAGE SWITCHING ── */
+.page { display: none; padding-top: var(--navbar-h); }
+.page.is-active { display: block; }
+
+/* ── SECTION WRAPPER ── */
+.section-eyebrow {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-family: var(--font-en);
+  font-size: var(--text-xs);
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--color-primary-bright);
+  font-weight: 600;
+  margin-bottom: var(--space-3);
+}
+.section-eyebrow::before {
+  content: ""; width: 6px; height: 6px; border-radius: 50%;
+  background: var(--color-accent); box-shadow: var(--glow-accent);
+}
+.section-title  { font-size: var(--text-xl); font-weight: 700; line-height: 1.12; letter-spacing: -.02em; margin-bottom: var(--space-3); text-wrap: balance; }
+.section-desc   { font-size: var(--text-base); color: var(--color-text-muted); max-width: 640px; line-height: 1.85; text-wrap: pretty; }
+.section-divider { border: none; border-top: 1px solid var(--color-border); margin: var(--space-7) 0; }
+
+/* ── GRID HELPERS ── */
+/* auto-fill (NOT auto-fit): the number of tracks is decided by container WIDTH only,
+   so card width stays put when a filter changes the card COUNT — leftover tracks stay
+   empty (and transparent) instead of stretching the cards to fill the row. */
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1px; }
+.grid-3 { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1px; }
+.grid-4 { display: grid; grid-template-columns: repeat(auto-fill, minmax(218px, 1fr)); gap: 1px; }
+.grid-5 { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 1px; }
+.grid-6 { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1px; }
+/* hairline lives on each card (not the container) → empty cells show the page bg */
+.grid-2 > *, .grid-3 > *, .grid-4 > *, .grid-5 > *, .grid-6 > * { background: var(--color-bg); min-width: 0; box-shadow: 0 0 0 1px var(--color-border); }
+
+/* ── TAG / BADGE ── */
+.tag {
+  display: inline-block;
+  font-size: var(--text-xs);
+  padding: 2px 8px;
+  font-family: var(--font-en);
+  font-weight: 600;
+  letter-spacing: .04em;
+}
+
+/* Instructor role tags — veil chips, one hue per role (no grey) */
+.tag--industry { background: rgba(124,39,85,.16);  color: #7C2755;                    box-shadow: inset 0 0 0 1px rgba(124,39,85,.42); }
+.tag--academic { background: rgba(184,137,31,.14); color: var(--color-accent-deep); box-shadow: inset 0 0 0 1px rgba(184,137,31,.38); }
+.tag--research { background: rgba(26,122,78,.16);  color: var(--color-success);       box-shadow: inset 0 0 0 1px rgba(26,122,78,.42); }
+.tag--alumni   { background: rgba(169,78,18,.15);  color: var(--color-warning);       box-shadow: inset 0 0 0 1px rgba(169,78,18,.42); }
+.tag--overseas { background: rgba(122,63,168,.16); color: var(--color-culture);       box-shadow: inset 0 0 0 1px rgba(122,63,168,.42); }
+
+/* ── FILTER BAR ── */
+.filter-bar { display: flex; gap: var(--space-2); flex-wrap: wrap; align-items: center; margin-bottom: var(--space-4); }
+.filter-bar__label { font-size: var(--text-xs); color: var(--color-text-muted); margin-right: var(--space-1); }
+.filter-btn {
+  padding: 5px 15px;
+  font-size: var(--text-xs);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  border-radius: var(--radius-pill);
+  transition: all var(--transition-fast);
+  font-family: var(--font-cn);
+}
+.filter-btn:hover { border-color: var(--color-primary-bright); color: var(--color-text); background: var(--color-surface-2); }
+.filter-btn.is-active { background: var(--color-primary); color: #fff; border-color: var(--color-primary); box-shadow: var(--glow-primary-soft); }
+
+/* ── TAB BAR ── */
+.tab-bar { display: flex; gap: 2px; background: var(--color-border); flex-wrap: wrap; }
+/* Segment tabs — courses */
+.tab-btn {
+  padding: 8px 20px;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  background: var(--color-bg);
+  color: var(--color-text-muted);
+  transition: all var(--transition-fast);
+  font-family: var(--font-cn);
+  border: none;
+}
+.tab-btn:hover { color: var(--color-text); background: var(--color-surface); }
+.tab-btn.is-active { background: var(--color-primary); color: #fff; box-shadow: var(--glow-primary-soft); }
+.tab-panel { display: none; }
+.tab-panel.is-active { display: block; }
+
+/* ── ENTRANCE ANIMATIONS ── */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(22px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes glowPulse {
+  0%,100% { opacity: .55; }
+  50%     { opacity: 1; }
+}
+@keyframes drift {
+  0%   { transform: translate3d(0,0,0) scale(1); }
+  50%  { transform: translate3d(2%, -3%, 0) scale(1.06); }
+  100% { transform: translate3d(0,0,0) scale(1); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { animation: rise .7s var(--ease-out) both; }
+  .reveal-1 { animation-delay: .05s; }
+  .reveal-2 { animation-delay: .14s; }
+  .reveal-3 { animation-delay: .24s; }
+  .reveal-4 { animation-delay: .34s; }
+  .reveal-5 { animation-delay: .46s; }
+}
+
+/* Scroll-reveal — only active once effects.js confirms support (body.fx-ready).
+   Without JS the sections render normally. */
+.fx-ready .home-section {
+  opacity: 0;
+  transition: opacity .6s var(--ease-out);
+}
+.fx-ready .home-section.in-view { opacity: 1; }
+
+/* Generic scroll-reveal — planning sections, portfolio cards, overview cards.
+   Attached by effects.js (body.fx-ready); no-JS renders everything normally. */
+.fx-ready .fx-reveal { opacity: 0; transform: translateY(20px); transition: opacity .6s var(--ease-out), transform .6s var(--ease-out); }
+.fx-ready .fx-reveal.in-view { opacity: 1; transform: none; }

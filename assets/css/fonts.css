@@ -1,0 +1,98 @@
+/* ═══════════════════════════════════════════
+   FONTS — self-hosted, no external CDN request.
+   Previously loaded live from fonts.googleapis.com,
+   which some hosting environments/networks can't
+   reach (e.g. mainland China), causing silent
+   fallback to system fonts. Files below live in
+   assets/fonts/ and ship with the site.
+═══════════════════════════════════════════ */
+
+/* ── Space Grotesk (--font-en) ── */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url('../fonts/space-grotesk/space-grotesk-latin-300-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../fonts/space-grotesk/space-grotesk-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('../fonts/space-grotesk/space-grotesk-latin-500-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url('../fonts/space-grotesk/space-grotesk-latin-600-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('../fonts/space-grotesk/space-grotesk-latin-700-normal.woff2') format('woff2');
+}
+
+/* ── JetBrains Mono (--font-mono) ── */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../fonts/jetbrains-mono/jetbrains-mono-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('../fonts/jetbrains-mono/jetbrains-mono-latin-500-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('../fonts/jetbrains-mono/jetbrains-mono-latin-700-normal.woff2') format('woff2');
+}
+
+/* ── Noto Sans SC (--font-cn) — chinese-simplified subset, ~1.1MB/weight, includes basic Latin/digits ── */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url('../fonts/noto-sans-sc/noto-sans-sc-chinese-simplified-300-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../fonts/noto-sans-sc/noto-sans-sc-chinese-simplified-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('../fonts/noto-sans-sc/noto-sans-sc-chinese-simplified-500-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('../fonts/noto-sans-sc/noto-sans-sc-chinese-simplified-700-normal.woff2') format('woff2');
+}

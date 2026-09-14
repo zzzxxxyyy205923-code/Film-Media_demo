@@ -1,0 +1,147 @@
+{
+ "season": "24FALL – 26F",
+ "total_offers": 74,
+ "case_count": 48,
+ "schools": [
+  {
+   "school_zh": "伦敦艺术大学",
+   "school_en": "University of the Arts London",
+   "country": "英国",
+   "country_group": "UK",
+   "offer_count": 21
+  },
+  {
+   "school_zh": "纽约大学",
+   "school_en": "New York University",
+   "country": "美国",
+   "country_group": "US",
+   "offer_count": 11
+  },
+  {
+   "school_zh": "查普曼大学",
+   "school_en": "Chapman University",
+   "country": "美国",
+   "country_group": "US",
+   "offer_count": 9
+  },
+  {
+   "school_zh": "南加州大学",
+   "school_en": "University of Southern California",
+   "country": "美国",
+   "country_group": "US",
+   "offer_count": 7
+  },
+  {
+   "school_zh": "香港浸会大学",
+   "school_en": "Hong Kong Baptist University",
+   "country": "香港",
+   "country_group": "HK_SG",
+   "offer_count": 4
+  },
+  {
+   "school_zh": "哥伦比亚大学",
+   "school_en": "Columbia University",
+   "country": "美国",
+   "country_group": "US",
+   "offer_count": 3
+  },
+  {
+   "school_zh": "约翰霍普金斯大学",
+   "school_en": "Johns Hopkins University",
+   "country": "美国",
+   "country_group": "US",
+   "offer_count": 3
+  },
+  {
+   "school_zh": "金斯顿大学",
+   "school_en": "Kingston University London",
+   "country": "英国",
+   "country_group": "UK",
+   "offer_count": 2
+  },
+  {
+   "school_zh": "金史密斯学院",
+   "school_en": "Goldsmith, University of London",
+   "country": "英国",
+   "country_group": "UK",
+   "offer_count": 2
+  },
+  {
+   "school_zh": "威斯特敏斯特大学",
+   "school_en": "University of Westminister",
+   "country": "英国",
+   "country_group": "UK",
+   "offer_count": 2
+  },
+  {
+   "school_zh": "伦敦电影学院",
+   "school_en": "The London Film School",
+   "country": "英国",
+   "country_group": "UK",
+   "offer_count": 1
+  },
+  {
+   "school_zh": "伦敦大学学院",
+   "school_en": "University College London",
+   "country": "英国",
+   "country_group": "UK",
+   "offer_count": 1
+  },
+  {
+   "school_zh": "加州艺术学院",
+   "school_en": "California Institute of the Arts",
+   "country": "美国",
+   "country_group": "US",
+   "offer_count": 1
+  },
+  {
+   "school_zh": "爱丁堡大学",
+   "school_en": "University of Edinburgh",
+   "country": "英国",
+   "country_group": "UK",
+   "offer_count": 1
+  },
+  {
+   "school_zh": "利兹大学",
+   "school_en": "University of Leeds",
+   "country": "英国",
+   "country_group": "UK",
+   "offer_count": 1
+  },
+  {
+   "school_zh": "梅特电影学院",
+   "school_en": "Met Film School",
+   "country": "英国",
+   "country_group": "UK",
+   "offer_count": 1
+  },
+  {
+   "school_zh": "南安普顿大学",
+   "school_en": "University of Southampton",
+   "country": "英国",
+   "country_group": "UK",
+   "offer_count": 1
+  },
+  {
+   "school_zh": "纽卡斯尔大学",
+   "school_en": "纽卡斯尔大学",
+   "country": "",
+   "country_group": "OTHER",
+   "offer_count": 1
+  },
+  {
+   "school_zh": "新加坡双专业",
+   "school_en": "新加坡双专业",
+   "country": "",
+   "country_group": "OTHER",
+   "offer_count": 1
+  },
+  {
+   "school_zh": "伦敦传媒学院",
+   "school_en": "London College of Communication",
+   "country": "英国",
+   "country_group": "UK",
+   "offer_count": 1
+  }
+ ]
+}

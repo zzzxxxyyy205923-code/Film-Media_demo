@@ -1,0 +1,2024 @@
+{
+ "version": 1,
+ "principles": {
+  "sourceOnly": true,
+  "topPlatformRequired": true,
+  "aiExperienceRequired": true,
+  "openStatusRequired": false
+ },
+ "resources": {
+  "ogilvy": {
+   "name": "奥美广告公司",
+   "type": "企业实习",
+   "domain": "ogilvy.com",
+   "mark": "O",
+   "id": "ogilvy",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "majorFilm": {
+   "name": "重磅头部院线电影",
+   "type": "院线电影项目",
+   "mark": "院",
+   "id": "majorFilm",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "jiangNing": {
+   "name": "姜文、宁浩御用电影公司",
+   "type": "电影公司 / 项目",
+   "mark": "姜",
+   "id": "jiangNing",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "cmg": {
+   "name": "中央广播电视总台",
+   "type": "国家级媒体",
+   "domain": "cctv.com",
+   "mark": "央",
+   "id": "cmg",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "blueFocus": {
+   "name": "蓝色光标",
+   "type": "传播集团",
+   "domain": "bluefocus.com",
+   "mark": "蓝",
+   "id": "blueFocus",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "smg": {
+   "name": "上海广播电视台",
+   "type": "电视与内容平台",
+   "domain": "smg.cn",
+   "mark": "上",
+   "id": "smg",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "huabiaoStudio": {
+   "name": "国家级华表奖最佳导演工作室",
+   "type": "国家级华表奖最佳导演工作室、坏猴子影业、正午阳光创作团队",
+   "mark": "导",
+   "id": "huabiaoStudio",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "youkuSeries": {
+   "name": "国家一级导演优酷电视剧项目",
+   "type": "平台剧集项目",
+   "domain": "youku.com",
+   "mark": "优",
+   "id": "youkuSeries",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "supremeTencent": {
+   "name": "国家最高检出品腾讯剧集",
+   "type": "主流剧集项目",
+   "domain": "v.qq.com",
+   "mark": "检",
+   "id": "supremeTencent",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "natureFilm": {
+   "name": "自然纪录院线电影",
+   "type": "华表奖导演工作室项目",
+   "mark": "纪",
+   "id": "natureFilm",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "lseg": {
+   "name": "伦敦证券交易所集团在职专家导师",
+   "type": "全球在职导师",
+   "domain": "lseg.com",
+   "mark": "L",
+   "id": "lseg",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "meng": {
+   "name": "孟京辉舞台剧工作室",
+   "type": "舞台剧工作室",
+   "domain": "mengjinghui.com",
+   "mark": "孟",
+   "id": "meng",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "btv": {
+   "name": "北京广播电视台",
+   "type": "电视与节目平台",
+   "domain": "brtv.org.cn",
+   "mark": "北",
+   "id": "btv",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "enlight": {
+   "name": "光线传媒",
+   "type": "光线传媒、华策影视、新丽传媒",
+   "domain": "enlightmedia.cn",
+   "mark": "光",
+   "id": "enlight",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "dragonTV": {
+   "name": "东方卫视",
+   "type": "电视与节目平台",
+   "domain": "dragontv.cn",
+   "mark": "东",
+   "id": "dragonTV",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "zhejiangTV": {
+   "name": "浙江卫视",
+   "type": "电视与节目平台",
+   "domain": "zjstv.com",
+   "mark": "浙",
+   "id": "zhejiangTV",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "xinhua": {
+   "name": "新华社",
+   "type": "国家级媒体",
+   "domain": "xinhuanet.com",
+   "mark": "新",
+   "id": "xinhua",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "szTV": {
+   "name": "深圳电视台",
+   "type": "电视与节目平台",
+   "domain": "sztv.com.cn",
+   "mark": "深",
+   "id": "szTV",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "people": {
+   "name": "人民网",
+   "type": "中央重点新闻网站",
+   "domain": "people.com.cn",
+   "mark": "人",
+   "id": "people",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "baidu": {
+   "name": "百度",
+   "type": "互联网平台",
+   "domain": "baidu.com",
+   "mark": "百",
+   "id": "baidu",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "xpeng": {
+   "name": "小鹏汽车",
+   "type": "品牌企业",
+   "domain": "xiaopeng.com",
+   "mark": "小",
+   "id": "xpeng",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "porsche": {
+   "name": "保时捷",
+   "type": "国际品牌",
+   "domain": "porsche.com",
+   "mark": "P",
+   "id": "porsche",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "joy": {
+   "name": "中影年年",
+   "type": "动画与数字内容公司",
+   "domain": "joyyinc.com",
+   "mark": "中",
+   "id": "joy",
+   "isTopPlatform": false,
+   "isAi": true,
+   "experienceKinds": [
+    "internship",
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "animationGroup": {
+   "name": "中国动漫集团",
+   "type": "国家级动漫平台",
+   "domain": "cacg.cn",
+   "mark": "动",
+   "id": "animationGroup",
+   "isTopPlatform": true,
+   "isAi": true,
+   "experienceKinds": [
+    "internship",
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "guoChenGuan": {
+   "name": "郭帆、陈思诚、管虎御用电影宣发公司",
+   "type": "电影宣发公司",
+   "mark": "宣",
+   "id": "guoChenGuan",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "xr": {
+   "name": "秀加科技·星光月美XR虚拟拍摄公司",
+   "type": "XR虚拟制作",
+   "mark": "XR",
+   "id": "xr",
+   "isTopPlatform": false,
+   "isAi": true,
+   "experienceKinds": [
+    "internship",
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "oscarAnimation": {
+   "name": "第98届奥斯卡最佳动画长片制作团队",
+   "type": "国际动画项目团队",
+   "mark": "奥",
+   "id": "oscarAnimation",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "gameSound": {
+   "name": "《魔兽世界》《守望先锋》《明日方舟》声音制作团队",
+   "type": "游戏与影视声音团队",
+   "mark": "声",
+   "id": "gameSound",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "matteTeam": {
+   "name": "《流浪地球》《悬崖之上》数字绘景与3D环境概念团队",
+   "type": "电影视觉开发团队",
+   "mark": "3D",
+   "id": "matteTeam",
+   "isTopPlatform": false,
+   "isAi": true,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "ilm": {
+   "name": "迪士尼工业光魔在职艺术家数字艺术公司",
+   "type": "全球精选导师 / 公司",
+   "domain": "ilm.com",
+   "mark": "ILM",
+   "id": "ilm",
+   "isTopPlatform": true,
+   "isAi": true,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "xjmp": {
+   "name": "美国娱乐巨头3D艺术家XJMP数字艺术公司",
+   "type": "全球精选导师 / 公司",
+   "mark": "X",
+   "id": "xjmp",
+   "isTopPlatform": false,
+   "isAi": true,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "ordovician": {
+   "name": "奥陶纪影业·张艺谋御用制片人",
+   "type": "影视公司 / 制片资源",
+   "mark": "奥",
+   "id": "ordovician",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "pixar": {
+   "name": "皮克斯动画工作室艺术家数字艺术公司",
+   "type": "全球精选导师 / 公司",
+   "domain": "pixar.com",
+   "mark": "P",
+   "id": "pixar",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "lightChaser": {
+   "name": "美国动画大厂高级动画师 × 琢光动画",
+   "type": "动画导师 / 团队",
+   "mark": "琢",
+   "id": "lightChaser",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "dustlight": {
+   "name": "与光同尘·AIGC智能影像标杆品牌",
+   "type": "与光同尘、中影年年、Runway",
+   "mark": "AI",
+   "id": "dustlight",
+   "isTopPlatform": false,
+   "isAi": true,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "casting": {
+   "name": "北京卡司汀电影公司",
+   "type": "影视制作与演员资源",
+   "mark": "卡",
+   "id": "casting",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "threeBody": {
+   "name": "奥陶纪影业：张艺谋导演电影《三体》",
+   "type": "电影项目",
+   "mark": "三",
+   "id": "threeBody",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "reframe": {
+   "name": "ReFrame公司实习·美国迪士尼签约艺术家指导",
+   "type": "国际实习项目",
+   "mark": "R",
+   "id": "reframe",
+   "isTopPlatform": false,
+   "isAi": true,
+   "experienceKinds": [
+    "internship",
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "soundAlive": {
+   "name": "北京声升不熄文化传播有限公司",
+   "type": "声音与文化传播",
+   "mark": "声",
+   "id": "soundAlive",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "twoHz": {
+   "name": "两万赫兹",
+   "type": "两万赫兹、北京声升不熄、Soundfirm",
+   "mark": "2Hz",
+   "id": "twoHz",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "stageOne": {
+   "name": "StageOne",
+   "type": "舞台与演出制作",
+   "mark": "S1",
+   "id": "stageOne",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "musiness": {
+   "name": "MUSINESS音乐公司",
+   "type": "音乐与娱乐公司",
+   "mark": "M",
+   "id": "musiness",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "guanmu": {
+   "name": "灌木文化·央视合作国家级项目背书IP创制平台",
+   "type": "IP创制平台",
+   "mark": "灌",
+   "id": "guanmu",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "grandPrix": {
+   "name": "格兰披治大赛车·全球知名赛事媒体制作公司",
+   "type": "国际赛事媒体制作",
+   "mark": "GP",
+   "id": "grandPrix",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "yangshipin": {
+   "name": "央视频",
+   "type": "国家级视频平台",
+   "domain": "yangshipin.cn",
+   "mark": "央",
+   "id": "yangshipin",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "cctvcom": {
+   "name": "央视网",
+   "type": "中央重点新闻网站",
+   "domain": "cctv.com",
+   "mark": "C",
+   "id": "cctvcom",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "kuaishou": {
+   "name": "快手",
+   "type": "数字内容平台",
+   "domain": "kuaishou.com",
+   "mark": "快",
+   "id": "kuaishou",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "smgDoc": {
+   "name": "上海广播电视台纪录片中心",
+   "type": "纪录片制作平台",
+   "domain": "smg.cn",
+   "mark": "纪",
+   "id": "smgDoc",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "besTV": {
+   "name": "上海文广互动",
+   "type": "数字媒体平台",
+   "domain": "bestv.com.cn",
+   "mark": "文",
+   "id": "besTV",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "cctv2": {
+   "name": "中央电视台财经频道",
+   "type": "财经节目平台",
+   "domain": "cctv.com",
+   "mark": "财",
+   "id": "cctv2",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "newsweek": {
+   "name": "中国新闻周刊",
+   "type": "新华社、澎湃新闻、中国新闻周刊",
+   "domain": "inewsweek.cn",
+   "mark": "周",
+   "id": "newsweek",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "alibaba": {
+   "name": "阿里巴巴",
+   "type": "互联网与内容集团",
+   "domain": "alibaba.com",
+   "mark": "阿",
+   "id": "alibaba",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "filmCrew": {
+   "name": "黄金档电影剧组跟组",
+   "type": "真实剧组实习",
+   "mark": "组",
+   "id": "filmCrew",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "worryfree": {
+   "name": "无忧传媒",
+   "type": "头部MCN / 企业实习",
+   "domain": "wuyoumedia.com",
+   "mark": "无",
+   "id": "worryfree",
+   "isTopPlatform": true,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "bee": {
+   "name": "蜂群传媒",
+   "type": "MCN / 内容与达人运营",
+   "mark": "蜂",
+   "id": "bee",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "dStudio": {
+   "name": "D Studio舞台设计工作室",
+   "type": "舞台 / 品牌空间设计",
+   "mark": "D",
+   "id": "dStudio",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "torontoDesign": {
+   "name": "加拿大多伦多视觉设计公司 mewobservations",
+   "type": "mewobservations、Pentagram、Territory Studio",
+   "mark": "M",
+   "id": "torontoDesign",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "pengpai": {
+   "name": "澎湃新闻",
+   "type": "深度新闻与视频媒体",
+   "domain": "thepaper.cn",
+   "mark": "澎",
+   "id": "pengpai",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "internship"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "worryCulture": {
+   "name": "文起思澜",
+   "type": "文化与内容机构",
+   "mark": "文",
+   "id": "worryCulture",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "gallery": {
+   "name": "艺术行业老牌画廊",
+   "type": "艺术与文化机构",
+   "mark": "画",
+   "id": "gallery",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "artNews": {
+   "name": "中国美术报",
+   "type": "艺术媒体",
+   "domain": "zhgmsb.com",
+   "mark": "美",
+   "id": "artNews",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "tokyoGallery": {
+   "name": "日本当代东京画廊",
+   "type": "国际画廊",
+   "mark": "东",
+   "id": "tokyoGallery",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "artCenter": {
+   "name": "共同艺术中心",
+   "type": "艺术机构",
+   "mark": "共",
+   "id": "artCenter",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "euroArt": {
+   "name": "欧洲艺术联盟",
+   "type": "国际艺术机构",
+   "mark": "欧",
+   "id": "euroArt",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "redBrick": {
+   "name": "红砖美术馆",
+   "type": "当代艺术机构",
+   "domain": "redbrickartmuseum.org",
+   "mark": "砖",
+   "id": "redBrick",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "ific": {
+   "name": "IFIC艺术疗愈研究院",
+   "type": "艺术研究机构",
+   "mark": "疗",
+   "id": "ific",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "franceGallery": {
+   "name": "法国当代艺术画廊",
+   "type": "国际画廊",
+   "mark": "法",
+   "id": "franceGallery",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  },
+  "shili": {
+   "name": "十里芳菲",
+   "type": "文化与文旅品牌",
+   "mark": "十",
+   "id": "shili",
+   "isTopPlatform": false,
+   "isAi": false,
+   "experienceKinds": [
+    "project"
+   ],
+   "availability": "SFK资源库候选，需由顾问确认当期名额与具体岗位",
+   "domain": "",
+   "status": "",
+   "lastVerifiedAt": "",
+   "suitableStages": [],
+   "locations": [],
+   "workMode": "",
+   "duration": "",
+   "responsibilities": [],
+   "portfolioOutputs": [],
+   "internalNote": ""
+  }
+ },
+ "roleMap": {
+  "1": [
+   "huabiaoStudio",
+   "jiangNing",
+   "majorFilm",
+   "youkuSeries",
+   "supremeTencent",
+   "natureFilm",
+   "filmCrew"
+  ],
+  "2": [
+   "jiangNing",
+   "huabiaoStudio",
+   "majorFilm",
+   "enlight",
+   "youkuSeries",
+   "supremeTencent",
+   "ordovician",
+   "threeBody"
+  ],
+  "3": [
+   "filmCrew",
+   "majorFilm",
+   "ordovician",
+   "jiangNing",
+   "youkuSeries",
+   "supremeTencent",
+   "casting",
+   "threeBody"
+  ],
+  "4": [
+   "huabiaoStudio",
+   "filmCrew",
+   "majorFilm",
+   "jiangNing",
+   "youkuSeries",
+   "supremeTencent",
+   "natureFilm",
+   "ordovician"
+  ],
+  "5": [
+   "ogilvy",
+   "blueFocus",
+   "porsche",
+   "xpeng",
+   "xr",
+   "reframe",
+   "dustlight"
+  ],
+  "6": [
+   "worryfree",
+   "bee",
+   "kuaishou",
+   "baidu",
+   "yangshipin",
+   "cctvcom",
+   "dustlight"
+  ],
+  "7": [
+   "worryfree",
+   "bee",
+   "kuaishou",
+   "alibaba",
+   "dustlight",
+   "joy"
+  ],
+  "8": [
+   "dustlight",
+   "majorFilm",
+   "huabiaoStudio",
+   "joy",
+   "animationGroup"
+  ],
+  "9": [
+   "xr",
+   "matteTeam",
+   "ilm",
+   "xjmp",
+   "joy",
+   "filmCrew",
+   "majorFilm"
+  ],
+  "10": [
+   "dustlight",
+   "joy",
+   "animationGroup",
+   "ilm",
+   "pixar",
+   "lightChaser",
+   "xr",
+   "matteTeam"
+  ],
+  "11": [
+   "dustlight",
+   "joy",
+   "animationGroup",
+   "kuaishou",
+   "alibaba"
+  ],
+  "12": [
+   "musiness",
+   "stageOne",
+   "meng",
+   "joy",
+   "worryfree"
+  ],
+  "13": [
+   "musiness",
+   "stageOne",
+   "meng",
+   "worryfree",
+   "bee",
+   "ogilvy",
+   "blueFocus"
+  ],
+  "14": [
+   "stageOne",
+   "meng",
+   "dStudio",
+   "musiness",
+   "grandPrix"
+  ],
+  "15": [
+   "stageOne",
+   "dStudio",
+   "gameSound",
+   "twoHz",
+   "xr",
+   "musiness"
+  ],
+  "16": [
+   "joy",
+   "animationGroup",
+   "dustlight",
+   "kuaishou",
+   "worryfree"
+  ],
+  "17": [
+   "joy",
+   "animationGroup",
+   "guanmu",
+   "oscarAnimation",
+   "pixar",
+   "lightChaser"
+  ],
+  "18": [
+   "musiness",
+   "gameSound",
+   "twoHz",
+   "reframe",
+   "ogilvy",
+   "blueFocus"
+  ],
+  "19": [
+   "joy",
+   "animationGroup",
+   "dustlight",
+   "ilm",
+   "pixar"
+  ],
+  "20": [
+   "xr",
+   "stageOne",
+   "dStudio",
+   "dustlight",
+   "ilm",
+   "xjmp"
+  ],
+  "21": [
+   "kuaishou",
+   "baidu",
+   "alibaba",
+   "yangshipin",
+   "cctvcom",
+   "smg"
+  ],
+  "22": [
+   "worryfree",
+   "kuaishou",
+   "alibaba",
+   "yangshipin",
+   "cctvcom",
+   "smg"
+  ],
+  "23": [
+   "guoChenGuan",
+   "enlight",
+   "majorFilm",
+   "jiangNing",
+   "youkuSeries",
+   "supremeTencent",
+   "ogilvy",
+   "blueFocus"
+  ],
+  "24": [
+   "ogilvy",
+   "blueFocus",
+   "porsche",
+   "xpeng",
+   "baidu",
+   "alibaba",
+   "lseg"
+  ],
+  "25": [
+   "ogilvy",
+   "blueFocus",
+   "porsche",
+   "xpeng",
+   "reframe",
+   "torontoDesign",
+   "dustlight"
+  ],
+  "26": [
+   "joy",
+   "animationGroup",
+   "guanmu",
+   "enlight",
+   "majorFilm"
+  ],
+  "27": [
+   "dustlight",
+   "worryfree",
+   "kuaishou",
+   "alibaba",
+   "baidu",
+   "joy"
+  ],
+  "28": [
+   "blueFocus",
+   "ogilvy",
+   "baidu",
+   "alibaba",
+   "kuaishou",
+   "dustlight"
+  ],
+  "29": [
+   "cmg",
+   "smg",
+   "dragonTV",
+   "zhejiangTV",
+   "btv",
+   "yangshipin"
+  ],
+  "30": [
+   "smg",
+   "dragonTV",
+   "zhejiangTV",
+   "btv",
+   "cmg"
+  ],
+  "31": [
+   "xinhua",
+   "pengpai",
+   "people",
+   "newsweek",
+   "cctvcom"
+  ],
+  "32": [
+   "smgDoc",
+   "natureFilm",
+   "cmg",
+   "xinhua",
+   "pengpai"
+  ],
+  "33": [
+   "pengpai",
+   "newsweek",
+   "cmg",
+   "smg",
+   "soundAlive",
+   "twoHz"
+  ],
+  "34": [
+   "xinhua",
+   "people",
+   "pengpai",
+   "cctvcom",
+   "baidu"
+  ],
+  "35": [
+   "xinhua",
+   "people",
+   "cctvcom",
+   "pengpai",
+   "baidu"
+  ],
+  "36": [
+   "cmg",
+   "smg",
+   "yangshipin",
+   "cctvcom",
+   "kuaishou",
+   "baidu"
+  ],
+  "37": [
+   "ogilvy",
+   "blueFocus",
+   "baidu",
+   "alibaba",
+   "xpeng",
+   "porsche"
+  ],
+  "38": [
+   "ogilvy",
+   "blueFocus",
+   "cmg",
+   "xinhua",
+   "people",
+   "xpeng"
+  ],
+  "39": [
+   "ogilvy",
+   "blueFocus",
+   "lseg",
+   "baidu",
+   "alibaba"
+  ],
+  "40": [
+   "lseg",
+   "xinhua",
+   "cmg",
+   "blueFocus",
+   "alibaba",
+   "euroArt"
+  ],
+  "41": [
+   "lseg",
+   "ogilvy",
+   "blueFocus",
+   "alibaba",
+   "baidu",
+   "porsche"
+  ],
+  "42": [
+   "blueFocus",
+   "ogilvy",
+   "baidu",
+   "alibaba",
+   "people"
+  ],
+  "43": [
+   "ogilvy",
+   "blueFocus",
+   "dustlight",
+   "baidu",
+   "alibaba"
+  ],
+  "44": [
+   "majorFilm",
+   "jiangNing",
+   "huabiaoStudio",
+   "enlight",
+   "joy",
+   "guanmu"
+  ],
+  "45": [
+   "animationGroup",
+   "joy",
+   "enlight",
+   "majorFilm",
+   "alibaba"
+  ],
+  "46": [
+   "joy",
+   "animationGroup",
+   "guanmu",
+   "majorFilm",
+   "jiangNing"
+  ],
+  "47": [
+   "huabiaoStudio",
+   "jiangNing",
+   "majorFilm",
+   "joy",
+   "animationGroup"
+  ],
+  "48": [
+   "joy",
+   "animationGroup",
+   "guanmu",
+   "dustlight",
+   "enlight"
+  ],
+  "49": [
+   "dustlight",
+   "alibaba",
+   "baidu",
+   "joy",
+   "animationGroup"
+  ],
+  "50": [
+   "enlight",
+   "majorFilm",
+   "guoChenGuan",
+   "youkuSeries",
+   "supremeTencent",
+   "smg",
+   "cmg",
+   "alibaba"
+  ],
+  "51": [
+   "guoChenGuan",
+   "enlight",
+   "majorFilm",
+   "ogilvy",
+   "blueFocus",
+   "porsche",
+   "xpeng",
+   "animationGroup"
+  ],
+  "52": [
+   "twoHz",
+   "soundAlive",
+   "matteTeam",
+   "gameSound",
+   "ilm",
+   "xjmp",
+   "xr",
+   "joy",
+   "filmCrew"
+  ],
+  "53": [
+   "twoHz",
+   "soundAlive",
+   "majorFilm",
+   "filmCrew",
+   "natureFilm",
+   "youkuSeries",
+   "supremeTencent",
+   "matteTeam"
+  ],
+  "54": [
+   "kuaishou",
+   "worryfree",
+   "bee",
+   "baidu",
+   "alibaba",
+   "yangshipin"
+  ],
+  "55": [
+   "worryfree",
+   "bee",
+   "kuaishou",
+   "alibaba",
+   "ogilvy",
+   "blueFocus"
+  ],
+  "56": [
+   "kuaishou",
+   "alibaba",
+   "baidu",
+   "worryfree",
+   "bee",
+   "ogilvy",
+   "blueFocus"
+  ],
+  "57": [
+   "ogilvy",
+   "blueFocus",
+   "porsche",
+   "xpeng",
+   "baidu",
+   "alibaba"
+  ],
+  "58": [
+   "ogilvy",
+   "blueFocus",
+   "baidu",
+   "alibaba",
+   "kuaishou",
+   "worryfree",
+   "bee"
+  ],
+  "59": [
+   "ogilvy",
+   "blueFocus",
+   "xr",
+   "reframe",
+   "porsche",
+   "xpeng",
+   "majorFilm"
+  ],
+  "60": [
+   "ogilvy",
+   "blueFocus",
+   "dStudio",
+   "stageOne",
+   "porsche",
+   "xpeng",
+   "grandPrix"
+  ],
+  "61": [
+   "dustlight",
+   "ogilvy",
+   "blueFocus",
+   "xr",
+   "reframe",
+   "ilm",
+   "xjmp"
+  ]
+ },
+ "aiFallback": [
+  "dustlight",
+  "xr",
+  "joy",
+  "reframe",
+  "matteTeam"
+ ],
+ "labels": {
+  "related": "岗位高度相关实习",
+  "top": "头部平台／高质量公司实习",
+  "ai": "AI商业项目／AI影视实习"
+ }
+}

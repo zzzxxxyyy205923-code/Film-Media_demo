@@ -1,0 +1,940 @@
+[
+ {
+  "nameEn": "Disney｜迪士尼",
+  "nameCn": "电影、剧集、动画、IP开发、衍生品与全球发行。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "D"
+ },
+ {
+  "nameEn": "Warner Bros. Discovery｜华纳兄弟探索",
+  "nameCn": "电影、剧集、流媒体、版权与全球内容发行。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "W"
+ },
+ {
+  "nameEn": "Universal Pictures｜环球影业",
+  "nameCn": "院线电影、类型片、制片与全球发行。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "U"
+ },
+ {
+  "nameEn": "Paramount Pictures｜派拉蒙影业",
+  "nameCn": "电影、剧集、制片、版权与国际发行。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "P"
+ },
+ {
+  "nameEn": "Netflix｜网飞",
+  "nameCn": "全球电影、剧集、纪录片开发、制片和流媒体发行。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "N"
+ },
+ {
+  "nameEn": "A24",
+  "nameCn": "独立电影开发、制作、发行与作者型内容品牌。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "A"
+ },
+ {
+  "nameEn": "中国电影股份有限公司",
+  "nameCn": "电影制片、发行、院线与国家级电影工业体系。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "中"
+ },
+ {
+  "nameEn": "上影集团",
+  "nameCn": "电影投资、制作、发行、影城和影视文化项目。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "上"
+ },
+ {
+  "nameEn": "光线传媒",
+  "nameCn": "电影制作、发行、动画、IP开发与影视宣发。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "光"
+ },
+ {
+  "nameEn": "华策影视",
+  "nameCn": "剧集、电影、版权、国际发行和内容工业化。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "华"
+ },
+ {
+  "nameEn": "新丽传媒",
+  "nameCn": "头部电影与剧集项目、内容开发和成熟制作体系。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "新"
+ },
+ {
+  "nameEn": "正午阳光",
+  "nameCn": "精品剧集开发、制作与长期创作团队培养。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "正"
+ },
+ {
+  "nameEn": "阿里影业",
+  "nameCn": "电影投资、制片、发行、票务和数字化影视基础设施。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "阿"
+ },
+ {
+  "nameEn": "猫眼娱乐",
+  "nameCn": "票务、发行、宣发、数据与电影项目服务。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "猫"
+ },
+ {
+  "nameEn": "爱奇艺",
+  "nameCn": "电影、剧集、综艺、纪录片和平台内容开发。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "爱"
+ },
+ {
+  "nameEn": "腾讯视频",
+  "nameCn": "电影、剧集、IP改编、平台内容和联合出品。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "腾"
+ },
+ {
+  "nameEn": "优酷",
+  "nameCn": "剧集、电影、综艺、纪录片与平台制作。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "优"
+ },
+ {
+  "nameEn": "哔哩哔哩",
+  "nameCn": "纪录片、动画、青年内容、创作者生态与影视投资。",
+  "logo": "",
+  "group": "影视内容产业",
+  "initial": "哔"
+ },
+ {
+  "nameEn": "快手",
+  "nameCn": "短视频、直播、创作者生态、商业化与本地生活平台。",
+  "logo": "",
+  "group": "数字内容与平台",
+  "initial": "快"
+ },
+ {
+  "nameEn": "抖音",
+  "nameCn": "短视频、直播、电商、品牌内容和创作者生态平台。",
+  "logo": "",
+  "group": "数字内容与平台",
+  "initial": "抖"
+ },
+ {
+  "nameEn": "小红书",
+  "nameCn": "生活方式内容、社区、KOC/KOL生态和品牌种草。",
+  "logo": "",
+  "group": "数字内容与平台",
+  "initial": "小"
+ },
+ {
+  "nameEn": "百度",
+  "nameCn": "搜索、信息流、视频、智能内容与AI内容平台。",
+  "logo": "",
+  "group": "数字内容与平台",
+  "initial": "百"
+ },
+ {
+  "nameEn": "阿里巴巴",
+  "nameCn": "电商内容、直播、品牌商业化和数字营销生态。",
+  "logo": "",
+  "group": "数字内容与平台",
+  "initial": "阿"
+ },
+ {
+  "nameEn": "无忧传媒",
+  "nameCn": "头部MCN，覆盖短视频、直播、电商、达人和娱乐内容。",
+  "logo": "",
+  "group": "数字内容与平台",
+  "initial": "无"
+ },
+ {
+  "nameEn": "蜂群传媒",
+  "nameCn": "达人孵化、短视频内容、品牌合作和社交媒体营销。",
+  "logo": "",
+  "group": "数字内容与平台",
+  "initial": "蜂"
+ },
+ {
+  "nameEn": "遥望科技",
+  "nameCn": "直播电商、达人运营、供应链和内容商业化。",
+  "logo": "",
+  "group": "数字内容与平台",
+  "initial": "遥"
+ },
+ {
+  "nameEn": "交个朋友",
+  "nameCn": "直播电商、内容运营、主播和商业化团队。",
+  "logo": "",
+  "group": "数字内容与平台",
+  "initial": "交"
+ },
+ {
+  "nameEn": "央视频",
+  "nameCn": "国家级综合视频平台与融媒体内容生产。",
+  "logo": "",
+  "group": "数字内容与平台",
+  "initial": "央"
+ },
+ {
+  "nameEn": "央视网",
+  "nameCn": "中央重点新闻网站、视频内容和数字媒体业务。",
+  "logo": "",
+  "group": "数字内容与平台",
+  "initial": "央"
+ },
+ {
+  "nameEn": "上海广播电视台",
+  "nameCn": "电视节目、纪录片、融媒体和平台内容。",
+  "logo": "",
+  "group": "数字内容与平台",
+  "initial": "上"
+ },
+ {
+  "nameEn": "与光同尘",
+  "nameCn": "AIGC智能影像、AI短片和生成式内容生产。",
+  "logo": "",
+  "group": "数字内容与平台",
+  "initial": "与"
+ },
+ {
+  "nameEn": "Ogilvy｜奥美",
+  "nameCn": "广告、品牌、互动、咨询、公关与社交内容。",
+  "logo": "",
+  "group": "广告、品牌与商业创意",
+  "initial": "O"
+ },
+ {
+  "nameEn": "BlueFocus｜蓝色光标",
+  "nameCn": "数字营销、公关、广告代理、活动和全球化营销。",
+  "logo": "",
+  "group": "广告、品牌与商业创意",
+  "initial": "B"
+ },
+ {
+  "nameEn": "VML",
+  "nameCn": "品牌创意、客户体验、数字营销和商业转化。",
+  "logo": "",
+  "group": "广告、品牌与商业创意",
+  "initial": "V"
+ },
+ {
+  "nameEn": "McCann｜麦肯",
+  "nameCn": "品牌策略、广告创意、整合传播和全球客户服务。",
+  "logo": "",
+  "group": "广告、品牌与商业创意",
+  "initial": "M"
+ },
+ {
+  "nameEn": "BBDO",
+  "nameCn": "品牌广告、创意Campaign与全球传播。",
+  "logo": "",
+  "group": "广告、品牌与商业创意",
+  "initial": "B"
+ },
+ {
+  "nameEn": "TBWA",
+  "nameCn": "品牌颠覆策略、广告创意和整合传播。",
+  "logo": "",
+  "group": "广告、品牌与商业创意",
+  "initial": "T"
+ },
+ {
+  "nameEn": "Dentsu｜电通",
+  "nameCn": "创意、媒介、客户体验和数字营销。",
+  "logo": "",
+  "group": "广告、品牌与商业创意",
+  "initial": "D"
+ },
+ {
+  "nameEn": "Publicis Groupe｜阳狮集团",
+  "nameCn": "创意、媒介、数据、技术和商业转型。",
+  "logo": "",
+  "group": "广告、品牌与商业创意",
+  "initial": "P"
+ },
+ {
+  "nameEn": "小鹏汽车",
+  "nameCn": "汽车品牌、产品传播、商业影像和品牌活动。",
+  "logo": "",
+  "group": "广告、品牌与商业创意",
+  "initial": "小"
+ },
+ {
+  "nameEn": "保时捷",
+  "nameCn": "汽车品牌传播、内容、体验营销和全球Campaign。",
+  "logo": "",
+  "group": "广告、品牌与商业创意",
+  "initial": "保"
+ },
+ {
+  "nameEn": "广告制作公司与导演厂牌",
+  "nameCn": "广告导演、商业制片、摄影、美术和后期制作。",
+  "logo": "",
+  "group": "广告、品牌与商业创意",
+  "initial": "广"
+ },
+ {
+  "nameEn": "秀加科技·星光月美XR虚拟拍摄公司、Disguise、ARRI Solutions",
+  "nameCn": "LED虚拟影棚、实时视觉和商业影像制作。",
+  "logo": "",
+  "group": "广告、品牌与商业创意",
+  "initial": "秀"
+ },
+ {
+  "nameEn": "华纳音乐",
+  "nameCn": "音乐发行、艺人发展、版权与娱乐内容。",
+  "logo": "",
+  "group": "演艺娱乐产业",
+  "initial": "华"
+ },
+ {
+  "nameEn": "环球音乐",
+  "nameCn": "唱片、艺人管理、音乐营销与国际发行。",
+  "logo": "",
+  "group": "演艺娱乐产业",
+  "initial": "环"
+ },
+ {
+  "nameEn": "Live Nation",
+  "nameCn": "演唱会、巡演、票务和现场娱乐。",
+  "logo": "",
+  "group": "演艺娱乐产业",
+  "initial": "L"
+ },
+ {
+  "nameEn": "大麦",
+  "nameCn": "演出、票务、娱乐活动和现场内容。",
+  "logo": "",
+  "group": "演艺娱乐产业",
+  "initial": "大"
+ },
+ {
+  "nameEn": "开心麻花",
+  "nameCn": "舞台剧、演出、电影和喜剧IP。",
+  "logo": "",
+  "group": "演艺娱乐产业",
+  "initial": "开"
+ },
+ {
+  "nameEn": "孟京辉戏剧工作室",
+  "nameCn": "实验戏剧、舞台创作与演出制作。",
+  "logo": "",
+  "group": "演艺娱乐产业",
+  "initial": "孟"
+ },
+ {
+  "nameEn": "StageOne",
+  "nameCn": "舞台、演出、现场制作和项目执行。",
+  "logo": "",
+  "group": "演艺娱乐产业",
+  "initial": "S"
+ },
+ {
+  "nameEn": "MUSINESS",
+  "nameCn": "音乐、艺人、内容与商业项目。",
+  "logo": "",
+  "group": "演艺娱乐产业",
+  "initial": "M"
+ },
+ {
+  "nameEn": "中影年年",
+  "nameCn": "动画、虚拟形象和数字内容。",
+  "logo": "",
+  "group": "演艺娱乐产业",
+  "initial": "中"
+ },
+ {
+  "nameEn": "中央广播电视总台",
+  "nameCn": "电视、纪录片、新闻、财经与融媒体。",
+  "logo": "",
+  "group": "新闻传媒与节目制作",
+  "initial": "中"
+ },
+ {
+  "nameEn": "新华社",
+  "nameCn": "国家通讯社、视频新闻和国际传播。",
+  "logo": "",
+  "group": "新闻传媒与节目制作",
+  "initial": "新"
+ },
+ {
+  "nameEn": "人民网",
+  "nameCn": "中央重点新闻网站与视频内容。",
+  "logo": "",
+  "group": "新闻传媒与节目制作",
+  "initial": "人"
+ },
+ {
+  "nameEn": "东方卫视",
+  "nameCn": "综艺、节目、新闻和大型活动。",
+  "logo": "",
+  "group": "新闻传媒与节目制作",
+  "initial": "东"
+ },
+ {
+  "nameEn": "浙江卫视",
+  "nameCn": "综艺、节目制作和融媒体。",
+  "logo": "",
+  "group": "新闻传媒与节目制作",
+  "initial": "浙"
+ },
+ {
+  "nameEn": "澎湃新闻",
+  "nameCn": "深度报道、视频新闻和新媒体。",
+  "logo": "",
+  "group": "新闻传媒与节目制作",
+  "initial": "澎"
+ },
+ {
+  "nameEn": "中国新闻周刊",
+  "nameCn": "深度新闻、调查和评论。",
+  "logo": "",
+  "group": "新闻传媒与节目制作",
+  "initial": "中"
+ },
+ {
+  "nameEn": "Edelman｜爱德曼",
+  "nameCn": "企业传播、危机、公关与全球咨询。",
+  "logo": "",
+  "group": "企业传播与公共关系",
+  "initial": "E"
+ },
+ {
+  "nameEn": "Ogilvy PR｜奥美公关",
+  "nameCn": "品牌、企业、社交与整合传播。",
+  "logo": "",
+  "group": "企业传播与公共关系",
+  "initial": "O"
+ },
+ {
+  "nameEn": "蓝色光标",
+  "nameCn": "数字营销、公关、活动与国际传播。",
+  "logo": "",
+  "group": "企业传播与公共关系",
+  "initial": "蓝"
+ },
+ {
+  "nameEn": "Burson",
+  "nameCn": "企业传播、公共事务和危机管理。",
+  "logo": "",
+  "group": "企业传播与公共关系",
+  "initial": "B"
+ },
+ {
+  "nameEn": "伦敦证券交易所集团",
+  "nameCn": "全球金融传播与在职专家导师。",
+  "logo": "",
+  "group": "企业传播与公共关系",
+  "initial": "伦"
+ },
+ {
+  "nameEn": "阅文集团",
+  "nameCn": "网络文学、IP开发、影视动画与版权。",
+  "logo": "",
+  "group": "出版、版权与IP开发",
+  "initial": "阅"
+ },
+ {
+  "nameEn": "腾讯动漫",
+  "nameCn": "漫画、动画、IP运营和内容开发。",
+  "logo": "",
+  "group": "出版、版权与IP开发",
+  "initial": "腾"
+ },
+ {
+  "nameEn": "哔哩哔哩漫画",
+  "nameCn": "漫画平台、内容运营和IP孵化。",
+  "logo": "",
+  "group": "出版、版权与IP开发",
+  "initial": "哔"
+ },
+ {
+  "nameEn": "中国动漫集团",
+  "nameCn": "国家级动漫、IP与产业项目。",
+  "logo": "",
+  "group": "出版、版权与IP开发",
+  "initial": "中"
+ },
+ {
+  "nameEn": "灌木文化",
+  "nameCn": "央视合作国家级项目背书IP创制平台。",
+  "logo": "",
+  "group": "出版、版权与IP开发",
+  "initial": "灌"
+ },
+ {
+  "nameEn": "华策影视内容开发、新丽传媒项目开发、正午阳光项目策划",
+  "nameCn": "小说、漫画、真实事件的影视化开发。",
+  "logo": "",
+  "group": "出版、版权与IP开发",
+  "initial": "华"
+ },
+ {
+  "nameEn": "羚邦集团、艾影（上海）商贸、阿里鱼",
+  "nameCn": "版权交易、授权、国际销售与商业化。",
+  "logo": "",
+  "group": "出版、版权与IP开发",
+  "initial": "羚"
+ },
+ {
+  "nameEn": "Runway",
+  "nameCn": "生成式视频、影视工作流与创意工具。",
+  "logo": "",
+  "group": "AI影视科技",
+  "initial": "R"
+ },
+ {
+  "nameEn": "Adobe",
+  "nameCn": "生成式创意、剪辑、设计和数字媒体工具。",
+  "logo": "",
+  "group": "AI影视科技",
+  "initial": "A"
+ },
+ {
+  "nameEn": "Epic Games",
+  "nameCn": "Unreal Engine、虚拟制作与实时内容。",
+  "logo": "",
+  "group": "AI影视科技",
+  "initial": "E"
+ },
+ {
+  "nameEn": "Industrial Light & Magic",
+  "nameCn": "电影视效、虚拟制作和数字艺术。",
+  "logo": "",
+  "group": "AI影视科技",
+  "initial": "I"
+ },
+ {
+  "nameEn": "Pixar",
+  "nameCn": "动画、技术艺术与数字制作。",
+  "logo": "",
+  "group": "AI影视科技",
+  "initial": "P"
+ },
+ {
+  "nameEn": "字节跳动",
+  "nameCn": "适合短视频、短剧、AIGC 内容和平台增长型岗位。",
+  "logo": "",
+  "group": "内容行业",
+  "initial": "字"
+ },
+ {
+  "nameEn": "中影集团",
+  "nameCn": "适合标准化电影工业、发行体系和国资背景项目。",
+  "logo": "",
+  "group": "内容行业",
+  "initial": "中"
+ },
+ {
+  "nameEn": "万达影视",
+  "nameCn": "适合商业大片、院线联动和传统电影产业链理解。",
+  "logo": "",
+  "group": "内容行业",
+  "initial": "万"
+ },
+ {
+  "nameEn": "Netflix",
+  "nameCn": "全球内容平台，适合内容开发、制片、纪录片和国际宣发。",
+  "logo": "",
+  "group": "内容行业",
+  "initial": "N"
+ },
+ {
+  "nameEn": "柠萌影视",
+  "nameCn": "都市商业剧和长视频项目执行能力强。",
+  "logo": "",
+  "group": "内容行业",
+  "initial": "柠"
+ },
+ {
+  "nameEn": "追光动画",
+  "nameCn": "虽然偏动画公司，但内容开发和工业流程很成熟。",
+  "logo": "",
+  "group": "内容行业",
+  "initial": "追"
+ },
+ {
+  "nameEn": "奥美",
+  "nameCn": "更偏品牌影像和广告内容，不是传统电影公司，但适合商业导演路径。",
+  "logo": "",
+  "group": "内容行业",
+  "initial": "奥"
+ },
+ {
+  "nameEn": "坏猴子72变",
+  "nameCn": "导演型创作公司，适合想走作者导演路线的人。",
+  "logo": "",
+  "group": "内容行业",
+  "initial": "坏"
+ },
+ {
+  "nameEn": "真乐道",
+  "nameCn": "偏项目制内容公司，适合商业电影和影像制作理解。",
+  "logo": "",
+  "group": "内容行业",
+  "initial": "真"
+ },
+ {
+  "nameEn": "Sweetshop",
+  "nameCn": "国际广告制作公司，适合广告导演和商业影像。",
+  "logo": "",
+  "group": "内容行业",
+  "initial": "S"
+ },
+ {
+  "nameEn": "Somesuch",
+  "nameCn": "国际高端创意制作公司，适合风格化导演路径。",
+  "logo": "",
+  "group": "内容行业",
+  "initial": "S"
+ },
+ {
+  "nameEn": "时代峰峻",
+  "nameCn": "偶像经纪和内容工业化强，适合艺人经纪、内容运营。",
+  "logo": "",
+  "group": "演艺与经纪",
+  "initial": "时"
+ },
+ {
+  "nameEn": "乐华娱乐",
+  "nameCn": "偶像、艺人、综艺、虚拟内容结合度高。",
+  "logo": "",
+  "group": "演艺与经纪",
+  "initial": "乐"
+ },
+ {
+  "nameEn": "英皇娱乐",
+  "nameCn": "香港娱乐产业链代表，适合艺人宣传和项目经纪。",
+  "logo": "",
+  "group": "演艺与经纪",
+  "initial": "英"
+ },
+ {
+  "nameEn": "大麦网",
+  "nameCn": "现场演出和票务平台，适合演出制作与内容策划。",
+  "logo": "",
+  "group": "演艺与经纪",
+  "initial": "大"
+ },
+ {
+  "nameEn": "摩登天空",
+  "nameCn": "音乐节和现场内容强，适合演出制作、创意总监。",
+  "logo": "",
+  "group": "演艺与经纪",
+  "initial": "摩"
+ },
+ {
+  "nameEn": "嘉行传媒",
+  "nameCn": "艺人工作室和影视项目联动型公司。",
+  "logo": "",
+  "group": "演艺与经纪",
+  "initial": "嘉"
+ },
+ {
+  "nameEn": "壹心娱乐",
+  "nameCn": "精品艺人经纪，适合高强度人物管理和宣传协同。",
+  "logo": "",
+  "group": "演艺与经纪",
+  "initial": "壹"
+ },
+ {
+  "nameEn": "次元文化（洛天依）",
+  "nameCn": "虚拟偶像和数字角色运营代表。",
+  "logo": "",
+  "group": "演艺与经纪",
+  "initial": "次"
+ },
+ {
+  "nameEn": "万象文化（柳夜熙）",
+  "nameCn": "短视频虚拟人案例强，适合数字人内容岗位。",
+  "logo": "",
+  "group": "演艺与经纪",
+  "initial": "万"
+ },
+ {
+  "nameEn": "Punchdrunk",
+  "nameCn": "沉浸式演出代表，适合演出叙事和体验型创作。",
+  "logo": "",
+  "group": "演艺与经纪",
+  "initial": "P"
+ },
+ {
+  "nameEn": "腾讯",
+  "nameCn": "长视频、动漫、游戏 IP 联动强，适合 IP 和平台内容岗。",
+  "logo": "",
+  "group": "互联网与平台",
+  "initial": "腾"
+ },
+ {
+  "nameEn": "W+K",
+  "nameCn": "更强调创意表达和导演型人才。",
+  "logo": "",
+  "group": "互联网与平台",
+  "initial": "W"
+ },
+ {
+  "nameEn": "影联传媒",
+  "nameCn": "影视宣发和内容传播相关机会较多。",
+  "logo": "",
+  "group": "互联网与平台",
+  "initial": "影"
+ },
+ {
+  "nameEn": "麦特文化",
+  "nameCn": "内容营销和项目合作型公司，适合综合执行岗。",
+  "logo": "",
+  "group": "互联网与平台",
+  "initial": "麦"
+ },
+ {
+  "nameEn": "洗脑机",
+  "nameCn": "偏创意内容工作室，适合年轻创意岗位。",
+  "logo": "",
+  "group": "互联网与平台",
+  "initial": "洗"
+ },
+ {
+  "nameEn": "齐颂影像",
+  "nameCn": "影像制作导向强，适合商业影像执行。",
+  "logo": "",
+  "group": "互联网与平台",
+  "initial": "齐"
+ },
+ {
+  "nameEn": "灰度东方",
+  "nameCn": "偏内容创意和视觉表达方向，适合品牌影像。",
+  "logo": "",
+  "group": "互联网与平台",
+  "initial": "灰"
+ },
+ {
+  "nameEn": "央视 CCTV",
+  "nameCn": "国家级平台，适合节目制作、纪实和标准化训练。",
+  "logo": "",
+  "group": "传媒行业",
+  "initial": "央"
+ },
+ {
+  "nameEn": "湖南卫视 / 芒果",
+  "nameCn": "综艺工业成熟，适合节目编剧、执行导演。",
+  "logo": "",
+  "group": "传媒行业",
+  "initial": "湖"
+ },
+ {
+  "nameEn": "BBC",
+  "nameCn": "纪录片、新闻、节目制作的全球标杆。",
+  "logo": "",
+  "group": "传媒行业",
+  "initial": "B"
+ },
+ {
+  "nameEn": "NHK",
+  "nameCn": "非虚构和文化类内容很强，适合纪录片与调查方向。",
+  "logo": "",
+  "group": "传媒行业",
+  "initial": "N"
+ },
+ {
+  "nameEn": "财新传媒",
+  "nameCn": "调查报道和深度内容代表。",
+  "logo": "",
+  "group": "传媒行业",
+  "initial": "财"
+ },
+ {
+  "nameEn": "灿星文化",
+  "nameCn": "综艺制作公司代表，适合节目策划与执行导演。",
+  "logo": "",
+  "group": "传媒行业",
+  "initial": "灿"
+ },
+ {
+  "nameEn": "笑果文化",
+  "nameCn": "喜剧内容和舞台表达强。",
+  "logo": "",
+  "group": "传媒行业",
+  "initial": "笑"
+ },
+ {
+  "nameEn": "爱奇艺综艺",
+  "nameCn": "平台综艺体系，适合节目开发和综艺执行。",
+  "logo": "",
+  "group": "传媒行业",
+  "initial": "爱"
+ },
+ {
+  "nameEn": "三联生活",
+  "nameCn": "深度内容品牌，适合纪实写作和内容策划。",
+  "logo": "",
+  "group": "传媒行业",
+  "initial": "三"
+ },
+ {
+  "nameEn": "小宇宙",
+  "nameCn": "播客平台代表，适合音频内容生产与运营。",
+  "logo": "",
+  "group": "传媒行业",
+  "initial": "小"
+ },
+ {
+  "nameEn": "故事硬核",
+  "nameCn": "适合深度内容和人物叙事。",
+  "logo": "",
+  "group": "传媒行业",
+  "initial": "故"
+ },
+ {
+  "nameEn": "故事FM",
+  "nameCn": "人物故事和音频叙事代表。",
+  "logo": "",
+  "group": "传媒行业",
+  "initial": "故"
+ },
+ {
+  "nameEn": "忽左忽右",
+  "nameCn": "长访谈和知识内容取向明显。",
+  "logo": "",
+  "group": "传媒行业",
+  "initial": "忽"
+ },
+ {
+  "nameEn": "爱德曼 Edelman",
+  "nameCn": "国际公关巨头，适合品牌公关和危机传播。",
+  "logo": "",
+  "group": "公关与企业传播",
+  "initial": "爱"
+ },
+ {
+  "nameEn": "万博宣伟 WE",
+  "nameCn": "消费品牌、公关传播和内容执行体系成熟。",
+  "logo": "",
+  "group": "公关与企业传播",
+  "initial": "万"
+ },
+ {
+  "nameEn": "博雅 Burson",
+  "nameCn": "企业传播和危机管理强。",
+  "logo": "",
+  "group": "公关与企业传播",
+  "initial": "博"
+ },
+ {
+  "nameEn": "字节 PR",
+  "nameCn": "平台型公关，节奏快，适合互联网传播训练。",
+  "logo": "",
+  "group": "公关与企业传播",
+  "initial": "字"
+ },
+ {
+  "nameEn": "腾讯品牌",
+  "nameCn": "大型企业品牌叙事和产品传播体系成熟。",
+  "logo": "",
+  "group": "公关与企业传播",
+  "initial": "腾"
+ },
+ {
+  "nameEn": "华为传播",
+  "nameCn": "国际传播和科技叙事要求高。",
+  "logo": "",
+  "group": "公关与企业传播",
+  "initial": "华"
+ },
+ {
+  "nameEn": "迪思传媒",
+  "nameCn": "本土公关整合能力强。",
+  "logo": "",
+  "group": "公关与企业传播",
+  "initial": "迪"
+ },
+ {
+  "nameEn": "微软大中华",
+  "nameCn": "企业传播规范成熟，国际化程度高。",
+  "logo": "",
+  "group": "公关与企业传播",
+  "initial": "微"
+ },
+ {
+  "nameEn": "Nike China PR",
+  "nameCn": "品牌叙事、文化内容和公关结合得很好。",
+  "logo": "",
+  "group": "公关与企业传播",
+  "initial": "N"
+ },
+ {
+  "nameEn": "阅文集团（起点 / 晋江）",
+  "nameCn": "IP 储备最强，适合影视化选题和版权岗。",
+  "logo": "",
+  "group": "出版与版权",
+  "initial": "阅"
+ },
+ {
+  "nameEn": "爱奇艺版权",
+  "nameCn": "适合平台版权管理和影视化协同。",
+  "logo": "",
+  "group": "出版与版权",
+  "initial": "爱"
+ },
+ {
+  "nameEn": "腾讯视频版权",
+  "nameCn": "适合大型平台的版权链路和跨项目协作。",
+  "logo": "",
+  "group": "出版与版权",
+  "initial": "腾"
+ },
+ {
+  "nameEn": "番茄小说",
+  "nameCn": "网文内容规模大，适合做爆款题材判断。",
+  "logo": "",
+  "group": "出版与版权",
+  "initial": "番"
+ },
+ {
+  "nameEn": "磨铁图书",
+  "nameCn": "内容开发和出版改编方向都较强。",
+  "logo": "",
+  "group": "出版与版权",
+  "initial": "磨"
+ },
+ {
+  "nameEn": "新经典文化",
+  "nameCn": "成熟出版公司，适合严肃内容和文学改编判断。",
+  "logo": "",
+  "group": "出版与版权",
+  "initial": "新"
+ },
+ {
+  "nameEn": "博集天卷",
+  "nameCn": "商业出版和内容策划能力较强。",
+  "logo": "",
+  "group": "出版与版权",
+  "initial": "博"
+ },
+ {
+  "nameEn": "中信出版",
+  "nameCn": "品牌内容强，适合高质量非虚构和影视化延展。",
+  "logo": "",
+  "group": "出版与版权",
+  "initial": "中"
+ }
+]

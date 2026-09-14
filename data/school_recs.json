@@ -1,0 +1,266 @@
+[
+ {
+  "key": "film",
+  "nameCn": "影视制作与项目",
+  "nameEn": "Film Production & Projects",
+  "industryId": "film_tv",
+  "featured": [
+   {
+    "schoolCn": "南加州大学",
+    "schoolEn": "University of Southern California",
+    "program": "BA Cinema & Media Studies（BA）",
+    "note": "学校以成熟作者表达和工业协作训练为主轴，通过作品开发、片场流程和完整申请筛选机制挑出具备行业潜力的创作者，优势是与好莱坞工业体系的连接最直接、上限也最高。"
+   },
+   {
+    "schoolCn": "纽约大学",
+    "schoolEn": "New York University",
+    "program": "BA Cinema Studies（BA）",
+    "note": "学校以作者电影训练与工业协作为主轴，一方面强调导演、编剧和制片的成熟表达，一方面通过虚拟制作延伸到新一代实时影像生产，优势是传统电影作者路径和技术新路径都很强。"
+   },
+   {
+    "schoolCn": "加州大学洛杉矶分校",
+    "schoolEn": "UCLA",
+    "program": "BA Film, Television & Digital Media（BA）",
+    "note": "学校以完整的电影学院体系为主轴，在传统工种训练、作者表达和理论基础之间保持较强平衡，优势是路径稳、训练完整，适合希望在经典电影学院框架里长期发展的学生。"
+   }
+  ],
+  "more": [
+   "美国电影学院 · MFA Cinematography（MFA）",
+   "加州艺术学院 · BFA Film and Video（BFA）",
+   "哥伦比亚大学 · BA Film and Media Studies（BA）",
+   "英国国立电影电视学院 · MFA Cinematography（MFA）",
+   "伦敦艺术大学 · BA (Hons) Film and Television｜LCC（BA (Hons)）"
+  ]
+ },
+ {
+  "key": "platform",
+  "nameCn": "媒体与内容平台",
+  "nameEn": "Media & Content Platforms",
+  "industryId": "digital_platform",
+  "featured": [
+   {
+    "schoolCn": "纽约大学",
+    "schoolEn": "New York University",
+    "program": "BA Cinema Studies（BA）",
+    "note": "学校以作者电影训练与工业协作为主轴，一方面强调导演、编剧和制片的成熟表达，一方面通过虚拟制作延伸到新一代实时影像生产，优势是传统电影作者路径和技术新路径都很强。"
+   },
+   {
+    "schoolCn": "加州大学洛杉矶分校",
+    "schoolEn": "UCLA",
+    "program": "BA Film, Television & Digital Media（BA）",
+    "note": "学校以完整的电影学院体系为主轴，在传统工种训练、作者表达和理论基础之间保持较强平衡，优势是路径稳、训练完整，适合希望在经典电影学院框架里长期发展的学生。"
+   },
+   {
+    "schoolCn": "美国电影学院",
+    "schoolEn": "American Film Institute",
+    "program": "MFA Cinematography（MFA）",
+    "note": "学校以明确工种分化的学院派训练为主轴，通过导演、制片、摄影、剪辑等专业路径的高强度打磨建立学生的岗位成熟度，优势是职业定位清晰、工种训练识别度极高。"
+   }
+  ],
+  "more": [
+   "英国国立电影电视学院 · MFA Directing Fiction（MFA）",
+   "查普曼大学 · BA Film and Media Studies（BA）",
+   "芝加哥艺术学院 · MFA Film, Video, New Media and Animation",
+   "伦敦政治经济学院 · MSc Media and Communications (Data and Society)；MSc ",
+   "威斯特敏斯特大学 · Film BA Honours（BA (Hons)）"
+  ]
+ },
+ {
+  "key": "brand",
+  "nameCn": "品牌与创意传播",
+  "nameEn": "Brand & Creative Communication",
+  "industryId": "advertising_brand",
+  "featured": [
+   {
+    "schoolCn": "纽约大学",
+    "schoolEn": "New York University",
+    "program": "BA Cinema Studies（BA）",
+    "note": "学校以作者电影训练与工业协作为主轴，一方面强调导演、编剧和制片的成熟表达，一方面通过虚拟制作延伸到新一代实时影像生产，优势是传统电影作者路径和技术新路径都很强。"
+   },
+   {
+    "schoolCn": "英国国立电影电视学院",
+    "schoolEn": "National Film and Television School",
+    "program": "MFA Directing Fiction（MFA）",
+    "note": "学校以电影工业工种训练为主轴，通过高强度项目协作和岗位细分训练学生的专业执行能力，同时把虚拟制作作为面向未来的技术延伸，优势是工业连接强、技术升级路径清晰。"
+   },
+   {
+    "schoolCn": "伦敦电影学院",
+    "schoolEn": "The London Film School",
+    "program": "MA Film Marketing（MA）",
+    "note": "学校以电影制作与工种训练为主轴，通过导演、摄影、剪辑、声音、制片等协作式作品生产训练学生的片场执行力、银幕叙事能力和作者表达，优势是与影视制作和商业内容岗位衔接最直接。"
+   }
+  ],
+  "more": [
+   "中央圣马丁设计学院 · MA Fashion Communication: Fashion Journalism；MA Comm",
+   "伦敦政治经济学院 · MSc Media and Communications (Data and Society)；MSc ",
+   "南安普顿大学 · MA Global Advertising and Branding；MA Fashion Market",
+   "威斯特敏斯特大学 · Film BA Honours（BA (Hons)）",
+   "香港大学 · Master of Journalism - Documentary Filmmaking Specia"
+  ]
+ },
+ {
+  "key": "culture",
+  "nameCn": "艺术与演艺",
+  "nameEn": "Arts & Performing Arts",
+  "industryId": "entertainment",
+  "featured": [
+   {
+    "schoolCn": "南加州大学",
+    "schoolEn": "University of Southern California",
+    "program": "BA Cinema & Media Studies（BA）",
+    "note": "学校以成熟作者表达和工业协作训练为主轴，通过作品开发、片场流程和完整申请筛选机制挑出具备行业潜力的创作者，优势是与好莱坞工业体系的连接最直接、上限也最高。"
+   },
+   {
+    "schoolCn": "纽约大学",
+    "schoolEn": "New York University",
+    "program": "BFA Dramatic Writing（BFA）",
+    "note": "学校以作者电影训练与工业协作为主轴，一方面强调导演、编剧和制片的成熟表达，一方面通过虚拟制作延伸到新一代实时影像生产，优势是传统电影作者路径和技术新路径都很强。"
+   },
+   {
+    "schoolCn": "英国国立电影电视学院",
+    "schoolEn": "National Film and Television School",
+    "program": "MFA Sound Design for Film and Television（MFA）",
+    "note": "学校以电影工业工种训练为主轴，通过高强度项目协作和岗位细分训练学生的专业执行能力，同时把虚拟制作作为面向未来的技术延伸，优势是工业连接强、技术升级路径清晰。"
+   }
+  ],
+  "more": [
+   "伦敦艺术大学 · BA (Hons) Film Practice｜LCC（BA (Hons)）",
+   "查普曼大学 · BA Film and Media Studies（BA）",
+   "芝加哥艺术学院 · MFA Film, Video, New Media and Animation",
+   "威斯特敏斯特大学 · Film BA Honours（BA (Hons)）",
+   "波士顿大学 · BS Film & Television（BS）"
+  ]
+ },
+ {
+  "key": "media",
+  "nameCn": "新闻与节目制作",
+  "nameEn": "Journalism & Programme Production",
+  "industryId": "media_program",
+  "featured": [
+   {
+    "schoolCn": "南加州大学",
+    "schoolEn": "University of Southern California",
+    "program": "BA Cinema & Media Studies（BA）",
+    "note": "学校以成熟作者表达和工业协作训练为主轴，通过作品开发、片场流程和完整申请筛选机制挑出具备行业潜力的创作者，优势是与好莱坞工业体系的连接最直接、上限也最高。"
+   },
+   {
+    "schoolCn": "纽约大学",
+    "schoolEn": "New York University",
+    "program": "BA Cinema Studies（BA）",
+    "note": "学校以作者电影训练与工业协作为主轴，一方面强调导演、编剧和制片的成熟表达，一方面通过虚拟制作延伸到新一代实时影像生产，优势是传统电影作者路径和技术新路径都很强。"
+   },
+   {
+    "schoolCn": "加州大学洛杉矶分校",
+    "schoolEn": "UCLA",
+    "program": "BA Film, Television & Digital Media（BA）",
+    "note": "学校以完整的电影学院体系为主轴，在传统工种训练、作者表达和理论基础之间保持较强平衡，优势是路径稳、训练完整，适合希望在经典电影学院框架里长期发展的学生。"
+   }
+  ],
+  "more": [
+   "美国电影学院 · MFA Cinematography（MFA）",
+   "哥伦比亚大学 · BA Film and Media Studies（BA）",
+   "英国国立电影电视学院 · MFA Directing Documentary（MFA）",
+   "伦敦艺术大学 · MA Documentary Film｜LCC（MA）",
+   "查普曼大学 · BA Film and Media Studies（BA）"
+  ]
+ },
+ {
+  "key": "pr",
+  "nameCn": "企业传播与公共关系",
+  "nameEn": "Corporate Communication & PR",
+  "industryId": "corporate_pr",
+  "featured": [
+   {
+    "schoolCn": "南加州大学",
+    "schoolEn": "University of Southern California",
+    "program": "BA Cinema & Media Studies（BA）",
+    "note": "学校以成熟作者表达和工业协作训练为主轴，通过作品开发、片场流程和完整申请筛选机制挑出具备行业潜力的创作者，优势是与好莱坞工业体系的连接最直接、上限也最高。"
+   },
+   {
+    "schoolCn": "加州大学洛杉矶分校",
+    "schoolEn": "UCLA",
+    "program": "MA Cinema & Media Studies（MA）",
+    "note": "学校以完整的电影学院体系为主轴，在传统工种训练、作者表达和理论基础之间保持较强平衡，优势是路径稳、训练完整，适合希望在经典电影学院框架里长期发展的学生。"
+   },
+   {
+    "schoolCn": "哥伦比亚大学",
+    "schoolEn": "Columbia University",
+    "program": "BA Film and Media Studies（BA）",
+    "note": "学校以电影制作与工种训练为主轴，通过导演、摄影、剪辑、声音、制片等协作式作品生产训练学生的片场执行力、银幕叙事能力和作者表达，优势是与影视制作和商业内容岗位衔接最直接。"
+   }
+  ],
+  "more": [
+   "查普曼大学 · BA Film and Media Studies（BA）",
+   "伦敦电影学院 · MA Film Marketing（MA）",
+   "香港浸会大学 · BA (Hons) Film and Television（BA (Hons)）",
+   "中央圣马丁设计学院 · MA Fashion Communication: Fashion Journalism；MA Comm",
+   "南安普顿大学 · MA Global Advertising and Branding；MA Fashion Market"
+  ]
+ },
+ {
+  "key": "ip",
+  "nameCn": "出版、版权与IP开发",
+  "nameEn": "Publishing, Rights & IP",
+  "industryId": "rights_ip",
+  "featured": [
+   {
+    "schoolCn": "纽约大学",
+    "schoolEn": "New York University",
+    "program": "BA Cinema Studies（BA）",
+    "note": "学校以作者电影训练与工业协作为主轴，一方面强调导演、编剧和制片的成熟表达，一方面通过虚拟制作延伸到新一代实时影像生产，优势是传统电影作者路径和技术新路径都很强。"
+   },
+   {
+    "schoolCn": "哥伦比亚大学",
+    "schoolEn": "Columbia University",
+    "program": "BA Film and Media Studies（BA）",
+    "note": "学校以电影制作与工种训练为主轴，通过导演、摄影、剪辑、声音、制片等协作式作品生产训练学生的片场执行力、银幕叙事能力和作者表达，优势是与影视制作和商业内容岗位衔接最直接。"
+   },
+   {
+    "schoolCn": "查普曼大学",
+    "schoolEn": "Chapman University",
+    "program": "BA Film and Media Studies（BA）",
+    "note": "学校以电影制作与工种训练为主轴，通过导演、摄影、剪辑、声音、制片等协作式作品生产训练学生的片场执行力、银幕叙事能力和作者表达，优势是与影视制作和商业内容岗位衔接最直接。"
+   }
+  ],
+  "more": [
+   "爱默生学院 · BA/BFA Media Arts Production（BA / BFA）",
+   "伦敦政治经济学院 · MSc Media and Communications (Data and Society)；MSc ",
+   "金斯顿大学 · BA (Hons) Filmmaking（BA (Hons)）",
+   "威斯特敏斯特大学 · Film BA Honours（BA (Hons)）",
+   "波士顿大学 · BS Film & Television（BS）"
+  ]
+ },
+ {
+  "key": "ai",
+  "nameCn": "AI影视科技",
+  "nameEn": "AI Film & Media Technology",
+  "industryId": "ai_filmtech",
+  "featured": [
+   {
+    "schoolCn": "纽约大学",
+    "schoolEn": "New York University",
+    "program": "BA Cinema Studies（BA）",
+    "note": "学校以作者电影训练与工业协作为主轴，一方面强调导演、编剧和制片的成熟表达，一方面通过虚拟制作延伸到新一代实时影像生产，优势是传统电影作者路径和技术新路径都很强。"
+   },
+   {
+    "schoolCn": "英国国立电影电视学院",
+    "schoolEn": "National Film and Television School",
+    "program": "MFA Cinematography（MFA）",
+    "note": "学校以电影工业工种训练为主轴，通过高强度项目协作和岗位细分训练学生的专业执行能力，同时把虚拟制作作为面向未来的技术延伸，优势是工业连接强、技术升级路径清晰。"
+   },
+   {
+    "schoolCn": "芝加哥艺术学院",
+    "schoolEn": "School of the Art Institute of Chicago",
+    "program": "MFA Film, Video, New Media and Animation",
+    "note": "学校以创意媒体与跨媒介实践为主轴，通过影像、声音、交互、装置或数字技术的混合训练建立学生的个人方法论，优势是作者性和跨界能力都更强，适合新媒体与实验创作路线。"
+   }
+  ],
+  "more": [
+   "伦敦政治经济学院 · MSc Media and Communications (Data and Society)；MSc ",
+   "金斯顿大学 · BA (Hons) Filmmaking（BA (Hons)）",
+   "威斯特敏斯特大学 · Film BA Honours（BA (Hons)）",
+   "香港大学 · Master of Journalism - Documentary Filmmaking Specia",
+   "金史密斯学院 · BA (Hons) Media & Communications（BA）"
+  ]
+ }
+]

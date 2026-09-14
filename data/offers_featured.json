@@ -1,0 +1,259 @@
+{
+ "season": "SFK 影视传媒录取战绩",
+ "group_labels": {
+  "US": "🇺🇸 美国",
+  "UK": "🇬🇧 英国",
+  "HK_SG": "🇭🇰 港澳",
+  "OTHER": "🌏 其他"
+ },
+ "groups": {
+  "US": [
+   {
+    "school_zh": "纽约大学",
+    "school_en": "New York University",
+    "offer_count": 11
+   },
+   {
+    "school_zh": "查普曼大学",
+    "school_en": "Chapman University",
+    "offer_count": 9
+   },
+   {
+    "school_zh": "南加州大学",
+    "school_en": "University of Southern California",
+    "offer_count": 7
+   },
+   {
+    "school_zh": "哥伦比亚大学",
+    "school_en": "Columbia University",
+    "offer_count": 3
+   },
+   {
+    "school_zh": "约翰霍普金斯大学",
+    "school_en": "Johns Hopkins University",
+    "offer_count": 3
+   },
+   {
+    "school_zh": "加州艺术学院",
+    "school_en": "California Institute of the Arts",
+    "offer_count": 1
+   },
+   {
+    "school_zh": "加州大学洛杉矶分校",
+    "school_en": "UCLA",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "美国电影学院",
+    "school_en": "American Film Institute",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "爱默生学院",
+    "school_en": "Emerson College",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "纽约视觉艺术学院",
+    "school_en": "School of Visual Arts",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "芝加哥艺术学院",
+    "school_en": "School of the Art Institute of Chicago",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "波士顿大学",
+    "school_en": "Boston University",
+    "offer_count": 0
+   }
+  ],
+  "UK": [
+   {
+    "school_zh": "伦敦艺术大学",
+    "school_en": "University of the Arts London",
+    "offer_count": 21
+   },
+   {
+    "school_zh": "金斯顿大学",
+    "school_en": "Kingston University London",
+    "offer_count": 2
+   },
+   {
+    "school_zh": "金史密斯学院",
+    "school_en": "Goldsmith, University of London",
+    "offer_count": 2
+   },
+   {
+    "school_zh": "威斯特敏斯特大学",
+    "school_en": "University of Westminister",
+    "offer_count": 2
+   },
+   {
+    "school_zh": "伦敦电影学院",
+    "school_en": "The London Film School",
+    "offer_count": 1
+   },
+   {
+    "school_zh": "伦敦大学学院",
+    "school_en": "University College London",
+    "offer_count": 1
+   },
+   {
+    "school_zh": "爱丁堡大学",
+    "school_en": "University of Edinburgh",
+    "offer_count": 1
+   },
+   {
+    "school_zh": "利兹大学",
+    "school_en": "University of Leeds",
+    "offer_count": 1
+   },
+   {
+    "school_zh": "梅特电影学院",
+    "school_en": "Met Film School",
+    "offer_count": 1
+   },
+   {
+    "school_zh": "南安普顿大学",
+    "school_en": "University of Southampton",
+    "offer_count": 1
+   },
+   {
+    "school_zh": "伦敦传媒学院",
+    "school_en": "London College of Communication",
+    "offer_count": 1
+   },
+   {
+    "school_zh": "英国国立电影电视学院",
+    "school_en": "National Film and Television School",
+    "offer_count": 0
+   }
+  ],
+  "HK_SG": [
+   {
+    "school_zh": "香港浸会大学",
+    "school_en": "Hong Kong Baptist University",
+    "offer_count": 4
+   },
+   {
+    "school_zh": "香港大学",
+    "school_en": "The University of Hong Kong",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "香港演艺学院",
+    "school_en": "The Hong Kong Academy for Performing Arts",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "香港理工大学",
+    "school_en": "The Hong Kong Polytechnic University",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "香港科技大学",
+    "school_en": "The Hong Kong University of Science and Technology",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "岭南大学",
+    "school_en": "Lingnan University",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "澳门科技大学",
+    "school_en": "Macau University of Science and Technology",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "香港中文大学",
+    "school_en": "The Chinese University of Hong Kong",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "香港城市大学",
+    "school_en": "City University of Hong Kong",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "香港教育大学",
+    "school_en": "The Education University of Hong Kong",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "香港珠海学院",
+    "school_en": "Hong Kong Chu Hai College",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "澳门城市大学",
+    "school_en": "City University of Macau",
+    "offer_count": 0
+   }
+  ],
+  "OTHER": [
+   {
+    "school_zh": "纽卡斯尔大学",
+    "school_en": "纽卡斯尔大学",
+    "offer_count": 1
+   },
+   {
+    "school_zh": "新加坡双专业",
+    "school_en": "新加坡双专业",
+    "offer_count": 1
+   },
+   {
+    "school_zh": "AFTRS",
+    "school_en": "Australian Film Television and Radio School",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "康考迪亚大学",
+    "school_en": "Concordia University",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "约克大学（加拿大）",
+    "school_en": "York University",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "多伦多大学",
+    "school_en": "University of Toronto",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "多伦多都会大学",
+    "school_en": "Toronto Metropolitan University",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "梅西大学",
+    "school_en": "Massey University",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "阿德莱德大学",
+    "school_en": "The University of Adelaide",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "韩国艺术综合大学",
+    "school_en": "Korea National University of Arts",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "西蒙菲莎大学",
+    "school_en": "Simon Fraser University",
+    "offer_count": 0
+   },
+   {
+    "school_zh": "东国大学",
+    "school_en": "Dongguk University",
+    "offer_count": 0
+   }
+  ]
+ }
+}

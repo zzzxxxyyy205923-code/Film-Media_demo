@@ -1,0 +1,72 @@
+{
+ "version": 2,
+ "principles": {
+  "internshipCount": 2,
+  "aiExperienceCount": 1,
+  "topPlatformRequired": true,
+  "resourceSource": "data/internship-resources.json",
+  "resourceOnly": true
+ },
+ "rolePools": [
+  {
+   "match": "编剧|剧本|故事|内容开发|IP",
+   "tools": [
+    "ChatGPT／Claude：故事研究与结构校验",
+    "Midjourney／即梦：视觉参考与分镜",
+    "Runway／可灵：动态预演"
+   ]
+  },
+  {
+   "match": "导演|摄影|剪辑|声音|美术|视效|后期|虚拟制作",
+   "tools": [
+    "Runway／可灵／Veo：动态影像生成",
+    "Midjourney／即梦：概念设计",
+    "Premiere／DaVinci：AI辅助后期",
+    "Unreal Engine：虚拟制作基础"
+   ]
+  },
+  {
+   "match": "制片|项目管理|统筹|执行导演|制作人",
+   "tools": [
+    "Notion／飞书：项目管理",
+    "AI拆解剧本与Shot List",
+    "AI预算、排期与风险清单辅助"
+   ]
+  },
+  {
+   "match": "品牌|广告|传播|公关|营销|宣发",
+   "tools": [
+    "ChatGPT／Claude：洞察与Brief",
+    "Midjourney／即梦：视觉提案",
+    "Runway／可灵：动态样片",
+    "AI数据复盘"
+   ]
+  },
+  {
+   "match": "平台|运营|短视频|直播|账号|MCN|短剧",
+   "tools": [
+    "AI选题与脚本",
+    "即梦／可灵／Runway生成",
+    "剪映／Premiere智能剪辑",
+    "平台数据分析"
+   ]
+  },
+  {
+   "match": "纪录片|记者|新闻|播客|非虚构|国际传播",
+   "tools": [
+    "AI研究与采访提纲",
+    "AI转写、翻译与素材检索",
+    "事实核验与版权检查",
+    "AI辅助剪辑"
+   ]
+  }
+ ],
+ "fallback": {
+  "tools": [
+   "生成式AI基础",
+   "AI影像工作流",
+   "版权与合规",
+   "人工创作判断"
+  ]
+ }
+}
